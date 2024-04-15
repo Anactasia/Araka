@@ -63,10 +63,10 @@ const anotherTexts = {
 // Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {
-		case "/test.html":
+		case "/language_change_test.html":
 			currentTexts = homeTexts;
 			break;
-		case "/test2.html":
+		case "/language_change_test2.html":
 			currentTexts = anotherTexts;
 			break;
 
