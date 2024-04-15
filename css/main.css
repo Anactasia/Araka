@@ -4,6 +4,7 @@
     --color-white: #ffffff;
     --color-wh-vio:#F9F8FD;
     --color-wh-vio-h :#F8F3FC;
+    --color-footer-word: #C1C4CC;
 
 
 }
@@ -42,6 +43,8 @@
 }
 .footer_part{
     background-color: var(--color-white);
+    color: var(--color-footer-word);
+    height: 60px !important;
     /* border-radius: 20px 20px 20px 20px; */
 }
 
