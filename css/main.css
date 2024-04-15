@@ -3,6 +3,8 @@
     --color-lavender: #D1D0FB;
     --color-white: #ffffff;
     --color-wh-vio:#F9F8FD;
+    --color-wh-vio-h :#F8F3FC;
+
 
 }
 
@@ -30,17 +32,26 @@
 }
 
 .main_part{
-    background-color: var(--color-white);
-    border-radius: 20px 20px 20px 20px;
+    background-color: var(--color-wh-vio);
+    /* border-radius: 20px 20px 20px 20px; */
 }
 
-.side_part{
-    background-color: var(--color-wh-vio);
-    border-radius: 20px 20px 20px 20px;
+.header_part{
+    background-color: var(--color-white);
+    /* border-radius: 20px 20px 20px 20px; */
+}
+.footer_part{
+    background-color: var(--color-white);
+    /* border-radius: 20px 20px 20px 20px; */
+}
+
+.card_headers{
+
+    background-color: var(--color-wh-vio-h);
 }
  .vertical-menu{
 
-    color: var(--color-lavender);
+    color: var(--color-lavender); 
  }
 
 .nav-link:hover{
@@ -111,4 +122,9 @@ p.text_main_menu{
 
 .main_headlines{
     color: var(--color-violet) !important;
+}
+
+.main_part_cards{
+    margin-bottom: 36px;
+    margin-top: 0;
 }
