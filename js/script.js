@@ -1,75 +1,104 @@
 const langButtons = document.querySelectorAll("[data-btn]");
-const allLangs = ["ru", "en", "de"];
+const allLangs = ["ru", "en"];
 const currentPathName = window.location.pathname;
 let currentLang =
 	localStorage.getItem("language") || checkBrowserLang() || "ru";
 let currentTexts = {};
 
 const homeTexts = {
-	"home_page-title": {
-		ru: "Домашняя страница",
-		en: "Homepage",
-		de: "Startseite",
+	"home_page": {
+		ru: "Главная",
+		en: "Main menu",
 	},
-	"home_page-1": {
-		ru: "Первый параграф",
-		en: "First paragraph",
-		de: "Erster Paragraph",
+	"courses": {
+		ru: "Курсы",
+		en: "Courses",
 	},
-	"home_page-2": {
-		ru: "Второй параграф",
-		en: "Second paragraph",
-		de: "Zweiter Absatz",
+	"exams": {
+		ru: "Экзамены",
+		en: "Exams",
 	},
-	"home_page-3": {
-		ru: "Третий параграф",
-		en: "Third paragraph",
-		de: "Dritter Absatz",
+	"helpers": {
+		ru: "Тьюторы и наставники",
+		en: "Tutors and mentors",
 	},
-	"home_page-4": {
-		ru: "Другая страница",
-		en: "Another page",
-		de: "Eine andere Seite",
+	"curriculum": {
+		ru: "Учебный план и модеус",
+		en: "The cirriculum and modeus",
+	},
+	"groups": {
+		ru: "Группы ВК",
+		en: "VK groups",
+	},
+	"account": {
+		ru: "Профиль",
+		en: "Account",
+	},
+	"log-out": {
+		ru: "Выйти",
+		en: "Log out",
+	},
+	"home_page1": {
+		ru: "Главная",
+		en: "Main menu",
+	},
+	"list-of-tasks": {
+		ru: "Список заданий",
+		en: "List of tasks",
+	},
+	"registr1": {
+		ru: "Регистрация в личном кабинете",
+		en: "Registration in your account",
+	},
+	"registr2": {
+		ru: "Регистрация в личном кабинете",
+		en: "Registration in your account",
+	},
+	"registr3": {
+		ru: "Регистрация в личном кабинете",
+		en: "Registration in your account",
+	},
+	"link1": {
+		ru: "ссылка",
+		en: "link",
+	},
+	"link2": {
+		ru: "ссылка",
+		en: "link",
+	},
+	"link3": {
+		ru: "ссылка",
+		en: "link",
+	},
+	"news": {
+		ru: "Новости",
+		en: "News",
+	},
+	"news-h": {
+		ru: "IT-пикник уже в следующую субботу!",
+		en: "The IT picnic is already next Saturday!",
+	},
+	"news-p": {
+		ru: "Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...",
+		en: "Placeholder text is commonly used in the graphic, print, and publishing industries to preview a layout...",
+	},
+	"next": {
+		ru: "Далее",
+		en: "Read more",
+	},
+	"logo": {
+		ru: "© Группа “Арака” 2024",
+		en: "© The “Araka” group 2024",
 	},
 };
-const anotherTexts = {
-	"another_page-title": {
-		ru: "Другая страница",
-		en: "Another page",
-		de: "Eine andere Seite",
-	},
-	"another_page-1": {
-		ru: "Первый параграф",
-		en: "First paragraph on another page",
-		de: "Erster Paragraph auf einer anderen Seite",
-	},
-	"another_page-2": {
-		ru: "Второй параграф",
-		en: "Second paragraph on another page",
-		de: "Zweiter Absatz auf einer anderen Seite",
-	},
-	"another_page-3": {
-		ru: "Третий параграф",
-		en: "Third paragraph on another page",
-		de: "Dritter Absatz auf einer anderen Seite",
-	},
-	"another_page-4": {
-		ru: "Домашняя страница",
-		en: "Homepage",
-		de: "Startseite",
-	},
-};
+
 
 // Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {
-		case "/language_change_test.html":
+		case "/index.html":
 			currentTexts = homeTexts;
 			break;
-		case "/language_change_test2.html":
-			currentTexts = anotherTexts;
-			break;
-
 		default:
 			currentTexts = homeTexts;
 			break;
@@ -121,12 +150,6 @@ function checkActiveLangButton() {
 				.querySelector('[data-btn="en"]')
 				.classList.add("header__btn_active");
 			break;
-		case "de":
-			document
-				.querySelector('[data-btn="de"]')
-				.classList.add("header__btn_active");
-			break;
-
 		default:
 			document
 				.querySelector('[data-btn="ru"]')

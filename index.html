@@ -31,7 +31,7 @@
                                             <img src="img/icon/icon_main.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p  class="text_main_menu">Главная</p>
+                                            <p  class="text_main_menu" data-lang="home_page">Главная</p>
                                         </div>
                                     </div>
                                 </a>
@@ -44,7 +44,7 @@
                                             <img src="img/icon/icon_course.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p class="text_main_menu">Курсы</p>
+                                            <p class="text_main_menu" data-lang="courses">Курсы</p>
                                         </div>
                                     </div>
                                 </a>
@@ -57,7 +57,7 @@
                                             <img src="img/icon/icon_exam.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p  class="text_main_menu">Экзамены</p>
+                                            <p  class="text_main_menu" data-lang="exams">Экзамены</p>
                                         </div>
                                     </div>
                                 </a>
@@ -70,7 +70,7 @@
                                             <img src="img/icon/icon_mentor.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p  class="text_main_menu">Тьютеры и  наставники</p>
+                                            <p  class="text_main_menu" data-lang="helpers">Тьютеры и  наставники</p>
                                         </div>
                                     </div>
                                 </a>
@@ -83,7 +83,7 @@
                                             <img src="img/icon/icon_study.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p  class="text_main_menu">Учебный план и модеус</p>
+                                            <p  class="text_main_menu" data-lang="curriculum">Учебный план и модеус</p>
                                         </div>
                                     </div>
                                 </a>
@@ -96,7 +96,7 @@
                                             <img src="img/icon/icon_link.svg" class="icon_menu">
                                         </div>
                                         <div class="col-10">
-                                            <p  class="text_main_menu">Группы ВК</p>
+                                            <p  class="text_main_menu" data-lang="groups">Группы ВК</p>
                                         </div>
                                     </div>
                                 </a>
@@ -109,7 +109,7 @@
                         </ul>    
                     </div>      
                 </div>
-
+                
 
                 <!--Вся Часть без бокового меню-->
                 <div class="col-md-10 col-8 main_part">
@@ -130,13 +130,14 @@
 
                                         <!--Смена языка -->
                                         <div class="dropdown col align-items-right"> 
-
+                                            
                                             <!--dropdown-toggle стрелка возле иконки пользователя?? -->
                                             <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <img src="img/language.svg">
                                             </a>
                                             <ul class="dropdown-menu shadow " aria-labelledby="dropdownMenuLink"  style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(-110px, 34px, 0px);">
-                                                <li><a class="dropdown-item" href="#">English</a></li>
+                                                <li><button class="dropdown-item header__btn" data-btn="ru">Русский</button></li>
+                                                <li><button class="dropdown-item header__btn" data-btn="en">English</button></li>
                                             </ul>
 
                                         </div>
@@ -154,9 +155,9 @@
                                                 <img src="img/Avatar.svg">
                                             </a>
                                             <ul class="dropdown-menu shadow " aria-labelledby="dropdownMenuLink"  style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(-110px, 34px, 0px);">
-                                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                                <li><a class="dropdown-item" href="#" data-lang="account">Профиль</a></li>
                                                 <li><hr class="dropdown-divider"></li>
-                                                <li><a class="dropdown-item" href="#">Выйти</a></li>
+                                                <li><a class="dropdown-item" href="#" data-lang="log-out">Выйти</a></li>
                                             </ul>
 
                                         </div>
@@ -177,7 +178,7 @@
 
                                     <!-- Заголовок Карусели -->
                                     <div class="card-header py-3 card_headers">
-                                        <h6 class="m-0 font-weight-bold text-primary main_headlines">Главная</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="home_page1">Главная</h6>
                                     </div>
 
                                     <!-- Слайды Карусели -->
@@ -213,7 +214,7 @@
                                     <!-- Заголовок Чек-Листа -->
                                     <div
                                         class="card-header py-3 d-flex flex-row align-items-center justify-content-between card_headers">
-                                        <h6 class="m-0 font-weight-bold text-primary main_headlines">Список заданий</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="list-of-tasks">Список заданий</h6>
                                         
                                     </div>
                                     <!--Чек-лист-->
@@ -221,19 +222,19 @@
                                     <div class="card-body row">
                                         <ul class="list-group">
                                         <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            <b>Регистрация в личном кабинете</b>
-                                            <a href="#">ссылка</a>
+                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
+                                            <b data-lang="registr1">Регистрация в личном кабинете</b>
+                                            <a href="#" data-lang="link1">ссылка</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            <b>Регистрация в личном кабинете</b>
-                                            <a href="#">ссылка</a>
+                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
+                                            <b data-lang="registr2">Регистрация в личном кабинете</b>
+                                            <a href="#" data-lang="link2">ссылка</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            <b>Регистрация в личном кабинете</b>
-                                            <a href="#">ссылка</a>
+                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
+                                            <b data-lang="registr3">Регистрация в личном кабинете</b>
+                                            <a href="#" data-lang="link3">ссылка</a>
                                         </li>
                                         </ul>
                                     </div>
@@ -252,7 +253,7 @@
                                     <!--Заголовок "Новости"-->
 
                                     <div class="card-header py-3 card_headers">
-                                        <h6 class="m-0 font-weight-bold text-primary main_headlines">Новости</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="news">Новости</h6>
                                     </div>
 
                                     <!--Новость и картинка-->
@@ -262,9 +263,9 @@
                                             <img class="img-fluid mb-4" 
                                                 src="img/news.svg" alt="...">
                                         </div>
-                                        <h6>IT-пикник уже в следующую субботу!</h6>
-                                        <p>Текст-заполнитель обычно используется в графических, печать и издательской индустрии для предварительного просмотра макета...</p>
-                                        <a target="_blank" rel="nofollow" href="#">Далее</a>
+                                        <h6 data-lang="news-h">IT-пикник уже в следующую субботу!</h6>
+                                        <p data-lang="news-p">Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...</p>
+                                        <a target="_blank" rel="nofollow" href="#" data-lang="next">Далее</a>
                                     </div>
 
                                 </div>
@@ -277,7 +278,7 @@
                         <footer class="py-3 mb-3 border-top ">
 
                                 <div class="d-flex flex-wrap justify-content-center ">
-                                    <p>© Группа “Арака” 2024</p>
+                                    <p data-lang="logo">© Группа “Арака” 2024</p>
                                 </div>
                             </div>
                         </footer>
@@ -293,7 +294,7 @@
         
 
         
-    
+        <script src="js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
