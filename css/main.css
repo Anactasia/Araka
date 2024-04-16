@@ -131,3 +131,64 @@ p.text_main_menu{
     margin-bottom: 36px;
     margin-top: 0;
 }
+
+
+.form{
+    background-color: var(--color-wh-vio);
+    position: relative;
+    border-radius: 10px;
+    height: 48px !important;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    background-color: var(--color-wh-vio);
+    height: 55px;
+    text-indent: 33px;
+    border:none;
+    
+}
+
+.form-input:focus{
+    background-color: var(--color-wh-vio);
+    box-shadow: none;
+    border:none;
+}
+
+.language_button{
+
+}
+
+.border_header{
+    /* border-left: 1px solid #d1d5db; */
+}
+
