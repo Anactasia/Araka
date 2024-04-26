@@ -24,7 +24,7 @@ const homeTexts = {
 	},
 	"curriculum": {
 		ru: "Учебный план и модеус",
-		en: "The cirriculum and modeus",
+		en: "The curriculum and modeus",
 	},
 	"groups": {
 		ru: "Группы ВК",
