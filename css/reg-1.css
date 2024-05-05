@@ -33,7 +33,6 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-top:15%;
-    
 }
 
 .logo{
@@ -46,5 +45,44 @@ p{
 
 .g-0{
    justify-content: space-around;
-   
+}
+
+.reg-img{
+ margin-bottom: 0;
+ margin-top: 0;
+}
+
+.large-section{
+    height:1080px;
+}
+
+.password, .email{
+    text-align: left;
+    margin-top:15px;
+    color:black;
+    font-weight: 500;
+}
+
+.reg-btn{
+    color:#5955B3
+}
+
+.asking{
+    font-weight: 500;
+    margin-top:30px;
+}
+
+.enter{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.logo-2{
+    width:55px;
+    height: 55px;
+}
+
+.glad-to-see{
+    margin-top:10px;
+    font-size: 20px;
 }
