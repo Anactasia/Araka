@@ -23,8 +23,8 @@ const homeTexts = {
 		en: "Tutors and mentors",
 	},
 	"curriculum": {
-		ru: "Учебный план и модеус",
-		en: "The curriculum and modeus",
+		ru: "Частые вопросы",
+		en: "FAQ",
 	},
 	"groups": {
 		ru: "Группы ВК",
