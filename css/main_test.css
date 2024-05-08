@@ -324,7 +324,7 @@ header{
 /*  Центральная чать + бок + подвал */
 
 .main_part{
-    background-color: var(--color-wh-vio);
+    background-color: #F8F9FC;
     margin-top: 58px;
     /* border-radius: 20px 20px 20px 20px; */
 }
@@ -2829,3 +2829,92 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     text-decoration: none;
     opacity: 1
 } */
+
+.window-course{
+    max-width: 914.32px !important;
+}
+
+.window-course-body{
+    margin: 0 !important;
+    padding: 0;
+}
+
+.window-course-carousel{
+    margin: 0;
+    padding: 0;
+}
+
+.botton-course{
+    max-width: 337px !important;
+    max-height: 206px !important;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--color-white);
+}
+
+.botton-course:hover{
+    background: rgba(147, 108, 214, 0.2);
+}
+.botton-course:focus{
+    opacity: 1;
+}
+.botton-course:active{
+    background: rgba(147, 108, 214, 0.4);
+}
+.card-course{
+    /* max-width: 337px;
+    max-height: 206px; */
+    margin: 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+.card-course img{
+    width: 100%;
+    border-radius: 6px;
+}
+.card-course p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.cards-course {
+    max-width: 753px;
+    margin: 0;
+    padding: 0;
+    background-color: #FBFBFB;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+.header-cards-course{
+    max-width: 753px;
+    background-color: var(--color-wh-vio-h);
+    margin: 0;
+    border-radius: 6px 6px 0px 0px;
+    padding: 8px 20px 16px 20px;
+}
+
+.header-cards-course h2{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #5955B3;
+}
+
+.body-cards-course{
+    margin: 0;
+    padding: 30px 25px;
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
