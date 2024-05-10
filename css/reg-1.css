@@ -9,6 +9,7 @@
 
 body{
     margin:0px;
+    font-size:24px;
 }
 
 .btn{
@@ -25,6 +26,7 @@ body{
 p{
     color:gray;
     margin-top:0px;
+    font-size:22px;
 }
 
 .card-body{  
@@ -56,7 +58,7 @@ p{
     height:1080px;
 }
 
-.password, .email{
+.password, .email, .control-label{
     text-align: left;
     margin-top:15px;
     color:black;
@@ -85,4 +87,25 @@ p{
 .glad-to-see{
     margin-top:10px;
     font-size: 20px;
+}
+
+.btn:hover {
+    font-size: 30px;
+    background-color: #5955B3;
+    color:white;
+  }
+
+
+.form-control{
+    font-size:20px;
+    margin-bottom:30px;
+    padding: 15px;
+    border-color:#5955B3;
+    border-width:0;
+    background-color: #F8F9FC;
+    color:gray;
+}
+
+.p-form{
+    margin-bottom:5px;
 }
