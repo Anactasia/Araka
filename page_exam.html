@@ -20,7 +20,7 @@
                 </button>
             </div>
             <!--Логотип-->
-            <a class="navbar-brand p-0 me-lg-auto" href="/" aria-label="LOGO">
+            <a class="navbar-brand p-0 me-lg-auto" href="page_main.html" aria-label="LOGO">
                 <picture class="d-block my-1 logo">
                     <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class="">
                     <source media="(min-width: 420px)" srcset="img/logo_with_text_ru.svg">
@@ -198,71 +198,116 @@
                 <div class=" col-lg-8 col-12">
                     <main>
                     <!-- Карточка Карусели -->
-                        <div id="carouselExampleDark" class="card shadow carousel carousel-dark slide main_part_cards"  data-bs-interval="false">
-
-                            <!-- Заголовок Карусели -->
-                            <div class="card-header py-3 card_headers">
-                                <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="home_page1">Главная</h6>
+                    <section>
+                        <div class="card shadow cards-course">
+                            <div class="card-header header-cards-course">
+                                <h2>Экзамены</h2>
                             </div>
-
-                            <!-- Слайды Карусели -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/main_slider/slaid1.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/main_slider/slaid2.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/main_slider/slaid3.svg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
+                            <div class="body-cards-course">
+                                <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                    <div class="card-course">
+                                        <img src="img/course/openedu/openedu_card.png">
+                                        <p>Прокторинг</p>
+                                    </div>
+                                </button>
                             
-                            <!-- Кнопки Карусели -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                <img src="img/button/arrow_prev.svg" aria-hidden="true">
-                                <span class="visually-hidden">Previous</span>
-                            </button>
+                                    <!-- Модальное окно -->
+                                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered window-course">
+                                            <div class="modal-content">
+                                            
+                                            
+                                                <div class="modal-body window-course-body">
+                                                    <div id="carouselExampleDark4" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
+                            
+                                                    <!-- Заголовок Карусели -->
+                                                    <!-- Слайды Карусели -->
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/course/openedu/openedu_slaid_1.svg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="2000">
+                                                            <img src="img/course/openedu/openedu_slaid_2.svg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <!-- Кнопки Карусели -->
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                                                        <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                            
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                                                        <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                                <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                <img src="img/button/arrow_next.svg" aria-hidden="true">
-                                <span class="visually-hidden">Next</span>
-                            </button>
+
+                                <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                    <div class="card-course">
+                                        <img src="img/course/exam/exam_card.png">
+                                        <p>НТК</p>
+                                    </div>
+                                </button>
+                            
+                                    <!-- Модальное окно -->
+                                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered window-course">
+                                            <div class="modal-content">
+                                            
+                                            
+                                                <div class="modal-body window-course-body">
+                                                    <div id="carouselExampleDark5" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
+                            
+                                                    <!-- Заголовок Карусели -->
+                                                    <!-- Слайды Карусели -->
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/course/exam/exam_slaid_1.svg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="2000">
+                                                            <img src="img/course/exam/exam_slaid_2.svg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <!-- Кнопки Карусели -->
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="prev">
+                                                        <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                            
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="next">
+                                                        <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                                <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+                                
+                            </div>
                         </div>
+                    </section>
 
                     <!-- Карточка чек-листа -->
 
-                        <div class="card shadow mb-4 main_part_cards">
-
-                        <!-- Заголовок Чек-Листа -->
-                            <div
-                                class="card-header py-3 d-flex flex-row align-items-center justify-content-between card_headers">
-                                <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="list-of-tasks">Список заданий</h6>
-                                
-                            </div>
-                        <!--Чек-лист-->
-
-                            <div class="card-body row">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr1">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link1">ссылка</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr2">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link2">ссылка</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr3">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link3">ссылка</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
                     </main>
                 </div>
             
