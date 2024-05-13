@@ -244,7 +244,9 @@ header{
     padding: 0;
     padding-bottom: 42px;
 
-    @media(max-width: 1300px) {    
+    @media(max-width: 991.98px) {
+        color: var(--color-violet);
+        margin: 0 auto;
     }
 }
 
@@ -259,6 +261,7 @@ header{
 
     @media(max-width: 991.98px) {
         color: var(--color-violet);
+        width: 176px;
     }
  }
 
@@ -337,15 +340,25 @@ header{
 }
 
 .card_headers{
+    margin: 0;
+    padding: 12px 20px 12px 20px;
     background-color: var(--color-wh-vio-h);
+    @media(max-width: 420px) {
+        height: 51px;
+        padding: 6px 20px 6px 20px;
+    }
 }
 .card_headers h2{
+    margin: auto 0 !important;
+    padding: 0 !important;
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
-    color: #5955B3  !important;
-    margin: 0;
-    padding: 0;
+    color: var(--color-violet) !important;
+
+    @media(max-width: 420px) {
+        font-size: 20px !important;
+    }
 }
 
 .categories-mainPart {
@@ -353,17 +366,18 @@ header{
 }
 
 .main_headlines{
-    color: var(--color-violet) !important;
-}
-
-.main_headlines h2{
     margin: 0;
     padding: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
     color: var(--color-violet) !important;
+
+    @media(max-width: 420px) {
+        font-size: 20px !important;
+    }
 }
+
 
 .main_part_cards{
     margin-bottom: 36px;
@@ -3120,3 +3134,17 @@ position: absolute;
     background-color: #ffffff;
     opacity: 0.1;
     }
+
+.hidden-menu img{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.carousel-item picture img{
+    width: 100%;
+}
+.clear{
+    @media(max-width: 420px) {
+        display: none;
+    }
+}
