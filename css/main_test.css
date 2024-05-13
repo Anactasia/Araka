@@ -2874,15 +2874,17 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 } */
 
 .window-course{
-    max-width: 914.32px !important;
+    max-width: 753px !important;
 }
 
 .window-course-body{
+    max-width: 753px;
     margin: 0 !important;
     padding: 0;
 }
 
 .window-course-carousel{
+    max-width: 753px;
     margin: 0;
     padding: 0;
 }
@@ -3089,3 +3091,20 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 .inf-tutor ul a{
     color: #6663CF;
 }
+
+.image-link{
+    position: relative;
+  }
+.image-link a{
+display: block;      
+position: absolute;
+}
+
+.image-link a:hover{
+    background-color: #ffffff;
+    opacity: 0.3;
+    }
+.image-link a:focus{
+    background-color: #ffffff;
+    opacity: 0.1;
+    }
