@@ -109,3 +109,12 @@ p{
 .p-form{
     margin-bottom:5px;
 }
+
+.ask{
+    display:flex;
+    justify-content:center ;
+}
+.reg-btn{
+    margin-top:28px;
+    margin-left:5px;
+}
