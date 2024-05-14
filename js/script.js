@@ -250,16 +250,19 @@ function checkActiveLangButton() {
 			document
 				.querySelector('[data-btn="ru"]')
 				.classList.add("header__btn_active");
+				russian();
 			break;
 		case "en":
 			document
 				.querySelector('[data-btn="en"]')
 				.classList.add("header__btn_active");
+				english();
 			break;
 		case "ch":
 			document
 				.querySelector('[data-btn="ch"]')
 				.classList.add("header__btn_active");
+				chinese();
 			break;
 		default:
 			document
@@ -282,3 +285,28 @@ function checkBrowserLang() {
 }
 
 console.log("navigator.language", checkBrowserLang());
+function english(){
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-eng.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid3-eng.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid2-eng.svg";
+  }
+    
+  function russian(){
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-rus.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid2-rus.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid3-rus.svg";
+  }
+  function chinese(){
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-ch.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid2-ch.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid3-ch.svg";
+  }
