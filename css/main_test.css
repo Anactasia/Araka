@@ -3083,6 +3083,10 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     margin-bottom: 16px;
     gap: 25px;
     display: flex !important;
+    @media(max-width: 512px) {
+        flex-wrap: wrap;
+    }
+
     /* flex-wrap: wrap; */
     /* max-width: 686px; */
 }
@@ -3092,11 +3096,18 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     max-height: 140.75px;
     border-radius: 5px;
     align-self: center;
+    @media(max-width: 512px) {
+        margin: 0 auto;
+    }
 }
 .inf-tutor{
     margin: 0;
     padding: 0;
     max-width: 513px;
+    @media(max-width: 512px) {
+        margin: auto;
+        text-align: center;
+    }
 }
 .name-tutor{
     margin: 0;
