@@ -61,16 +61,6 @@ const homeTexts = {
 		en: "Registration in your account",
 		ch: "在您的个人帐户中注册",
 	},
-	"registr2": {
-		ru: "Регистрация в личном кабинете",
-		en: "Registration in your account",
-		ch: "在您的个人帐户中注册",
-	},
-	"registr3": {
-		ru: "Регистрация в личном кабинете",
-		en: "Registration in your account",
-		ch: "在您的个人帐户中注册",
-	},
 	"link1": {
 		ru: "ссылка",
 		en: "link",
@@ -82,6 +72,26 @@ const homeTexts = {
 		ch: "连结",
 	},
 	"link3": {
+		ru: "ссылка",
+		en: "link",
+		ch: "连结",
+	},
+	"link4": {
+		ru: "ссылка",
+		en: "link",
+		ch: "连结",
+	},
+	"link5": {
+		ru: "ссылка",
+		en: "link",
+		ch: "连结",
+	},
+	"link6": {
+		ru: "ссылка",
+		en: "link",
+		ch: "连结",
+	},
+	"link7": {
 		ru: "ссылка",
 		en: "link",
 		ch: "连结",
@@ -110,6 +120,41 @@ const homeTexts = {
 		ru: "© Группа “Арака” 2024",
 		en: "© The “Araka” group 2024",
 		ch: "阿拉卡集团2024",
+	},
+	"list-of-tasks-1": {
+		ru: "Регистрация в личном кабинете",
+		en: "Registration in your personal account",
+		ch: "在您的个人帐户中注册",
+	},
+	"list-of-tasks-2": {
+		ru: "Получение корпоративной почты",
+		en: "Receiving corporate mail",
+		ch: "接收公司邮件",
+	},
+	"list-of-tasks-3": {
+		ru: 'Получение "Office 365"',
+		en: 'Getting "Office 365"',
+		ch: '获取"Office365"',
+	},
+	"list-of-tasks-4": {
+		ru: "Использование Outlook Web Access",
+		en: "Using Outlook Web Access",
+		ch: "使用Outlook Web Access",
+	},
+	"list-of-tasks-5": {
+		ru: "Регистрация на онлайн курсы",
+		en: "Registration for online courses",
+		ch: "网上课程报名",
+	},
+	"list-of-tasks-6": {
+		ru: "Разница между НТК и Прокторингом",
+		en: "The difference between ITC and Proctoring",
+		ch: "ITC和Proctoring的区别",
+	},
+	"list-of-tasks-7": {
+		ru: "Ссылки на полезные группы",
+		en: "Links to useful groups",
+		ch: "有用组的链接",
 	},
 };
 
