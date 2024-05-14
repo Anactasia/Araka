@@ -15,3 +15,11 @@ function english(){
     document.getElementById('myImage3')
     .srcset="img/main_slider/slaid3-rus.svg";
   }
+  function chinese(){
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-ch.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid2-ch.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid3-ch.svg";
+  }
