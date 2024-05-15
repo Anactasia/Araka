@@ -292,6 +292,12 @@ function english(){
     .srcset="img/main_slider/slaid3-eng.svg";
     document.getElementById('myImage3')
     .srcset="img/main_slider/slaid2-eng.svg";
+	document.getElementById('myImage1-sm')
+    .src="img/main_slider/slaid1-en-sm.svg";
+    document.getElementById('myImage2-sm')
+    .src="img/main_slider/slaid2-en-sm.svg";
+    document.getElementById('myImage3-sm')
+    .src="img/main_slider/slaid3-en-sm.svg";
   }
     
   function russian(){
@@ -301,6 +307,12 @@ function english(){
     .srcset="img/main_slider/slaid2-rus.svg";
     document.getElementById('myImage3')
     .srcset="img/main_slider/slaid3-rus.svg";
+	document.getElementById('myImage1-sm')
+	.src="img/main_slider/slaid1-rus-sm.svg";
+    document.getElementById('myImage2-sm')
+    .src="img/main_slider/slaid2-rus-sm.svg";
+    document.getElementById('myImage3-sm')
+    .src="img/main_slider/slaid3-rus-sm.svg";
   }
   function chinese(){
     document.getElementById('myImage1')
@@ -309,4 +321,10 @@ function english(){
     .srcset="img/main_slider/slaid2-ch.svg";
     document.getElementById('myImage3')
     .srcset="img/main_slider/slaid3-ch.svg";
+	document.getElementById('myImage1-sm')
+	.src="img/main_slider/slaid1-ch-sm.svg";
+    document.getElementById('myImage2-sm')
+    .src="img/main_slider/slaid2-ch-sm.svg";
+    document.getElementById('myImage3-sm')
+    .src="img/main_slider/slaid3-ch-sm.svg";
   }
