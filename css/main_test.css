@@ -385,7 +385,7 @@ header{
 }
 .main-checkbox{
     display: flex;
-    justify-content: space-between;
+    background-color: #F7F7F7;
 }
 
 .main-checkbox p{
@@ -401,10 +401,12 @@ header{
 .main-checkbox a{
     padding: 0;
     margin: 0;
+    margin-left: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #6663CF;
+    justify-self: flex-end;
 
 }
 
@@ -3092,8 +3094,8 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 }
 
 .card-tutor img{
-    max-width: 100px;
-    max-height: 140.75px;
+    max-width: 140px;
+    max-height: 197.05px;
     border-radius: 5px;
     align-self: center;
     @media(max-width: 512px) {
@@ -3103,7 +3105,7 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 .inf-tutor{
     margin: 0;
     padding: 0;
-    max-width: 513px;
+    max-width: 567px;
     @media(max-width: 512px) {
         margin: auto;
         text-align: center;
@@ -3126,6 +3128,19 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 
 .inf-tutor ul a{
     color: #6663CF;
+}
+
+.academ-group{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.academ-group1{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .image-link{
@@ -3204,4 +3219,14 @@ position: absolute;
 
 .answer-fqa img{
     width: 100%;
+}
+
+.form-check-input:checked {
+    background-color: #5955B3;
+    border-color: #5955B3;
+}
+
+.form-check-input[type=checkbox]:focus {
+    box-shadow: var(--color-lavender) !important;
+    border-color: #dee2e6;
 }
