@@ -3230,3 +3230,11 @@ position: absolute;
     box-shadow: var(--color-lavender) !important;
     border-color: #dee2e6;
 }
+
+.adress{
+    display:flex;
+}
+
+.adress-p{
+    margin-left:5px;
+}
