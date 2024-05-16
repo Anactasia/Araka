@@ -24,7 +24,7 @@
                 <picture class="d-block my-1 logo">
                     <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class="">
                     <source media="(min-width: 420px)" srcset="img/logo_with_text_ru.svg">
-                    <img src="img/logo_without_text.svg">
+                    <img src="img/logo_without_text.svg" class="clear">
                 </picture>
             </a>
 
@@ -206,13 +206,15 @@
                             <div class="card-header header-cards-course">
                                 <h2>Экзамены</h2>
                             </div>
-                            <div class="body-cards-course">
-                                <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                    <div class="card-course">
-                                        <img src="img/course/openedu/openedu_card.png">
-                                        <p>Прокторинг</p>
-                                    </div>
-                                </button>
+                            <ul class="body-cards-course">
+                                <li>
+                                    <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        <div class="card-course">
+                                            <img src="img/course/openedu/openedu_card.png">
+                                            <p>Прокторинг</p>
+                                        </div>
+                                    </button>
+                                </li>
                             
                                     <!-- Модальное окно -->
                                     <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -254,13 +256,14 @@
                                     </div>
                                 </div>
 
-
-                                <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                                    <div class="card-course">
-                                        <img src="img/course/exam/exam_card.png">
-                                        <p>НТК</p>
-                                    </div>
-                                </button>
+                                <li>
+                                    <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        <div class="card-course">
+                                            <img src="img/course/exam/exam_card.png">
+                                            <p>НТК</p>
+                                        </div>
+                                    </button>
+                                </li>
                             
                                     <!-- Модальное окно -->
                                     <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -305,7 +308,7 @@
 
                                 
                                 
-                            </div>
+                            </ul>
                         </div>
                     </section>
 

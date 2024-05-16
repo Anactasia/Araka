@@ -17,7 +17,8 @@
  
 
  body {
-    max-width: 1540px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     background-color: var(--color-violet);
     padding: 0px;
@@ -27,7 +28,7 @@
 /* HEADER */
 
 header{
-    height: 100px;
+    height: 100px !important;
     background-color: var(--color-white) !important;
     margin: 0;
     padding: 0;
@@ -195,17 +196,20 @@ header{
     background-color: var(--color-wh-vio);
     margin: 0 auto;
     padding: 0;
+    min-height: 100vh;
 }
 
 /* Боковое меню */
 
 .side_menu{
+    min-height: 100vh;
     background-color: var(--color-violet);
     margin: 0;
     padding: 0;
     padding-top: 27px;
     @media(max-width: 991.98px) {
         padding: 0px;
+        min-height: initial;
     }
 }
 
@@ -328,15 +332,23 @@ header{
 /*  Центральная чать + бок + подвал */
 
 .main_part{
+    display: flex;
+    flex-direction: column;
     background-color: #F8F9FC;
     margin-top: 58px;
+    min-height: 100%;
     /* border-radius: 20px 20px 20px 20px; */
 }
 
 .main_part_cards{
+    margin: 0 auto;
     margin-bottom: 36px;
     margin-top: 0;
     max-width: 753px;
+    @media(min-width: 1500px) {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 .card_headers{
@@ -347,6 +359,10 @@ header{
         height: 51px;
         padding: 6px 20px 6px 20px;
     }
+}
+
+.text-center img{
+    width: 100%;
 }
 .card_headers h2{
     margin: auto 0 !important;
@@ -414,10 +430,16 @@ header{
 
 
 .footer_part{
-    background-color: var(--color-white);
+    margin-top: auto;
+    width: 100%;
+    height: 5.6%;
+    background-color: #FFFFFF;
     color: var(--color-footer-word);
-    height: 60px !important;
     /* border-radius: 20px 20px 20px 20px; */
+}
+
+.footer-no-block{
+    display: flex;
 }
  
 .carousel-control-prev{
@@ -2906,7 +2928,6 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 }
 
 .botton-course{
-    max-height: 220px;
     overflow: hidden;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
@@ -2928,14 +2949,14 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     background: rgba(147, 108, 214, 0.4);
 }
 .card-course{
-    max-width: 337px;
-    /*max-height: 206px; */
+    width: 100%;
     margin: 0;
     padding: 10px;
     border-radius: 6px;
 }
 .card-course img{
     width: 100%;
+    height: 100%;
     border-radius: 6px;
 }
 .card-course p{
@@ -2947,7 +2968,7 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 }
 
 .cards-course {
-    max-width: 753px;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     background-color: #FBFBFB;
@@ -2976,7 +2997,7 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 
 .body-cards-course{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
     grid-gap: 1rem;
     list-style: none;
     margin: 0;
@@ -2984,17 +3005,21 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     padding: 30px 25px;
     border-radius: 6px;
     background-color: #FBFBFB;
-    gap: 27px;
+    gap: 5%;
+    @media(max-width: 991.98px) {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
 }
 
 .body-cards-course li{
-    max-width: 337px;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 .card-fqa{
-    max-width: 753px;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #FBFBFB;
@@ -3003,7 +3028,7 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
     margin-left: 24px;
 }
 .header-card-fqa{
-    max-width: 753px;
+    width: 100%;
     background-color: var(--color-wh-vio-h);
     margin: 0;
     border-radius: 6px 6px 0px 0px;
@@ -3060,7 +3085,7 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 
 
 .cards-tutor{
-    max-width: 753px;
+    width: 100%;width: 100%;
     margin: 0;
     padding: 0;
     background-color: #FAFAFA;
@@ -3094,10 +3119,15 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 }
 
 .card-tutor img{
-    max-width: 140px;
-    max-height: 197.05px;
+    max-width: 20.7%;
+    max-height: 29%;max-width: 20.7%;
+    max-height: 29%;
     border-radius: 5px;
     align-self: center;
+    @media(max-width: 1512px) {
+        max-width: 140px;
+        max-height: 197px;
+    }
     @media(max-width: 512px) {
         margin: 0 auto;
     }
@@ -3105,7 +3135,8 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 .inf-tutor{
     margin: 0;
     padding: 0;
-    max-width: 567px;
+    max-width: 75.3%;
+    align-self: center;
     @media(max-width: 512px) {
         margin: auto;
         text-align: center;
