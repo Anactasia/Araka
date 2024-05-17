@@ -643,6 +643,117 @@ const courses = {
 	},
 	
 };
+const exam = {
+	"home_page": {
+		ru: "Главная",
+		en: "Main menu",
+		ch: "主要",
+	},
+	"courses": {
+		ru: "Курсы",
+		en: "Courses",
+		ch: "课程",
+	},
+	"exams": {
+		ru: "Экзамены",
+		en: "Exams",
+		ch: "考试",
+	},
+	"helpers": {
+		ru: "Тьюторы",
+		en: "Tutors",
+		ch: "导师",
+	},
+	"curriculum": {
+		ru: "Частые вопросы",
+		en: "FAQ",
+		ch: "常见问题",
+	},
+	"groups": {
+		ru: "Группы ВК",
+		en: "VK groups",
+		ch: "VK组",
+	},
+	"account": {
+		ru: "Профиль",
+		en: "Account",
+		ch: "个人资料",
+	},
+	"log-out": {
+		ru: "Выйти",
+		en: "Log out",
+		ch: "去",
+	},
+	"news": {
+		ru: "Новости",
+		en: "News",
+		ch:"新闻",
+	},
+	"news-h": {
+		ru: "IT-пикник уже в следующую субботу!",
+		en: "The IT picnic is already next Saturday!",
+		ch: "IT野餐已经是下周六了！",
+	},
+	"news-p": {
+		ru: "Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...",
+		en: "Placeholder text is commonly used in the graphic, print, and publishing industries to preview a layout...",
+		ch: "占位符文本通常用于图形、印刷和出版行业来预览布局。..",
+	},
+	"next": {
+		ru: "Далее",
+		en: "Read more",
+		ch: "进一步",
+	},
+	"logo": {
+		ru: "© Группа “Арака” 2024",
+		en: "© The “Araka” group 2024",
+		ch: "阿拉卡集团2024",
+	},
+	"ntc": {
+		ru: "НТК",
+		en: "ITC",
+		ch: "ITC",
+	},
+	"exam": {
+		ru: "Экзамены",
+		en: "Exams",
+		ch: "考试",
+	},
+	"proct": {
+		ru: "Прокторинг",
+		en: "Proctoring",
+		ch: "Proctoring",
+	},
+};
+// Проверка пути страницы сайта
+function checkPagePathName() {
+	switch (currentPathName) {
+		case "/page_main.html":
+			currentTexts = homeTexts;
+			break;
+		case "/registration-2.html":
+			currentTexts = registr2;
+			break;
+		case "/registration-3.html":
+			currentTexts = registr3;
+			break;
+		case "/registration-4.html":
+			currentTexts = registr4;
+			break;
+		case "/page_tutor.html":
+			currentTexts = tutors;
+			break;	
+        case "/page_course.html":
+			currentTexts = courses;
+			break;	
+        case "/page_exam.html":
+			currentTexts = exam;
+			break;		
+		default:
+			currentTexts = homeTexts;
+			break;
+	}
+}
 
 // Проверка пути страницы сайта
 function checkPagePathName() {
