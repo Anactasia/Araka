@@ -609,19 +609,34 @@ function checkActiveLangButton() {
 			document
 				.querySelector('[data-btn="ru"]')
 				.classList.add("header__btn_active");
-				russian();
+				case "/page_main.html":
+					russian_main();
+					break;
+				case "/page_tutor.html":
+					russian_tutors();
+					break;
 			break;
 		case "en":
 			document
 				.querySelector('[data-btn="en"]')
 				.classList.add("header__btn_active");
-				english();
+				case "/page_main.html":
+					english_main();
+					break;
+				case "/page_tutor.html":
+					english_tutors();
+					break;
 			break;
 		case "ch":
 			document
 				.querySelector('[data-btn="ch"]')
 				.classList.add("header__btn_active");
-				chinese();
+				case "/page_main.html":
+					chinese_main();
+					break;
+				case "/page_tutor.html":
+					chinese_tutors();
+					break;
 			break;
 		default:
 			document
@@ -644,40 +659,10 @@ function checkBrowserLang() {
 }
 
 console.log("navigator.language", checkBrowserLang());
-function english(){
-    document.getElementById('myImage1')
-    .srcset="img/main_slider/slaid1-eng.svg";
-    document.getElementById('myImage2')
-    .srcset="img/main_slider/slaid3-eng.svg";
-    document.getElementById('myImage3')
-    .srcset="img/main_slider/slaid2-eng.svg";
-	document.getElementById('myImage1-sm')
-    .src="img/main_slider/slaid1-en-sm.svg";
-    document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-en-sm.svg";
-    document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-en-sm.svg";
+
+function chinese_main(){
 	document.getElementById('language12')
-    .src="img/en-lang.svg";
-  }
-    
-  function russian(){
-    document.getElementById('myImage1')
-    .srcset="img/main_slider/slaid1-rus.svg";
-    document.getElementById('myImage2')
-    .srcset="img/main_slider/slaid2-rus.svg";
-    document.getElementById('myImage3')
-    .srcset="img/main_slider/slaid3-rus.svg";
-	document.getElementById('myImage1-sm')
-	.src="img/main_slider/slaid1-rus-sm.svg";
-    document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-rus-sm.svg";
-    document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-rus-sm.svg";
-	document.getElementById('language12')
-    .src="img/ru-lang.svg";
-  }
-  function chinese(){
+    .src="img/ch-lang.svg";
     document.getElementById('myImage1')
     .srcset="img/main_slider/slaid1-ch.svg";
     document.getElementById('myImage2')
@@ -690,6 +675,79 @@ function english(){
     .src="img/main_slider/slaid2-ch-sm.svg";
     document.getElementById('myImage3-sm')
     .src="img/main_slider/slaid3-ch-sm.svg";
+  }
+
+  function english_main(){
+	document.getElementById('language12')
+    .src="img/en-lang.svg";
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-eng.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid3-eng.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid2-eng.svg";
+	document.getElementById('myImage1-sm')
+    .src="img/main_slider/slaid1-en-sm.svg";
+    document.getElementById('myImage2-sm')
+    .src="img/main_slider/slaid2-en-sm.svg";
+    document.getElementById('myImage3-sm')
+    .src="img/main_slider/slaid3-en-sm.svg";
+  }
+
+  function russian_main(){
+	document.getElementById('language12')
+    .src="img/ru-lang.svg";
+    document.getElementById('myImage1')
+    .srcset="img/main_slider/slaid1-rus.svg";
+    document.getElementById('myImage2')
+    .srcset="img/main_slider/slaid2-rus.svg";
+    document.getElementById('myImage3')
+    .srcset="img/main_slider/slaid3-rus.svg";
+	document.getElementById('myImage1-sm')
+	.src="img/main_slider/slaid1-rus-sm.svg";
+    document.getElementById('myImage2-sm')
+    .src="img/main_slider/slaid2-rus-sm.svg";
+    document.getElementById('myImage3-sm')
+    .src="img/main_slider/slaid3-rus-sm.svg";
+  }
+  
+
+  function russian_tutors(){
+	document.getElementById('language12')
+    .src="img/en-lang.svg";
+	document.getElementById('imageTutors1')
+    .src="img/tutor-_slider/slaid1-rus.svg";
+	document.getElementById('imageTutors2')
+    .src="img/tutor-_slider/slaid2-rus.svg";
+	document.getElementById('imageTutors3')
+    .src="img/tutor-_slider/slaid3-rus.svg";
+	document.getElementById('imageTutors4')
+    .src="img/tutor-_slider/slaid4-rus.svg";
+  }
+
+  function english_tutors(){
+	document.getElementById('language12')
+    .src="img/en-lang.svg";
+	document.getElementById('imageTutors1')
+    .src="img/tutor-_slider/slaid1-eng.svg";
+	document.getElementById('imageTutors2')
+    .src="img/tutor-_slider/slaid2-eng.svg";
+	document.getElementById('imageTutors3')
+    .src="img/tutor-_slider/slaid3-eng.svg";
+	document.getElementById('imageTutors4')
+    .src="img/tutor-_slider/slaid4-eng.svg";
+  }
+
+  function chinese_tutors(){
 	document.getElementById('language12')
     .src="img/ch-lang.svg";
+	document.getElementById('imageTutors1')
+    .src="img/tutor-_slider/slaid1-ch.svg";
+	document.getElementById('imageTutors2')
+    .src="img/tutor-_slider/slaid2-ch.svg";
+	document.getElementById('imageTutors3')
+    .src="img/tutor-_slider/slaid3-ch.svg";
+	document.getElementById('imageTutors4')
+    .src="img/tutor-_slider/slaid4-ch.svg";
+
   }
