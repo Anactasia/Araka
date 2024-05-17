@@ -201,71 +201,47 @@
                 <div class=" col-lg-8 col-12">
                     <main>
                     <!-- Карточка Карусели -->
-                        <div id="carouselExampleDark" class="card shadow carousel carousel-dark slide main_part_cards"  data-bs-interval="false">
+                    <section>
+                        <div id="carouselExampleDarklink" class="card shadow carousel carousel-dark slide main_part_cards"  data-bs-interval="false">
 
                             <!-- Заголовок Карусели -->
-                            <div class="card-header py-3 card_headers">
-                                <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="home_page1">Главная</h6>
+                            <div class="card-header  card_headers">
+                                <h2 class="" data-lang="">Группы Вконтакте</h2>
                             </div>
 
                             <!-- Слайды Карусели -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/main_slider/slaid1.svg" class="d-block w-100" alt="...">
+                                    <picture class="d-block my-1 logo">
+                                        <source media="(min-width: 500px)" srcset="img/link_slaid/link_slaid1.svg" class="">
+                                        <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
+                                            <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
+                                            <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
+                                            <a href="https://urfu.modeus.org/" target="_blank" style="top: 72.13%; left: 28.15%; width: 11.29%; height: 6.36%;"></a>
+                                    </picture>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/main_slider/slaid2.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/main_slider/slaid3.svg" class="d-block w-100" alt="...">
+                                    <picture class="d-block my-1 logo">
+                                        <source media="(min-width: 500px)" srcset="img/link_slaid/link_slaid2.svg" class="">
+                                        <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
+                                            <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
+                                            <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
+                                    </picture>
                                 </div>
                             </div>
                             
                             <!-- Кнопки Карусели -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarklink" data-bs-slide="prev">
                                 <img src="img/button/arrow_prev.svg" aria-hidden="true">
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarklink" data-bs-slide="next">
                                 <img src="img/button/arrow_next.svg" aria-hidden="true">
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-
-                    <!-- Карточка чек-листа -->
-
-                        <div class="card shadow mb-4 main_part_cards">
-
-                        <!-- Заголовок Чек-Листа -->
-                            <div
-                                class="card-header py-3 d-flex flex-row align-items-center justify-content-between card_headers">
-                                <h6 class="m-0 font-weight-bold text-primary main_headlines" data-lang="list-of-tasks">Список заданий</h6>
-                                
-                            </div>
-                        <!--Чек-лист-->
-
-                            <div class="card-body row">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr1">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link1">ссылка</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr2">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link2">ссылка</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." >
-                                        <b data-lang="registr3">Регистрация в личном кабинете</b>
-                                        <a href="#" data-lang="link3">ссылка</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
+                    </section>
                     </main>
                 </div>
             
