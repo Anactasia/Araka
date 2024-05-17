@@ -647,6 +647,8 @@ console.log("navigator.language", checkBrowserLang());
 
 
 function russian(){
+	document.getElementById('logotype')
+    .srcset="img/logo_with_text_ru_violet_1.svg";
 	document.getElementById('language12')
     .src="img/ru-lang.svg";
 	document.getElementById('imageTutors1')
@@ -660,6 +662,8 @@ function russian(){
   }
 
   function english(){
+	document.getElementById('logotype')
+    .srcset="img/en-logo.svg";
 	document.getElementById('language12')
     .src="img/en-lang.svg";
 	document.getElementById('imageTutors1')
@@ -673,6 +677,8 @@ function russian(){
   }
 
   function chinese(){
+	document.getElementById('logotype')
+    .srcset="img/ch-logo.svg";
 	document.getElementById('language12')
     .src="img/ch-lang.svg";
 	document.getElementById('imageTutors1')

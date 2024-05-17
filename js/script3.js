@@ -545,6 +545,104 @@ const tutors = {
 		ch: "VK页:",
 	},
 };
+const courses = {
+	"home_page": {
+		ru: "Главная",
+		en: "Main menu",
+		ch: "主要",
+	},
+	"courses": {
+		ru: "Курсы",
+		en: "Courses",
+		ch: "课程",
+	},
+	"exams": {
+		ru: "Экзамены",
+		en: "Exams",
+		ch: "考试",
+	},
+	"helpers": {
+		ru: "Тьюторы",
+		en: "Tutors",
+		ch: "导师",
+	},
+	"curriculum": {
+		ru: "Частые вопросы",
+		en: "FAQ",
+		ch: "常见问题",
+	},
+	"groups": {
+		ru: "Группы ВК",
+		en: "VK groups",
+		ch: "VK组",
+	},
+	"account": {
+		ru: "Профиль",
+		en: "Account",
+		ch: "个人资料",
+	},
+	"log-out": {
+		ru: "Выйти",
+		en: "Log out",
+		ch: "去",
+	},
+	"news": {
+		ru: "Новости",
+		en: "News",
+		ch:"新闻",
+	},
+	"news-h": {
+		ru: "IT-пикник уже в следующую субботу!",
+		en: "The IT picnic is already next Saturday!",
+		ch: "IT野餐已经是下周六了！",
+	},
+	"news-p": {
+		ru: "Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...",
+		en: "Placeholder text is commonly used in the graphic, print, and publishing industries to preview a layout...",
+		ch: "占位符文本通常用于图形、印刷和出版行业来预览布局。..",
+	},
+	"next": {
+		ru: "Далее",
+		en: "Read more",
+		ch: "进一步",
+	},
+	"logo": {
+		ru: "© Группа “Арака” 2024",
+		en: "© The “Araka” group 2024",
+		ch: "阿拉卡集团2024",
+	},
+	"course": {
+		ru: "Немного о курсах",
+		en: "A little bit about the courses",
+		ch: "关于课程的一些信息",
+	},
+	"course-tests": {
+		ru: "Курсы и тесты",
+		en: "Courses and tests",
+		ch: "课程及考试",
+	},
+	"course-openedu": {
+		ru: "Курсы на Openedu.ru",
+		en: "Courses on Openedu.ru",
+		ch: "课程Openedu.ru",
+	},
+	"course-exam": {
+		ru: "Тесты на Exam1.urfu.ru",
+		en: "Tests for Exam1.urfu.ru",
+		ch: "测试Exam1.urfu.ru",
+	},
+	"course-ulearn": {
+		ru: "Курсы на Ulearn.me",
+		en: "Courses on Ulearn.me",
+		ch: "有关课程Ulearn.me",
+	},
+	"course-elearn": {
+		ru: "Курсы на Elearn.urfu.ru",
+		en: "Courses on Elearn.urfu.ru",
+		ch: "课程Elearn.urfu.ru",
+	},
+	
+};
 
 // Проверка пути страницы сайта
 function checkPagePathName() {
@@ -563,7 +661,10 @@ function checkPagePathName() {
 			break;
 		case "/page_tutor.html":
 			currentTexts = tutors;
-			break;			
+			break;	
+        case "/page_course.html":
+			currentTexts = courses;
+			break;		
 		default:
 			currentTexts = homeTexts;
 			break;
@@ -650,37 +751,32 @@ function chinese(){
     .srcset="img/ch-logo.svg";
 	document.getElementById('language12')
     .src="img/ch-lang.svg";
-    document.getElementById('myImage1')
-    .srcset="img/main_slider/slaid1-ch.svg";
-    document.getElementById('myImage2')
-    .srcset="img/main_slider/slaid2-ch.svg";
-    document.getElementById('myImage3')
-    .srcset="img/main_slider/slaid3-ch.svg";
-	document.getElementById('myImage1-sm')
-	.src="img/main_slider/slaid1-ch-sm.svg";
-    document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-ch-sm.svg";
-    document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-ch-sm.svg";
-  }
-
+    document.getElementById('imageCourse1')
+    .srcset="img/course/course_slaid_1ch.svg";
+    document.getElementById('imageCourse2')
+    .srcset="img/course/course_slaid_2ch.svg";
+    document.getElementById('imageCourse3')
+    .srcset="img/course/course_slaid_3ch.svg";
+    document.getElementById('imageCourse4')
+    .srcset="img/course/course_slaid_4ch.svg";
+    document.getElementById('imageCourse5')
+    .srcset="img/course/course_slaid_5ch.svg";
+}
   function english(){
 	document.getElementById('logotype')
     .srcset="img/en-logo.svg";
 	document.getElementById('language12')
     .src="img/en-lang.svg";
-    document.getElementById('myImage1')
-    .srcset="img/main_slider/slaid1-eng.svg";
-    document.getElementById('myImage2')
-    .srcset="img/main_slider/slaid3-eng.svg";
-    document.getElementById('myImage3')
-    .srcset="img/main_slider/slaid2-eng.svg";
-	document.getElementById('myImage1-sm')
-    .src="img/main_slider/slaid1-en-sm.svg";
-    document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-en-sm.svg";
-    document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-en-sm.svg";
+    document.getElementById('imageCourse1')
+    .srcset="img/course/course_slaid_1en.svg";
+    document.getElementById('imageCourse2')
+    .srcset="img/course/course_slaid_2en.svg";
+    document.getElementById('imageCourse3')
+    .srcset="img/course/course_slaid_3en.svg";
+    document.getElementById('imageCourse4')
+    .srcset="img/course/course_slaid_4en.svg";
+    document.getElementById('imageCourse5')
+    .srcset="img/course/course_slaid_5en.svg";
   }
 
   function russian(){
@@ -688,17 +784,15 @@ function chinese(){
     .srcset="img/logo_with_text_ru_violet_1.svg";
 	document.getElementById('language12')
     .src="img/ru-lang.svg";
-    document.getElementById('myImage1')
-    .srcset="img/main_slider/slaid1-rus.svg";
-    document.getElementById('myImage2')
-    .srcset="img/main_slider/slaid2-rus.svg";
-    document.getElementById('myImage3')
-    .srcset="img/main_slider/slaid3-rus.svg";
-	document.getElementById('myImage1-sm')
-	.src="img/main_slider/slaid1-rus-sm.svg";
-    document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-rus-sm.svg";
-    document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-rus-sm.svg";
+    document.getElementById('imageCourse1')
+    .srcset="img/course/course_slaid_1ru.svg";
+    document.getElementById('imageCourse2')
+    .srcset="img/course/course_slaid_2ru.svg";
+    document.getElementById('imageCourse3')
+    .srcset="img/course/course_slaid_3ru.svg";
+    document.getElementById('imageCourse4')
+    .srcset="img/course/course_slaid_4ru.svg";
+    document.getElementById('imageCourse5')
+    .srcset="img/course/course_slaid_5ru.svg";
   }
   

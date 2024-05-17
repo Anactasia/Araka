@@ -22,7 +22,7 @@
             <!--Логотип-->
             <a class="navbar-brand p-0 me-lg-auto" href="page_main.html" aria-label="LOGO">
                 <picture class="d-block my-1 logo">
-                    <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class="">
+                    <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class=""  id="logotype">
                     <source media="(min-width: 420px)" srcset="img/logo_with_text_ru.svg">
                     <img src="img/logo_without_text.svg" class="clear">
                 </picture>
@@ -206,14 +206,14 @@
 
                                 <!-- Заголовок Карусели -->
                                 <div class="card-header  card_headers">
-                                    <h2 class="" data-lang="">Немного о курсах</h2>
+                                    <h2 class="" data-lang="course">Немного о курсах</h2>
                                 </div>
 
                                 <!-- Слайды Карусели -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="10000">
                                         <picture class="d-block my-1 logo image-link">
-                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_1.svg" class="">
+                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_1.svg" class="" id="imageCourse1">
                                             <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
                                                 <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
                                                 <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
@@ -222,7 +222,7 @@
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
                                         <picture class="d-block my-1 logo image-link">
-                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_2.svg" class="">
+                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_2.svg" class="" id="imageCourse2">
                                             <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
                                                 <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
                                                 <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
@@ -230,7 +230,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <picture class="d-block my-1 logo image-link">
-                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_3.svg" class="">
+                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_3.svg" class="" id="imageCourse3">
                                             <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
                                                 <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
                                                 <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
@@ -239,7 +239,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <picture class="d-block my-1 logo image-link">
-                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_4.svg" class="">
+                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_4.svg" class="" id="imageCourse4">
                                             <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
                                                 <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
                                                 <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
@@ -248,7 +248,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <picture class="d-block my-1 logo image-link">
-                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_5.svg" class="">
+                                            <source media="(min-width: 500px)" srcset="img/course/course_slaid_5.svg" class="" id="imageCourse5">
                                             <!-- <img src="img/main_slider/slaid1_mini.svg"> -->
                                                 <img src="img/main_slider/slaid1_mini.svg" class="d-block w-100" alt="image" />
                                                 <!-- !!!!!!!!!!!меняем координаты для мобильной версии!!!!!!!!! -->
@@ -272,14 +272,14 @@
                         <section>
                             <div class="card shadow cards-course">
                                 <div class="card-header header-cards-course">
-                                    <h2>Курсы и тесты</h2>
+                                    <h2 data-lang="course-tests">Курсы и тесты</h2>
                                 </div>
                                 <ul class="body-cards-course">
                                     <li>
                                         <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <div class="card-course">
                                                 <img src="img/course/openedu/openedu_card.png">
-                                                <p>Курсы на Openedu.ru</p>
+                                                <p data-lang="course-openedu">Курсы на Openedu.ru</p>
                                             </div>
                                         </button>
                                     </li>
@@ -351,7 +351,7 @@
                                         <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                             <div class="card-course">
                                                 <img src="img/course/exam/exam_card.png">
-                                                <p>Тесты на Exam1.urfu.ru</p>
+                                                <p data-lang="course-exam">Тесты на Exam1.urfu.ru</p>
                                             </div>
                                         </button>
                                     </li>
@@ -370,7 +370,7 @@
                                                         <div class="carousel-inner">
                                                             <div class="carousel-item active" data-bs-interval="10000">
                                                                 <div class="image-link">
-                                                                    <img src="img/course/exam/exam_slaid_1.svg" class="d-block w-100" alt="image" />
+                                                                    <img src="img/course/exam/exam_slaid_1.svg" class="d-block w-100" alt="image" id="" />
                                                                     <a href="https://exam1.urfu.ru/" target="_blank" style="top: 30.56%; left: 38.78%; width: 54.05%; height: 11.49%;"></a>
                                                                 </div>
                                                             </div>
@@ -406,7 +406,7 @@
                                         <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                             <div class="card-course">
                                                 <img src="img/course/ulern/ulearn_card.png">
-                                                <p>Курсы на Ulearn.me</p>
+                                                <p data-lang="course-ulearn">Курсы на Ulearn.me</p>
                                             </div>
                                         </button>
                                     </li>
@@ -458,7 +458,7 @@
                                         <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                             <div class="card-course">
                                                 <img src="img/course/elearn/elearn_card.png">
-                                                <p>Курсы на Elearn.urfu.ru</p>
+                                                <p data-lang="course-elearn">Курсы на Elearn.urfu.ru</p>
                                             </div>
                                         </button>
                                     </li>
@@ -561,7 +561,7 @@
             </div>
         </div>   
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script3.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
