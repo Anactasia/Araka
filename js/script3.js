@@ -725,35 +725,7 @@ const exam = {
 		ch: "Proctoring",
 	},
 };
-// Проверка пути страницы сайта
-function checkPagePathName() {
-	switch (currentPathName) {
-		case "/page_main.html":
-			currentTexts = homeTexts;
-			break;
-		case "/registration-2.html":
-			currentTexts = registr2;
-			break;
-		case "/registration-3.html":
-			currentTexts = registr3;
-			break;
-		case "/registration-4.html":
-			currentTexts = registr4;
-			break;
-		case "/page_tutor.html":
-			currentTexts = tutors;
-			break;	
-        case "/page_course.html":
-			currentTexts = courses;
-			break;	
-        case "/page_exam.html":
-			currentTexts = exam;
-			break;		
-		default:
-			currentTexts = homeTexts;
-			break;
-	}
-}
+
 
 // Проверка пути страницы сайта
 function checkPagePathName() {
@@ -775,6 +747,9 @@ function checkPagePathName() {
 			break;	
         case "/page_course.html":
 			currentTexts = courses;
+			break;	
+		case "/page_exam.html":
+			currentTexts = exam;
 			break;		
 		default:
 			currentTexts = homeTexts;
