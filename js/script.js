@@ -749,9 +749,6 @@ function checkPagePathName() {
         case "/page_exam.html":
 			currentTexts = exam;
 			break;		
-		default:
-			currentTexts = homeTexts;
-			break;
 	}
 }
 
