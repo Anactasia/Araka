@@ -73,14 +73,24 @@ header{
     border-radius: 10px;
     width: 100%;
     max-width: 527px;
-    max-height: 48px ;
+    max-height: 65px ;
+    @media(max-width: 991.98px) {
+        max-width: none;
+        min-height: none;
+    }
 }
 
-.form .fa-search{
+.search-form1{
+    position: relative;
+    margin: 10px;
+}
 
+.fa-search{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 15px;
-    left: 15px;
+    left: 10px;
     color: #9ca3af;
 
 }
@@ -89,8 +99,13 @@ header{
 
     background-color: var(--color-wh-vio);
     height: 55px;
-    text-indent: 33px;
+    text-indent: 0;
     border:none;
+    padding: 6px 44px;
+    @media(max-width: 991.98px) {
+        width: 100%;
+        height: 30px;
+    }
     
 }
 
@@ -101,7 +116,8 @@ header{
 }
 
 .search-form{
-    padding: 0 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .button_search{
@@ -286,15 +302,24 @@ header{
 
 .offcanvas-side-title{
     color: var(--color-violet);
-    margin-left: auto;
+    margin: 0 auto;
     justify-self: center !important;
 }
 
 .btn-side-close{
-    margin: 0;
-    padding: 0;
-    margin-right: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-right: 20px !important;
+    
 }
+
+.btn-side-search-close{
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 20px !important;
+    
+}
+
 
 .icon_side_menu{
     margin: 0;
