@@ -3415,3 +3415,50 @@ position: absolute;
 .btn_course_close1.section-active{
     display: inherit;
   }
+
+  .btn_course_close1:hover{
+    opacity: 0.5;
+   }
+.main_part_cards1{
+    width: 100%;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #7461d2;
+}
+
+.card-body1{
+    background-color: #FDFDFD;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #dfdfe2;
+
+}
+.news{
+    background-color: #F8F9FC;
+}
+
+.card-body1.last{
+    margin: 0;
+}
+
+.card-body1.last p{
+    margin: 0;
+    padding: 0;
+}
+
+.card-body1 a{
+    color: #5955B3;
+    text-decoration: none;
+}
+.card-body1 a:hover{
+    opacity: 0.7;
+    text-decoration:underline;
+}
+
+.text-center img{
+    border: 2px solid #d6cedd;
+    border-radius: 5px;
+}
