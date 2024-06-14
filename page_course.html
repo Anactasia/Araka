@@ -6,6 +6,7 @@
     <title>Руководство первокурсника</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="css/main_test.css" rel="stylesheet">
+    <link href="css/test_course.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/map (2).svg" />
 </head>
 <body>
@@ -204,8 +205,8 @@
                 <div class=" col-lg-8 col-12">
                     <main>
 
-                        <section>
-                            <div id="carouselExampleDarkcourse" class="card shadow carousel carousel-dark slide main_part_cards"  data-bs-interval="false">
+                        <section class="main-inf-course section-active">
+                            <div id="carouselExampleDarkcourse" class="card shadow carousel carousel-dark slide main_part_cards1"  data-bs-interval="false">
 
                                 <!-- Заголовок Карусели -->
                                 <div class="card-header  card_headers">
@@ -272,14 +273,27 @@
                             </div>
                         </section>
 
-                        <section>
+                        <!-- <section class="main-inf-course section-active"> 
+                            <div class="card shadow card-text-course-main">
+                                <p>После того как вы определили подходящий курс и платформу, вы можете перейти к ознакомлению с ними. </p>
+                                <img src="img/course/course-text2.svg" class="couse-photo-mini">
+                                <div class="card-text-course-main1">
+                                    <div class="card-text-course">
+                                        <p>В следующем разделе, который расположен ниже, мы рассмотрим основные особенности платформ и онлайн курсов.</p>
+                                    </div>
+                                    <img src="img/course/course-text.svg" class="couse-photo-large">
+                                </div>
+                            </div>
+                        </section> -->
+
+                        <section class="main-inf-course section-active">
                             <div class="card shadow cards-course">
                                 <div class="card-header header-cards-course">
                                     <h2 data-lang="course-tests">Курсы и тесты</h2>
                                 </div>
                                 <ul class="body-cards-course">
                                     <li>
-                                        <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button type="button" id="btn-openedu" class="col-12 col-s-6 card shadow botton-course btn-openedu" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <div class="card-course">
                                                 <img src="img/course/openedu/openedu_card.png">
                                                 <p data-lang="course-openedu">Курсы на Openedu.ru</p>
@@ -287,71 +301,9 @@
                                         </button>
                                     </li>
                                 
-                                        <!-- Модальное окно -->
-                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered window-course">
-                                                <div class="modal-content">
-                                                
-                                                
-                                                    <div class="modal-body window-course-body">
-                                                        <div id="carouselExampleDark" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
-                                
-                                                        <!-- Заголовок Карусели -->
-                                                        <!-- Слайды Карусели -->
-                                                        <div class="carousel-inner">
-                                                            <div class="carousel-item active" data-bs-interval="10000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/openedu/openedu_slaid_1.svg" class="d-block w-100" alt="image" id="openedu1" />
-                                                                    <a href="https://www.youtube.com/watch?v=QPKgEAOYyUs" target="_blank" style="top: 50.07%; left: 10.62%; width: 63.55%; height: 6.11%;"></a>
-                                                                    <a href="https://openedu.ru/" target="_blank" style="top: 76.53%; left: 29.22%; width: 26.96%; height: 6.6%;"></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/openedu/openedu_slaid_2.svg" class="d-block w-100" alt="image" id="openedu2" />
-                                                                    <a href="https://inf-online.urfu.ru/ru/onlain-kursy/" target="_blank" style="top: 42.3%; left: 13.68%; width: 55.78%; height: 7.33%;"></a>
-                                                                    <a href="mailto:openedu@urfu.ru" target="_blank" style="top: 77.75%; left: 42.9%; width: 23.77%; height: 6.36%;"></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/openedu/openedu_slaid_3.svg" class="d-block w-100" alt="image" id="openedu3" />
-                                                                    <a href="page_exam.html" target="_blank" style="top: 75.06%; left: 43.16%; width: 12.22%; height: 6.36%;"></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <img src="img/course/openedu/openedu_slaid_4.svg" class="d-block w-100" alt="..." id="openedu4">
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/openedu/openedu_slaid_5.svg" class="d-block w-100" alt="image" id="openedu5" />
-                                                                    <a href="https://online.hse.ru/" target="_blank" style="top: 61.37%; left: 50.73%; width: 17.93%; height: 6.36%;"></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <!-- Кнопки Карусели -->
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                                            <img src="img/button/arrow_prev.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                                            <img src="img/button/arrow_next.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <li>
-                                        <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        <button type="button" id="btn-exam"class="col-12 col-s-6 card shadow botton-course btn-exam" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                             <div class="card-course">
                                                 <img src="img/course/exam/exam_card.png">
                                                 <p data-lang="course-exam">Тесты на Exam1.urfu.ru</p>
@@ -359,54 +311,9 @@
                                         </button>
                                     </li>
                                 
-                                        <!-- Модальное окно -->
-                                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered window-course">
-                                                <div class="modal-content">
-                                                
-                                                
-                                                    <div class="modal-body window-course-body">
-                                                        <div id="carouselExampleDark1" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
-                                
-                                                        <!-- Заголовок Карусели -->
-                                                        <!-- Слайды Карусели -->
-                                                        <div class="carousel-inner">
-                                                            <div class="carousel-item active" data-bs-interval="10000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/exam/exam_slaid_1.svg" class="d-block w-100" alt="image" id="exam1" />
-                                                                    <a href="https://exam1.urfu.ru/" target="_blank" style="top: 30.56%; left: 38.78%; width: 54.05%; height: 11.49%;"></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/exam/exam_slaid_2.svg" class="d-block w-100" alt="image"  id="exam2" />
-                                                                    <a href="mailto:exam1@urfu.ru" target="_blank" style="top: 84.11%; left: 48.07%; width: 20.32%; height: 6.36%;"></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <!-- Кнопки Карусели -->
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
-                                                            <img src="img/button/arrow_prev.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
-                                                            <img src="img/button/arrow_next.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <li>
-                                        <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        <button type="button" id="btn-ulearn" class="col-12 col-s-6 card shadow botton-course btn-uelearn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                             <div class="card-course">
                                                 <img src="img/course/ulern/ulearn_card.png">
                                                 <p data-lang="course-ulearn">Курсы на Ulearn.me</p>
@@ -414,51 +321,9 @@
                                         </button>
                                     </li>
                                 
-                                        <!-- Модальное окно -->
-                                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered window-course">
-                                                <div class="modal-content">
-                                                
-                                                
-                                                    <div class="modal-body window-course-body">
-                                                        <div id="carouselExampleDark2" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
-                                
-                                                        <!-- Заголовок Карусели -->
-                                                        <!-- Слайды Карусели -->
-                                                        <div class="carousel-inner">
-                                                            <div class="carousel-item active" data-bs-interval="10000">
-                                                                <img src="img/course/ulern/ulearn_slaid_1.svg" class="d-block w-100" alt="..." id="ulearn1">
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/ulern/ulearn_slaid_2.svg" class="d-block w-100" alt="image"  id="ulearn2"/>
-                                                                    <a href="mailto:support@ulearn.me" style="top: 78.48%; left: 16.73%; width: 21.38%; height: 7.33%;"></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <!-- Кнопки Карусели -->
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
-                                                            <img src="img/button/arrow_prev.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
-                                                            <img src="img/button/arrow_next.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                        
                                     <li>
-                                        <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        <button type="button" id="btn-elearn" class="col-12 col-s-6 card shadow botton-course btn-elearn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                             <div class="card-course">
                                                 <img src="img/course/elearn/elearn_card.png">
                                                 <p data-lang="course-elearn">Курсы на Elearn.urfu.ru</p>
@@ -466,59 +331,403 @@
                                         </button>
                                     </li>
                                 
-                                        <!-- Модальное окно -->
-                                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered window-course">
-                                                <div class="modal-content">
-                                                
-                                                
-                                                    <div class="modal-body window-course-body">
-                                                        <div id="carouselExampleDark3" class="card shadow carousel carousel-dark slide window-course-carousel"  data-bs-interval="false">
-                                
-                                                        <!-- Заголовок Карусели -->
-                                                        <!-- Слайды Карусели -->
-                                                        <div class="carousel-inner">
-                                                            <div class="carousel-item active" data-bs-interval="10000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/elearn/elearn_slaid_1.svg" class="d-block w-100" alt="image" id="elearn1" />
-                                                                    <a href="https://elearn.urfu.ru/" target="_blank" style="top: 38.88%; left: 8.63%; width: 12.22%; height: 7.09%;"></a>
-                                                                    <a href="https://elearn.urfu.ru/" target="_blank" style="top: 42.54%; left: 27.22%; width: 69.19%; height: 16.38%;"></a>
-                                                                    <a href="https://istudent.urfu.ru/" target="_blank" style="top: 62.84%; left: 9.16%; width: 25.37%; height: 7.09%;"></a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <img src="img/course/elearn/elearn_slaid_2.svg" class="d-block w-100" alt="..."  id="elearn2" >
-                                                            </div>
-                                                            <div class="carousel-item" data-bs-interval="2000">
-                                                                <div class="image-link">
-                                                                    <img src="img/course/elearn/elearn_slaid_3.svg" class="d-block w-100" alt="image"  id="elearn3" />
-                                                                    <a href="mailto:support@urfu.ru" target="_blank" style="top: 77.26%; left: 26.29%; width: 23.24%; height: 7.82%;"></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <!-- Кнопки Карусели -->
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
-                                                            <img src="img/button/arrow_prev.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
-                                                            <img src="img/button/arrow_next.svg" aria-hidden="true">
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
+                                       
                                 </ul>
                             </div>
                         </section>
+
+                        <section>
+                            <button id="close" class="btn_course_close">
+                                <img src="img/course/btn_course_close.svg"><botton>
+                        </section>
+
+                        
+                        <section class="openedu-inf-course">
+                            <div id="carouselExampleDarkopenedu" class="card shadow carousel carousel-dark slide main_part_cards1"  data-bs-interval="false">
+
+                                <!-- Заголовок Карусели -->
+                                <div class="card-header  card_headers">
+                                    <h2 class="" data-lang="course">Платформа Openedu</h2>
+                                </div>
+
+                                <!-- Слайды Карусели -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <div class="image-link">
+                                            <img src="img/course/openedu/openedu_slaid_1.svg" class="d-block w-100" alt="image" id="openedu1" />
+                                            <a href="https://www.youtube.com/watch?v=QPKgEAOYyUs" target="_blank" style="top: 50.07%; left: 10.62%; width: 63.55%; height: 6.11%;"></a>
+                                            <a href="https://openedu.ru/" target="_blank" style="top: 76.53%; left: 29.22%; width: 26.96%; height: 6.6%;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="image-link">
+                                            <img src="img/course/openedu/openedu_slaid_2.svg" class="d-block w-100" alt="image" id="openedu2" />
+                                            <a href="https://inf-online.urfu.ru/ru/onlain-kursy/" target="_blank" style="top: 42.3%; left: 13.68%; width: 55.78%; height: 7.33%;"></a>
+                                            <a href="mailto:openedu@urfu.ru" target="_blank" style="top: 77.75%; left: 42.9%; width: 23.77%; height: 6.36%;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="image-link">
+                                            <img src="img/course/openedu/openedu_slaid_3.svg" class="d-block w-100" alt="image" id="openedu3" />
+                                            <a href="page_exam.html" target="_blank" style="top: 75.06%; left: 43.16%; width: 12.22%; height: 6.36%;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="img/course/openedu/openedu_slaid_4.svg" class="d-block w-100" alt="..." id="openedu4">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="image-link">
+                                            <img src="img/course/openedu/openedu_slaid_5.svg" class="d-block w-100" alt="image" id="openedu5" />
+                                            <a href="https://online.hse.ru/" target="_blank" style="top: 61.37%; left: 50.73%; width: 17.93%; height: 6.36%;"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Кнопки Карусели -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarkopenedu" data-bs-slide="prev">
+                                    <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+        
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarkopenedu" data-bs-slide="next">
+                                    <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </section>
+                        <section class="openedu-inf-course">
+                            <div class="card shadow card-courses-openedu">
+                                <div class="card-header header-cards-course">
+                                    <h2>Курсы на Openedu</h2>
+                                </div>
+                                <ul>
+                                    <li class="card shadow">
+                                        <div class="card-course-openedu11">
+                                            <a href="https://openedu.ru/course/ITMOUniversity/DIGCUL/#" target="_blank">
+                                              <img src="img/course/openedu/вцк.png" class="img_course">
+                                            </a>
+                                            <div class="card-course-openedu1">
+                                              <h2>Введение в цифровую культуру</h2>
+                                              <p>Длительность курса - 29 мая - 18 декабря 2023 г.</p>
+                                              <p>Курс от: ИТМО</p>
+                                              <p>Запись на курс: осуществляется сотрудниками ИТМО</p>
+                                              <p>Почта в домене: urfu.me</p>
+                                              
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="card shadow">
+                                      <div class="card-course-openedu11">
+                                          <a href="https://openedu.ru/course/misis/INF/?session=spring_2023" target="_blank">
+                                            <img src="img/course/openedu/идии.jpg" class="img_course">
+                                          </a>
+                                            <div class="card-course-openedu1">
+                                              <h2>Информатика для инженеров и исследователей</h2>
+                                              <p>Длительность курса - 11 сентября 2023 - 21 января 2024 г.</p>
+                                              <p>Курс от: МИСиС</p>
+                                              <p>Запись на курс: самостоятельно</p>
+                                              <p>Почта в домене: urfu.me</p>
+
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="card shadow">
+                                    <div class="card-course-openedu11">
+                                        <a href="https://openedu.ru/course/urfu/ITS/" target="_blank">
+                                          <img src="img/course/openedu/ити.png" class="img_course">
+                                        </a>
+                                          <div class="card-course-openedu1">
+                                            <h2>Информационные технологии и сервисы</h2>
+                                            <p>Длительность курса - 28 сентября 2023 - 4 февраля 2024 г.</p>
+                                            <p>Курс от: УРФУ</p>
+                                            <p>Запись на курс: самостоятельно</p>
+                                            <p>Почта в домене: urfu.me</p>
+                                              
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="card shadow">
+                                  <div class="card-course-openedu11">
+                                      <a href="https://openedu.ru/course/urfu/HIST/" target="_blank">
+                                        <img src="img/course/openedu/ир.png" class="img_course">
+                                      </a>
+                                        <div class="card-course-openedu1">
+                                          <h2>История России</h2>
+                                          <p>Длительность курса - 28 сентября 2023 - 4 февраля 2024 г.</p>
+                                          <p>Курс от: УРФУ</p>
+                                          <p>Запись на курс: самостоятельно</p>
+                                          <p>Почта в домене: urfu.me</p>
+                                      </div>
+                                  </div>
+                              </li>
+
+                              <li class="card shadow">
+                                <div class="card-course-openedu11">
+                                    <a href="https://openedu.ru/course/urfu/HISTRUSCIV/" target="blank">
+                                      <img src="img/course/openedu/ирц.png" class="img_course">
+                                    </a>
+                                      <div class="card-course-openedu1">
+                                        <h2>История российской цивилизации</h2>
+                                        <p>Длительность курса - 18 сентября 2023 - 4 февраля 2024 г.</p>
+                                        <p>Курс от: УРФУ</p>
+                                        <p>Запись на курс: самостоятельно</p>
+                                        <p>Почта в домене: urfu.me</p>
+                                    </div>
+                                </div>
+                            </li>
+                                </ul>
+                            </div>
+                                        
+                        </section>
+
+                        <section class="exam-inf-course">
+                            <div id="carouselExampleDarkexam" class="card shadow carousel carousel-dark slide main_part_cards1"  data-bs-interval="false">
+
+                                <!-- Заголовок Карусели -->
+                                <div class="card-header  card_headers">
+                                    <h2 class="" data-lang="course">Платформа Exam</h2>
+                                </div>
+
+                                <!-- Слайды Карусели -->
+                                
+                                        <!-- Заголовок Карусели -->
+                                        <!-- Слайды Карусели -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <div class="image-link">
+                                                <img src="img/course/exam/exam_slaid_1.svg" class="d-block w-100" alt="image" id="exam1" />
+                                                <a href="https://exam1.urfu.ru/" target="_blank" style="top: 30.56%; left: 38.78%; width: 54.05%; height: 11.49%;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <div class="image-link">
+                                                <img src="img/course/exam/exam_slaid_2.svg" class="d-block w-100" alt="image"  id="exam2" />
+                                                <a href="mailto:exam1@urfu.ru" target="_blank" style="top: 84.11%; left: 48.07%; width: 20.32%; height: 6.36%;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Кнопки Карусели -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarkexam" data-bs-slide="prev">
+                                        <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+            
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarkexam" data-bs-slide="next">
+                                        <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>    
+                        </section>
+
+                        <section class="exam-inf-course">
+                            <div class="card shadow card-courses-openedu">
+                                <div class="card-header header-cards-course">
+                                    <h2>Курсы на Exam</h2>
+                                </div>
+                                <ul>    
+                                <li class="card shadow">
+                                  <div class="card-course-openedu11">
+                                      <a href="https://exam1.urfu.ru/">
+                                        <img src="img/course/exam/exam_card.png" class="img_course" target="blank">
+                                      </a>
+                                        <div class="card-course-openedu1">
+                                          <h2>Английский язык</h2>
+                                          <p>Длительность курса - 1 семестр</p>
+                                          <p>Курс от: УРФУ</p>
+                                          <p>Запись на курс: осуществляется сотрудниками Exam</p>
+                                          <p>Почта в домене: не имеет значение</p>
+                                      </div>
+                                  </div>
+                              </li>
+                                </ul>
+                            </div>
+                                        
+                        </section>
+
+                        <section class="ulearn-inf-course">
+                            <div id="carouselExampleDarkulearn" class="card shadow carousel carousel-dark slide main_part_cards1"  data-bs-interval="false">
+
+                                <!-- Заголовок Карусели -->
+                                <div class="card-header  card_headers">
+                                    <h2 class="" data-lang="course">Платформа Ulearn</h2>
+                                </div>
+
+                                <!-- Слайды Карусели -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="img/course/ulern/ulearn_slaid_1.svg" class="d-block w-100" alt="..." id="ulearn1">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="image-link">
+                                            <img src="img/course/ulern/ulearn_slaid_2.svg" class="d-block w-100" alt="image"  id="ulearn2"/>
+                                            <a href="mailto:support@ulearn.me" style="top: 78.48%; left: 16.73%; width: 21.38%; height: 7.33%;"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Кнопки Карусели -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarkulearn" data-bs-slide="prev">
+                                    <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+        
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarkulearn" data-bs-slide="next">
+                                    <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </section>
+                        <section class="ulearn-inf-course">
+                            <div class="card shadow card-courses-openedu">
+                                <div class="card-header header-cards-course">
+                                    <h2>Курсы на Ulearn</h2>
+                                </div>
+                                <ul>
+                                <li class="card shadow">
+                                  <div class="card-course-openedu11">
+                                      <a href="https://ulearn.me/Course/BasicProgramming/Kratkaya_spravka_pered_nachalom_69a2e121-e58f-4cd0-8221-7affb7dc796e">
+                                        <img src="img/course/ulern/ulearn_card.png" class="img_course">
+                                      </a>
+                                        <div class="card-course-openedu1">
+                                          <h2>Основы программирования на примере C#. Часть 1</h2>
+                                          <p>Длительность курса - 1 семестр</p>
+                                          <p>Курс от: "Контур"</p>
+                                          <p>Запись на курс: самостоятельно</p>
+                                          <p>Почта в домене: не имеет значение</p>
+                                      </div>
+                                  </div>
+                              </li>
+                                </ul>
+                            </div>
+                                        
+                        </section>
+
+                        <section class="elearn-inf-course">
+                            <div id="carouselExampleDarkelearn" class="card shadow carousel carousel-dark slide main_part_cards1"  data-bs-interval="false">
+
+                                <!-- Заголовок Карусели -->
+                                <div class="card-header  card_headers">
+                                    <h2 class="" data-lang="course">Платформа Elearn</h2>
+                                </div>
+
+                                <!-- Слайды Карусели -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <div class="image-link">
+                                            <img src="img/course/elearn/elearn_slaid_1.svg" class="d-block w-100" alt="image" id="elearn1" />
+                                            <a href="https://elearn.urfu.ru/" target="_blank" style="top: 38.88%; left: 8.63%; width: 12.22%; height: 7.09%;"></a>
+                                            <a href="https://elearn.urfu.ru/" target="_blank" style="top: 42.54%; left: 27.22%; width: 69.19%; height: 16.38%;"></a>
+                                            <a href="https://istudent.urfu.ru/" target="_blank" style="top: 62.84%; left: 9.16%; width: 25.37%; height: 7.09%;"></a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="img/course/elearn/elearn_slaid_2.svg" class="d-block w-100" alt="..."  id="elearn2" >
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="image-link">
+                                            <img src="img/course/elearn/elearn_slaid_3.svg" class="d-block w-100" alt="image"  id="elearn3" />
+                                            <a href="mailto:support@urfu.ru" target="_blank" style="top: 77.26%; left: 26.29%; width: 23.24%; height: 7.82%;"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Кнопки Карусели -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarkelearn" data-bs-slide="prev">
+                                    <img src="img/button/arrow_prev.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+        
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarkelearn" data-bs-slide="next">
+                                    <img src="img/button/arrow_next.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </section>
+                        <section class="elearn-inf-course">
+                            <div class="card shadow card-courses-openedu">
+                                <div class="card-header header-cards-course">
+                                    <h2>Курсы на Elearn</h2>
+                                </div>
+                                <ul>
+                                    <!-- <li class="card shadow">
+                                        <div class="card-course-openedu11">
+                                            <a href="#">
+                                              <img src="img/course/openedu/openedu_card.png" class="img_course">
+                                            </a>
+                                              <div class="card-course-openedu1">
+                                                <h2>Философия</h2>
+                                                <p>Длительность курса - 1 семестр(либо даты курса)</p>
+                                                <div class="ochenka">
+                                                  <p>Сложность курса</p>
+                                                    <div class="otz1">
+                                                      <img src="img/course/star.svg" class="reiting rei_1 active">
+                                                      <img src="img/course/star.svg" class="reiting rei_2 active">
+                                                      <img src="img/course/star.svg" class="reiting rei_3 active">
+                                                      <img src="img/course/star.svg" class="reiting rei_4 active">
+                                                      <img src="img/course/star.svg" class="reiting rei_5 active">
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="ochenka">
+                                                  <p >Поставить оценку</p>
+                                                    <div class="otz">
+                                                        <div class="container__items">
+                                                          <input type="radio" name="stars" id="open544">
+                                                          <label for="open544">
+                                                            <div class="star-stroke">
+                                                              <div class="star-fill"></div>
+                                                            </div>
+                                                            <div class="label-description" data-content="Excellent"></div>
+                                                          </label>
+                                                          <input type="radio" name="stars" id="open444">
+                                                          <label for="open444">
+                                                            <div class="star-stroke">
+                                                              <div class="star-fill"></div>
+                                                            </div>
+                                                            <div class="label-description" data-content="Good"></div>
+                                                          </label>
+                                                          <input type="radio" name="stars" id="open344">
+                                                          <label for="open344">
+                                                            <div class="star-stroke">
+                                                              <div class="star-fill"></div>
+                                                            </div>
+                                                            <div class="label-description" data-content="OK"></div>
+                                                          </label>
+                                                          <input type="radio" name="stars" id="open244">
+                                                          <label for="open244">
+                                                            <div class="star-stroke">
+                                                              <div class="star-fill"></div>
+                                                            </div>
+                                                            <div class="label-description" data-content="Bad"></div>
+                                                          </label>
+                                                          <input type="radio" name="stars" id="open1">
+                                                          <label for="open1">
+                                                            <div class="star-stroke">
+                                                              <div class="star-fill"></div>
+                                                            </div>
+                                                            
+                                                            <div class="label-description" data-content="Terrible"></div>
+                                                          </label>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <svg  class="svg_star" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <clipPath id="wave">
+                                                          <path d="M11.4438 2.92507L12.9105 5.85841C13.1105 6.26674 13.6438 6.65841 14.0938 6.73341L16.7521 7.17507C18.4521 7.45841 18.8521 8.69174 17.6271 9.90841L15.5605 11.9751C15.2105 12.3251 15.0188 13.0001 15.1271 13.4834L15.7188 16.0417C16.1855 18.0667 15.1105 18.8501 13.3188 17.7917L10.8271 16.3167C10.3771 16.0501 9.63545 16.0501 9.17712 16.3167L6.68545 17.7917C4.90212 18.8501 3.81879 18.0584 4.28545 16.0417L4.87712 13.4834C4.98545 13.0001 4.79379 12.3251 4.44379 11.9751L2.37712 9.90841C1.16045 8.69174 1.55212 7.45841 3.25212 7.17507L5.91045 6.73341C6.35212 6.65841 6.88545 6.26674 7.08545 5.85841L8.55212 2.92507C9.35212 1.33341 10.6521 1.33341 11.4438 2.92507Z" stroke="#6663CF" stroke-linecap="round" stroke-linejoin="round"/>
+                                                      <clipPath>
+                                                  </svg>
+                                            </div>
+                                        </div>
+                                    </li> -->
+                                    
+                                </ul>
+                            </div>
+                                        
+                        </section>
+
+
+
                     </main>
                 </div>
             
@@ -565,6 +774,8 @@
         </div>   
     </div>
     <script src="js/script-course.js"></script>
+    <script src="js/script-course-page.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+</html>
 </html>
