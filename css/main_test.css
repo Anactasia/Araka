@@ -17,12 +17,12 @@
  
 
  body {
-    width: 100%;
+    max-width: 1600px;
     height: 100%;
     margin: 0 auto;
     background-color: var(--color-violet);
     padding: 0px;
-    margin: 0;
+    margin: 0 auto;
 
  }
 
@@ -361,6 +361,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #F8F9FC;
+    justify-content: space-between;
     margin-top: 58px;
     min-height: 100%;
     /* border-radius: 20px 20px 20px 20px; */
@@ -3347,6 +3348,11 @@ position: absolute;
     width: 100%;
 }
 
+.answer-fqa1{
+    margin: 0;
+    padding: 25px 25px;
+}
+
 .form-check-input:checked {
     background-color: #5955B3;
     border-color: #5955B3;
@@ -3364,3 +3370,48 @@ position: absolute;
 .adress-p{
     margin-left:5px;
 }
+
+.main_part1{
+    height: auto;
+}
+
+.cards-link{
+    margin-bottom: 30px;
+}
+
+.main-inf-exam{
+    display: none;
+}
+
+.main-inf-exam.section-active{
+    display: inherit;
+}
+
+.ntk-inf-exam{
+    display: none;
+}
+
+.ntk-inf-exam.section-active{
+    display: inherit;
+}
+
+.prc-inf-exam{
+    display: none;
+}
+
+.prc-inf-exam.section-active{
+    display: inherit;
+}
+
+.btn_course_close1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    display: none;
+  }
+
+.btn_course_close1.section-active{
+    display: inherit;
+  }
