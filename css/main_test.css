@@ -3420,7 +3420,7 @@ position: absolute;
     opacity: 0.5;
    }
 .main_part_cards1{
-    width: 100%;
+    width: 100% !important;
 }
 
 

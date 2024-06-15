@@ -1,8 +1,8 @@
 .main_part_cards1{
-    margin: 0 auto;
+    margin: 0 ;
     margin-bottom: 40px;
     margin-top: 0;
-    max-width: 753px;
+    width: 100%;
     @media(min-width: 1700px) {
         width: 100%;
         max-width: 100%;
