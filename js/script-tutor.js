@@ -968,13 +968,13 @@ function russian(){
 	document.getElementById('language12')
     .src="img/ru-lang.svg";
 	document.getElementById('imageTutors1')
-    .src="img/tutor_slider/slaid1-rus.svg";
+    .srcset="img/tutor_slider/slaid1-rus.svg";
 	document.getElementById('imageTutors2')
-    .src="img/tutor_slider/slaid2-rus.svg";
+    .srcset="img/tutor_slider/slaid2-rus.svg";
 	document.getElementById('imageTutors3')
-    .src="img/tutor_slider/slaid3-rus.svg";
+    .srcset="img/tutor_slider/slaid3-rus.svg";
 	document.getElementById('imageTutors4')
-    .src="img/tutor_slider/slaid4-rus.svg";
+    .srcset="img/tutor_slider/slaid4-rus.svg";
   }
 
   function english(){
@@ -983,13 +983,22 @@ function russian(){
 	document.getElementById('language12')
     .src="img/en-lang.svg";
 	document.getElementById('imageTutors1')
-    .src="img/tutor_slider/slaid1-eng.svg";
+    .srcset="img/tutor_slider/slaid1-eng.svg";
 	document.getElementById('imageTutors2')
-    .src="img/tutor_slider/slaid2-eng.svg";
+    .srcset="img/tutor_slider/slaid2-eng.svg";
 	document.getElementById('imageTutors3')
-    .src="img/tutor_slider/slaid3-eng.svg";
+    .srcset="img/tutor_slider/slaid3-eng.svg";
 	document.getElementById('imageTutors4')
-    .src="img/tutor_slider/slaid4-eng.svg";
+    .srcset="img/tutor_slider/slaid4-eng.svg";
+
+	document.getElementById('imageTutors1-sm')
+    .src="img/tutor_slider/eng/tutor_slaid_mini_1.svg";
+	document.getElementById('imageTutors2-sm')
+    .src="img/tutor_slider/eng/tutor_slaid_mini_2.svg";
+	document.getElementById('imageTutors3-sm')
+    .src="img/tutor_slider/eng/tutor_slaid_mini_3.svg";
+	document.getElementById('imageTutors4-sm')
+    .src="img/tutor_slider/eng/tutor_slaid_mini_4.svg";
   }
 
   function chinese(){
@@ -998,13 +1007,22 @@ function russian(){
 	document.getElementById('language12')
     .src="img/ch-lang.svg";
 	document.getElementById('imageTutors1')
-    .src="img/tutor_slider/slaid1-ch.svg";
+    .srcset="img/tutor_slider/slaid1-ch.svg";
 	document.getElementById('imageTutors2')
-    .src="img/tutor_slider/slaid2-ch.svg";
+    .srcset="img/tutor_slider/slaid2-ch.svg";
 	document.getElementById('imageTutors3')
-    .src="img/tutor_slider/slaid3-ch.svg";
+    .srcset="img/tutor_slider/slaid3-ch.svg";
 	document.getElementById('imageTutors4')
-    .src="img/tutor_slider/slaid4-ch.svg";
+    .srcset="img/tutor_slider/slaid4-ch.svg";
+
+	document.getElementById('imageTutors1-sm')
+    .src="img/tutor_slider/ch/tutor_slaid_mini_1.svg";
+	document.getElementById('imageTutors2-sm')
+    .src="img/tutor_slider/ch/tutor_slaid_mini_2.svg";
+	document.getElementById('imageTutors3-sm')
+    .src="img/tutor_slider/ch/tutor_slaid_mini_3.svg";
+	document.getElementById('imageTutors4-sm')
+    .src="img/tutor_slider/ch/tutor_slaid_mini_4.svg";
   }
 
   function arabian(){
@@ -1013,11 +1031,20 @@ function russian(){
 	document.getElementById('language12')
     .src="img/ar-lang.svg";
 	document.getElementById('imageTutors1')
-    .src="img/tutor_slider/slaid1-ar.svg";
+    .srcset="img/tutor_slider/slaid1-ar.svg";
 	document.getElementById('imageTutors2')
-    .src="img/tutor_slider/slaid2-ar.svg";
+    .srcset="img/tutor_slider/slaid2-ar.svg";
 	document.getElementById('imageTutors3')
-    .src="img/tutor_slider/slaid3-ar.svg";
+    .srcset="img/tutor_slider/slaid3-ar.svg";
 	document.getElementById('imageTutors4')
-    .src="img/tutor_slider/slaid4-ar.svg";
+    .srcset="img/tutor_slider/slaid4-ar.svg";
+
+	document.getElementById('imageTutors1-sm')
+    .src="img/tutor_slider/ar/tutor_slaid_mini_1.svg";
+	document.getElementById('imageTutors2-sm')
+    .src="img/tutor_slider/ar/tutor_slaid_mini_2.svg";
+	document.getElementById('imageTutors3-sm')
+    .src="img/tutor_slider/ar/tutor_slaid_mini_3.svg";
+	document.getElementById('imageTutors4-sm')
+    .src="img/tutor_slider/ar/tutor_slaid_mini_4.svg";
   }

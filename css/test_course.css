@@ -190,18 +190,22 @@
   height: 100%;
   border: 3px solid #d2c1fd;
   border-radius: 6px;
+  width: 97%;
 }
 
-.card-course-openedu11 a{
+.link_course{
+  width: 40%;
   margin: 0 ;
   padding: 0;
   border-radius: 6px;
+  text-decoration: none;
 }
 
-.card-course-openedu11 a:hover{
+.link_course:hover{
   background-color: #DEC6FA;
   margin: 0;
   padding: 0;
+  text-decoration: underline;
 }
 
 .ochenka p{
@@ -281,4 +285,9 @@
   border: none;
   background: none;
   display: inherit;
+}
+
+.big_inf{
+  margin: 0 !important;
+  padding: 0 !important;
 }
