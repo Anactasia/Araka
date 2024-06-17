@@ -705,23 +705,123 @@ const courses = {
 		ch:"新闻",
 		ar: "الأخبار",
 	},
-	"news-h": {
-		ru: "IT-пикник уже в следующую субботу!",
-		en: "The IT picnic is already next Saturday!",
-		ch: "IT野餐已经是下周六了！",
-		ar: "نزهة تكنولوجيا المعلومات هي بالفعل يوم السبت المقبل!",
+	"news-h1": {
+		ru: "Изменились правила НТК!",
+		en: "The rules of Independent Test Control have changed!",
+		ch:"进行独立测试控制的规则已经改变！",
+		ar: "لقد تغيرت قواعد إجراء التحكم المستقل في الاختبار!",
 	},
-	"news-p": {
-		ru: "Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...",
-		en: "Placeholder text is commonly used in the graphic, print, and publishing industries to preview a layout...",
-		ch: "占位符文本通常用于图形、印刷和出版行业来预览布局。..",
-		ar: "يستخدم نص العنصر النائب بشكل شائع في صناعات الرسم والطباعة والنشر لمعاينة التخطيط...",
+	"news-h2": {
+		ru: "Проблемы с приложением ITMOproctor",
+		en: "Problems with the ITMOproctor application",
+		ch:"ITMOproctor应用程序的问题",
+		ar: "مشاكل مع تطبيق إيتموبروكتور",
 	},
-	"next": {
-		ru: "Далее",
-		en: "Read more",
-		ch: "进一步",
-		ar: "إقرأ المزيد",
+	"news-h3": {
+		ru: "C 10 июня проходит сдача по онлайн-курсам:",
+		en: "Since June 10, the online courses are being handed over:",
+		ch:"自6月10以来，在线课程正在移交:",
+		ar: "منذ 10 يونيو ، يتم تسليم الدورات عبر الإنترنت:",
+	},
+	"news-p1": {
+		ru: "Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)",
+		en: "Now it is possible to pass the ITC only in Mozilla Firefox (latest version)",
+		ch:"现在可以只在Mozilla Firefox（最新版本）中通过NTC",
+		ar: "الآن يمكنك أن تأخذ فقط المجلس الوطني الانتقالي في موزيلا فايرفوكس (أحدث إصدار)",
+	},
+	"news-but": {
+		ru: "Подробнее...",
+		en: "In more detail...",
+		ch:"更详细地说。..",
+		ar: "بمزيد من التفصيل...",
+	},
+	"news-p2": {
+		ru: "Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.Разработчики работают над устранением проблемы.",
+		en: "Anyone who fails the exam has the right to contact openedu@urfu.ru for an additional attempt.The developers are working to fix the problem.",
+		ch:"任何未通过考试的人都有权联系openedu@urfu.ru 为一个额外的尝试。开发人员正在努力解决这个问题。",
+		ar: "أي شخص يفشل في الامتحان لديه الحق في الاتصال openedu@urfu.ru لمحاولة إضافية.يعمل المطورون على حل المشكلة.",
+	},
+	"next-p31": {
+		ru: "— Философия;",
+		en: "— Philosophy;",
+		ch:"-哲学;",
+		ar: "- فلسفة;",
+	},
+	
+	"next-p32": {
+		ru: " — Основы проектной деятельности;",
+		en: "— Fundamentals of project activity;",
+		ch:"-项目活动的基础;",
+		ar: "- أساسيات نشاط المشروع;",
+	},
+	
+	"next-p33": {
+		ru: "   — История России;",
+		en: "— History of Russia;",
+		ch:"-俄罗斯历史;",
+		ar: "- تاريخ روسيا;",
+	},
+	"h": {
+		ru: " Курсы на Openedu",
+		en: "Courses on Openedu",
+		ch:"开放大学课程",
+		ar: "دورات في أوبينيدو",
+	},
+	
+	"next-p34": {
+		ru: "  — Основы педагогической деятельности;",
+		en: "— Fundamentals of pedagogical activity;",
+		ch:"-教学活动的基础;",
+		ar: "- أساسيات النشاط التربوي;",
+	},
+	
+	"next-p35": {
+		ru: "  — Теория вероятности и математическая статистика для инженеров;",
+		en: "— Probability theory and mathematical statistics for engineers;",
+		ch:"-工程师概率论和数理统计;",
+		ar: "- نظرية الاحتمالات والإحصاء الرياضي للمهندسين;",
+	},
+	
+	"next-p36": {
+		ru: "    — Основы экономической эффективности производства;",
+		en: "— Fundamentals of economic efficiency of production;",
+		ch:"-生产经济效益的基本要素;",
+		ar: "- أساسيات الكفاءة الاقتصادية للإنتاج;",
+	},
+	
+	"next-p37": {
+		ru: "   — Инженерная механика;",
+		en: "— Engineering mechanics;",
+		ch:"-工程力学;",
+		ar: "- الميكانيكا الهندسية;",
+	},
+	
+	"next-p38": {
+		ru: "   — Основы архитектуры и строительных конструкций;",
+		en: "— Fundamentals of architecture and building structures;",
+		ch:"-建筑和建筑结构的基础知识;",
+		ar: "- أساسيات العمارة وهياكل البناء;",
+	},
+	
+	"next-p39": {
+		ru: "   — Начертательная геометрия и инженерная графика;",
+		en: "— Descriptive geometry and engineering graphics;",
+		ch:"-描述性几何和工程图形;",
+		ar: "- الهندسة الوصفية والرسومات الهندسية;",
+	},
+	
+	"next-p30": {
+		ru: "   — Инфоэтика (очный экзамен, информация на форуме);",
+		en: "— Infoethics (face-to-face exam, information on the forum);",
+		ch:"-Infoethics（面对面考试，论坛上的信息）;",
+		ar: "- أخلاقيات المعلومات (امتحان وجها لوجه ، معلومات عن المنتدى);",
+	},
+	
+	"next-p301": {
+		ru: "  — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).",
+		en: "— HR policy and HR audit of the organization (face-to-face exam, information on the forum).",
+		ch:"-组织的人事政策和人事审计（面对面审查，论坛上的信息）。",
+		ar: "- سياسة شؤون الموظفين ومراجعة شؤون الموظفين في المنظمة (الفحص وجها لوجه ، معلومات عن المنتدى).",
 	},
 	"logo": {
 		ru: "© Группа “Арака” 2024",
@@ -734,6 +834,30 @@ const courses = {
 		en: "A little bit about the courses",
 		ch: "关于课程的一些信息",
 		ar: "قليلا عن الدورات",
+	},
+	"course1": {
+		ru: "Платформа Openedu",
+		en: "The Openedu platform",
+		ch: "开放式平台",
+		ar: "منصة أوبينيدو",
+	},
+	"course2": {
+		ru: "Платформа Exam",
+		en: "Exam Platform",
+		ch: "考试平台",
+		ar: "منصة الامتحان",
+	},
+	"course3": {
+		ru: "Платформа Ulearn",
+		en: "The Ulearn platform",
+		ch: "Ulearn平台",
+		ar: "منصة أولرن",
+	},
+	"course4": {
+		ru: "Платформа Elearn",
+		en: "Elearn Platform",
+		ch: "电子教学平台",
+		ar: "منصة التعلم الإلكتروني",
 	},
 	"course-tests": {
 		ru: "Курсы и тесты",
@@ -765,7 +889,402 @@ const courses = {
 		ch: "课程Elearn.urfu.ru",
 		ar: "دورات في Elearn.urfu.ru",
 	},
-	
+	"hr": {
+		ru: "Курсы на Elearn.urfu.ru",
+		en: "Courses on Elearn.urfu.ru",
+		ch: "课程Elearn.urfu.ru",
+		ar: "دورات في Elearn.urfu.ru",
+	},
+	"hr1": {
+		ru: "Основы российской государственности",
+		en: "The foundations of Russian statehood",
+		ch: "俄罗斯建国的基础",
+		ar:"أسس الدولة الروسية",
+	},
+	"hr2": {
+		ru: "Длительность курса - 1 семестр",
+		en: "The duration of the course is 1 semester",
+		ch: "课程持续时间为1学期",
+		ar:"مدة الدورة هي 1 فصل دراسي",
+	},
+	"hr3": {
+		ru: "Курс от: УрФУ",
+		en: "Course from: UrFU",
+		ch: "课程来源：UrFU",
+		ar: "دورة من: أورفو",
+	},
+	"hr4": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"hr5": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"hr6": {
+		ru: "Подробнее: много текста в лекционных материалах",
+		en: "Read more: there is a lot of text in the lecture materials",
+		ch: "阅读更多：讲座资料中有很多文字",
+		ar:"اقرأ المزيد: هناك الكثير من النصوص في مواد المحاضرة",
+	},
+	"hp": {
+		ru: "Курсы на Ulearn.me",
+		en: "Courses on Ulearn.me",
+		ch: "有关课程Ulearn.me",
+		ar: "دورات في ULearn.me",
+	},
+	"hp1": {
+		ru: "Основы программирования на примере C#. Часть 1",
+		en: "The basics of programming using the example of C#. Part 1",
+		ch: "使用C＃示例编程的基础知识。 第一部分",
+		ar:"أساسيات البرمجة باستخدام مثال ج#. الجزء 1",
+	},
+	"hp11": {
+		ru: "Длительность курса - 1 семестр",
+		en: "The duration of the course is 1 semester",
+		ch: "课程持续时间为1学期",
+		ar:"مدة الدورة هي 1 فصل دراسي",
+	},
+	"hp12": {
+		ru: 'Курс от: "Контур"',
+		en: 'Course from: "Contour"',
+		ch: '课程来源："轮廓"',
+		ar:'بالطبع من:"كونتور"',
+	},
+	"hp13": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"hp14": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"hp15": {
+		ru: "Подробнее:",
+		en: "More detailed:",
+		ch: "更详细:",
+		ar:"أكثر تفصيلا:",
+	},
+	"hp16": {
+		ru: "1. Важно внимательно смотреть лекции, чтобы успешно выполнить практики",
+		en: "1. It is important to watch the lectures carefully in order to successfully complete the practice",
+		ch: "1. 仔细观看讲座是很重要的，这样才能成功地完成练习",
+		ar:"1. من المهم مشاهدة المحاضرات بعناية من أجل إكمال الممارسة بنجاح",
+	},
+	"hp17": {
+		ru: "2. Начинающим очень тяжело выполнять практики без консультации с преподавателем",
+		en: "2. It is very difficult for beginners to practice without consulting a teacher",
+		ch: "2. 初学者在没有咨询老师的情况下练习是非常困难的",
+		ar:"2. من الصعب جدا على المبتدئين التدرب دون استشارة المعلم",
+	},
+	"hp18": {
+		ru: "3. На прохождение курса дано мало времени",
+		en: "3. Little time is given to complete the course",
+		ch: "3. 完成课程的时间很少",
+		ar:"3. يتم إعطاء القليل من الوقت لإكمال الدورة",
+	},
+	"hp2": {
+		ru: "Оценка сложности алгоритмов",
+		en: "Evaluation of the complexity of algorithms",
+		ch: "算法复杂度的评估",
+		ar:"تقييم تعقيد الخوارزميات",
+	},
+	"hp21": {
+		ru: "Длительность курса - 1 семестр",
+		en: "The duration of the course is 1 semester",
+		ch: "课程持续时间为1学期",
+		ar:"مدة الدورة هي 1 فصل دراسي",
+	},
+	"hp22": {
+		ru: 'Курс от: "Контур"',
+		en: 'Course from: "Contour"',
+		ch: '课程来源："轮廓"',
+		ar:'بالطبع من:"كونتور"',
+	},
+	"hp23": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"hp24": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"hp25": {
+		ru: "Время прохождения: 2 часа",
+		en: "Passage time: 2 hours",
+		ch: "通过时间：2小时",
+		ar:"مرور الوقت: 2 ساعة",
+	},
+	"hh": {
+		ru: "Курсы на Exam",
+		en: "Exam Courses",
+		ch: "考试课程",
+		ar: "دورات الامتحان",
+	},
+	"hh1": {
+		ru: "Английский язык",
+		en: "English language",
+		ch: "英国语文科",
+		ar: "اللغة الإنجليزية",
+	},
+	"hh2": {
+		ru: "Длительность курса - 1 семестр",
+		en: "The duration of the course is 1 semester",
+		ch: "课程持续时间为1学期",
+		ar: "مدة الدورة هي 1 فصل دراسي",
+	},
+	"hh3": {
+		ru: "Курс от: УРФУ",
+		en: "Course from: URFU",
+		ch: "课程来源：URFU",
+		ar: "دورة من: أورفو",
+	},
+	"hh4": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"hh5": {
+		ru: "Запись на курс: осуществляется сотрудниками Exam",
+		en: "Registration for the course: carried out by Exam staff",
+		ch: "课程注册：由考试人员进行",
+		ar: "التسجيل للدورة: يقوم بها طاقم الامتحان",
+	},
+	"h1": {
+		ru: "Введение в цифровую культуру",
+		en: "Introduction to Digital Culture",
+		ch: "数字文化简介",
+		ar: "مقدمة في الثقافة الرقمية",
+	},
+	"h2": {
+		ru: "Информатика для инженеров и исследователей",
+		en: "Computer Science for engineers and researchers",
+		ch: "面向工程师和研究人员的计算机科学",
+		ar: "علوم الكمبيوتر للمهندسين والباحثين",
+	},
+	"h3": {
+		ru: "Информационные технологии и сервисы",
+		en: "Information technology and services",
+		ch: "资讯科技及服务",
+		ar: "تكنولوجيا المعلومات والخدمات",
+	},
+	"h4": {
+		ru: "История России",
+		en: "The history of Russia",
+		ch: "俄罗斯的历史",
+		ar: "تاريخ روسيا",
+	},
+	"h5": {
+		ru: "История российской цивилизации",
+		en: "The history of Russian civilization",
+		ch: "俄罗斯文明史",
+		ar: "تاريخ الحضارة الروسية",
+	},
+	"h6": {
+		ru: "Основы проектной деятельности(Повышенный уровень)",
+		en: "Fundamentals of project activity (Advanced level)",
+		ch: "项目活动基础（高级）",
+		ar: "أساسيات نشاط المشروع (المستوى المتقدم)",
+	},
+	"h7": {
+		ru: "Основы проектной деятельности",
+		en: "Fundamentals of project activity",
+		ch: "项目活动的基本原理",
+		ar: "أساسيات نشاط المشروع",
+	},
+	"p11": {
+		ru: "Длительность курса - 29 мая - 18 декабря 2023 г.",
+		en: "The duration of the course is May 29 - December 18, 2023.",
+		ch: "课程时间为2023年5月29日至12月18日。",
+		ar: "مدة الدورة هي 29 مايو-18 ديسمبر 2023.",
+	},
+	"p12": {
+		ru: "Курс от: ИТМО",
+		en: "Course from: ITMO",
+		ch: "课程来源：ITMO",
+		ar: "دورة من: إيتمو",
+	},
+	"p13": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p14": {
+		ru: "Запись на курс: осуществляется сотрудниками ИТМО",
+		en: "Registration for the course: carried out by ITMO staff",
+		ch: "课程注册：由ITMO工作人员进行",
+		ar: "التسجيل للدورة: يقوم بها موظفو إيتمو",
+	},
+	"p21": {
+		ru: "Длительность курса - 11 сентября 2023 - 21 января 2024 г.",
+		en: "The duration of the course is September 11, 2023 - January 21, 2024.",
+		ch: "课程时间为2023年9月11日-2024年1月21日。",
+		ar: "مدة الدورة هي 11 سبتمبر 2023 - 21 يناير 2024.",
+	},
+	"p22": {
+		ru: "Курс от: МИСиС",
+		en: "Course from: MISIS",
+		ch: "课程来源：MISIS",
+		ar: "دورة من: ميسيس",
+	},
+	"p23": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p24": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"p31": {
+		ru: "Длительность курса - 28 сентября 2023 - 4 февраля 2024 г.",
+		en: "The duration of the course is September 28, 2023 - February 4, 2024.",
+		ch: "课程时间为2023年9月28日-2024年2月4日。",
+		ar: "مدة الدورة هي 28 سبتمبر 2023 - 4 فبراير 2024.",
+	},
+	"p32": {
+		ru: "Курс от: УрФУ",
+		en: "Course from: UrFU",
+		ch: "课程来源：UrFU",
+		ar: "دورة من: أورفو",
+	},
+	"p33": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p34": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"p35": {
+		ru: "Подробнее: текстовый материал бывает более информативным, чем видео",
+		en: "Read more: text material can be more informative than video",
+		ch: "阅读更多：文本材料可以比视频更具信息性",
+		ar: "اقرأ المزيد: يمكن أن تكون المواد النصية أكثر إفادة من الفيديو",
+	},
+	"p41": {
+		ru: "Длительность курса - 28 сентября 2023 - 4 февраля 2024г.",
+		en: "The duration of the course is September 28, 2023 - February 4, 2024.",
+		ch: "课程时间为2023年9月28日-2024年2月4日。",
+		ar: "مدة الدورة هي 28 سبتمبر 2023 - 4 فبراير 2024.",
+	},
+	"p42": {
+		ru: "Курс от: УрФУ",
+		en: "Course from: UrFU",
+		ch: "课程来源：UrFU",
+		ar: "دورة من: أورفو",
+	},
+	"p43": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p44": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"p51": {
+		ru: "Длительность курса - 18 сентября 2023 - 4 февраля 2024 г.",
+		en: "The duration of the course is September 18, 2023 - February 4, 2024.",
+		ch: "课程时间为2023年9月18日-2024年2月4日。",
+		ar: "مدة الدورة هي 18 سبتمبر 2023 - 4 فبراير 2024.",
+	},
+	"p52": {
+		ru: "Курс от: УрФУ",
+		en: "Course from: UrFU",
+		ch: "课程来源：UrFU",
+		ar: "دورة من: أورفو",
+	},
+	"p53": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
+	"p54": {
+		ru: "Подробнее: много текста в лекционных материалах",
+		en: "Read more: there is a lot of text in the lecture materials",
+		ch: "阅读更多：讲座资料中有很多文字",
+		ar: "اقرأ المزيد: هناك الكثير من النصوص في مواد المحاضرة",
+	},
+	"p55": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p61": {
+		ru: "Длительность курса - 11 сентября 2023 - 28 января 2024г.",
+		en: "The duration of the course is September 11, 2023 - January 28, 2024.",
+		ch: "课程时间为2023年9月11日-2024年1月28日。",
+		ar: "مدة الدورة هي 11 سبتمبر 2023 - 28 يناير 2024.",
+	},
+	"p62": {
+		ru: "Курс от: Политех",
+		en: "Course from: Polytech",
+		ch: "课程来源：Polytech.0000",
+		ar: "دورة من: بوليتيك",
+	},
+	"p63": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p64": {
+		ru: "Запись на курс: осуществляется сотрудниками Политеха",
+		en: "Registration for the course: carried out by the staff of the Polytechnic",
+		ch: "课程注册：由理工学院的工作人员进行",
+		ar: "التسجيل للدورة: يقوم بها موظفو البوليتكنيك",
+	},
+	"p71": {
+		ru: "Длительность курса - 4 сентября 2023 - 4 февраля 2024г.",
+		en: "The duration of the course is September 4, 2023 - February 4, 2024.",
+		ch: "课程持续时间为2023年9月4日-2024年2月4日。",
+		ar: "مدة الدورة هي 4 سبتمبر 2023 - 4 فبراير 2024.",
+	},
+	"p72": {
+		ru: "Курс от: УрФУ",
+		en: "Course from: UrFU",
+		ch: "课程来源：UrFU",
+		ar: "دورة من: أورفو",
+	},
+	"p73": {
+		ru: "Сложность курса",
+		en: "The complexity of the course",
+		ch: "课程的复杂性",
+		ar: "تعقيد الدورة",
+	},
+	"p74": {
+		ru: "Запись на курс: самостоятельно",
+		en: "Registration for the course: on your own",
+		ch: "课程报名：自行报名",
+		ar: "التسجيل في الدورة: بنفسك",
+	},
 };
 const exam = {
 	"home_page": {
@@ -1011,6 +1530,8 @@ function chinese(){
     .src="img/course/ch/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
     .src="img/course/ch/elearn_slaid_3.svg";
+	document.getElementById('btn')
+    .src="img/course/ch/btn_course_close.svg";
 }
   function english(){
 	document.getElementById('logotype')
@@ -1063,6 +1584,8 @@ function chinese(){
     .src="img/course/eng/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
     .src="img/course/eng/elearn_slaid_3.svg";
+	document.getElementById('btn')
+    .src="img/course/eng/btn_course_close.svg";
 
   }
 
@@ -1117,6 +1640,8 @@ function chinese(){
     .src="img/course/elearn/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
     .src="img/course/elearn/elearn_slaid_3.svg";
+	document.getElementById('btn')
+    .src="img/course/btn_course_close (1).svg";
   }
 
   function arabian(){
@@ -1170,5 +1695,7 @@ function chinese(){
     .src="img/course/ar/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
     .src="img/course/ar/elearn_slaid_3.svg";
+	document.getElementById('btn')
+    .src="img/course/ar/btn_course_close.svg";
   }
   

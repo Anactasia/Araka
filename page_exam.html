@@ -234,13 +234,13 @@
 
                     <section>
                         <button id="close1" class="btn_course_close1">
-                            <img src="img/exam/btn_exam_close (1).svg"><botton>
+                            <img src="img/exam/btn_exam_close (1).svg" id="btn"><botton>
                     </section>
 
                     <section class="ntk-inf-exam">
                         <div class="card shadow card-fqa ">
                             <div class="card-header header-card-fqa">
-                                <h2>НТК</h2>
+                                <h2  data-lang="ntc2">НТК</h2>
                             </div>
                             <div class="accordion-body answer-fqa1">
                                 <div class="accordion-body answer-fqa">
@@ -278,7 +278,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                                            aria-expanded="true" aria-controls="collapse1">
+                                            aria-expanded="true" aria-controls="collapse1" data-lang="nh1">
                                             Технические требования
                                         </button>
                                     </h2>
@@ -302,7 +302,7 @@
                                 <div class="accordion-item item-fqa" id="ntk">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" data-lang="nh2">
                                             Правила проведения НТК 
                                         </button>
                                     </h2>
@@ -344,7 +344,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" data-lang="nh3">
                                             Идентификация личности студента
                                         </button>
                                     </h2>
@@ -370,7 +370,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" data-lang="nh4">
                                             Результаты
                                         </button>
                                     </h2>
@@ -404,7 +404,7 @@
                     <section class="prc-inf-exam">
                         <div class="card shadow card-fqa ">
                             <div class="card-header header-card-fqa">
-                                <h2>Прокторинг</h2>
+                                <h2 data-lang="proct2">Прокторинг</h2>
                             </div>
                             <div class="accordion-body answer-fqa1">
                                 <div class="accordion-body answer-fqa">
@@ -427,7 +427,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                                            aria-expanded="true" aria-controls="collapse1">
+                                            aria-expanded="true" aria-controls="collapse1" data-lang="ph1">
                                             Инструкция по использованию ITMOproctor
                                         </button>
                                     </h2>
@@ -539,7 +539,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" data-lang="ph2">
                                             ITMOproctor: инструкция по регистрации на экзамен
                                         </button>
                                     </h2>
@@ -598,7 +598,7 @@
                                 <div class="accordion-item item-fqa">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" data-lang="ph3">
                                             ITMOproctor: Прохождение экзамена в асинхронном режиме
                                         </button>
                                     </h2>
@@ -629,14 +629,14 @@
                     <section class="main-inf-exam">
                         <div class="card shadow cards-course">
                             <div class="card-header header-cards-course">
-                                <h2 data-lang="exam">Пересдачи</h2>
+                                <h2 data-lang="exam1">Пересдачи</h2>
                             </div>
                             <ul class="body-cards-course">
                                 <li>
                                     <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                                         <div class="card-course">
                                             <img src="img/course/openedu/openedu_card.png">
-                                            <p data-lang="proct">Прокторинг</p>
+                                            <p data-lang="proct1">Прокторинг</p>
                                         </div>
                                     </button>
                                 </li>
@@ -647,7 +647,7 @@
                                     <button type="button" class="col-12 col-s-6 card shadow botton-course" data-bs-toggle="modal" data-bs-target="#exampleModal5">
                                         <div class="card-course">
                                             <img src="img/course/exam/exam_card.png">
-                                            <p  data-lang="ntc">НТК</p>
+                                            <p  data-lang="ntc1">НТК</p>
                                         </div>
                                     </button>
                                 </li>
@@ -683,9 +683,9 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new1.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">Изменились правила НТК!</h6>
-                                    <p data-lang="">Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)</p>
-                                    <a target="_blank" rel="nofollow" href="page_exam.html#ntk" data-lang="">Подробнее...</a>
+                                    <h6 data-lang="news-h1">Изменились правила НТК!</h6>
+                                    <p data-lang="news-p1">Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)</p>
+                                    <a target="_blank" rel="nofollow" href="page_exam.html#ntk" data-lang="news-but">Подробнее...</a>
                                 </div>
     
     
@@ -694,8 +694,8 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new2.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">Проблемы с приложением ITMOproctor</h6>
-                                    <p data-lang="">Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.
+                                    <h6 data-lang="news-h2">Проблемы с приложением ITMOproctor</h6>
+                                    <p data-lang="news-p2">Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.
                                         Разработчики работают над устранением проблемы.</p>
                                 </div>
     
@@ -704,18 +704,18 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new3.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">C 10 июня проходит сдача по онлайн-курсам:</h6>
-                                    <p data-lang="">— Философия;</p>
-                                    <p> — Основы проектной деятельности;</p>
-                                    <p>    — История России;</p>
-                                    <p>    — Основы педагогической деятельности;</p>
-                                    <p>    — Теория вероятности и математическая статистика для инженеров;</p>
-                                    <p>    — Основы экономической эффективности производства;</p>
-                                    <p>    — Инженерная механика;</p>
-                                    <p>    — Основы архитектуры и строительных конструкций;</p>
-                                    <p>    — Начертательная геометрия и инженерная графика;</p>
-                                    <p>    — Инфоэтика (очный экзамен, информация на форуме);</p>
-                                    <p>    — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).</p>
+                                    <h6 data-lang="news-h3">C 10 июня проходит сдача по онлайн-курсам:</h6>
+                                    <p data-lang="next-p31">— Философия;</p>
+                                    <p data-lang="next-p32"> — Основы проектной деятельности;</p>
+                                    <p data-lang="next-p33">    — История России;</p>
+                                    <p data-lang="next-p34">    — Основы педагогической деятельности;</p>
+                                    <p data-lang="next-p35">    — Теория вероятности и математическая статистика для инженеров;</p>
+                                    <p data-lang="next-p36">    — Основы экономической эффективности производства;</p>
+                                    <p data-lang="next-p37">    — Инженерная механика;</p>
+                                    <p data-lang="next-p38">    — Основы архитектуры и строительных конструкций;</p>
+                                    <p data-lang="next-p39">    — Начертательная геометрия и инженерная графика;</p>
+                                    <p data-lang="next-p30">    — Инфоэтика (очный экзамен, информация на форуме);</p>
+                                    <p data-lang="next-p301">    — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).</p>
                                 </div>
     
                             </div>

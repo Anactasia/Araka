@@ -23,7 +23,7 @@
             <!--Логотип-->
             <a class="navbar-brand p-0 me-lg-auto" href="page_main.html" aria-label="LOGO">
                 <picture class="d-block my-1 logo">
-                    <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class="">
+                    <source media="(min-width: 991.98px)" srcset="img/logo_with_text_ru_violet_1.svg" class="" id="logotype">
                     <source media="(min-width: 420px)" srcset="img/logo_with_text_ru.svg">
                     <img src="img/logo_without_text.svg" class="clear">
                 </picture>
@@ -207,47 +207,47 @@
                         <section>
                             <div class="card shadow card-fqa ">
                                 <div class="card-header header-card-fqa">
-                                    <h2>Часто задаваемые вопросы</h2>
+                                    <h2 data-lang="card-h">Часто задаваемые вопросы</h2>
                                 </div>
                                 <div class="accordion body-card-fqa" id="accordionExample">
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                                                aria-expanded="true" aria-controls="collapse1">
+                                                aria-expanded="true" aria-controls="collapse1" data-lang="q1">
                                                 Почему не работает модеус?
                                             </button>
                                         </h2>
                                         <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p>В случае, если у вас отсутствует доступ в систему при наличии доступа в ЛК, обращаемся в поддержку!
-                                                Электронная почта службы поддержки: <a href="mailto:urfu@modeus.org">urfu@modeus.org</a></p>
+                                                <p  data-lang="p1">В случае, если у вас отсутствует доступ в систему при наличии доступа в ЛК, обращаемся в поддержку!
+                                                Электронная почта службы поддержки:</p> <a href="mailto:urfu@modeus.org">urfu@modeus.org</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" data-lang="q2">
                                                 Какой язык программирования на 1 курсе? 
                                             </button>
                                         </h2>
                                         <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p>Весь первый курс основным языком студентов является <b><span class="violet-text">C#</span></b>.</p> 
-                                                <p>Но не исключена возможность выбрать дополнительные онлайн-курсы по <span class="violet-text">Python</span> и <span class="violet-text">Web-программированию</span>.
+                                                <div class="c-sharp"><p data-lang="p21">Весь первый курс основным языком студентов является</p>  <b><span class="violet-text">C#</span></b></div>
+                                                <div class="c-sharp"><p  data-lang="p22">Но не исключена возможность выбрать дополнительные онлайн-курсы по</p> <span class="violet-text" data-lang="p221">Python и Web-программированию</span><p>.</p></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"  data-lang="q3">
                                                 Языки программирования на 2 курсе ИОТ, Урфу 09 направление?
                                             </button>
                                         </h2>
                                         <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p>На <span class="violet-text">2 курсе</span> студенты могут <span class="violet-text">выбрать</span> один из современных языков программирования:</p>
+                                                <div class="c-sharp"><p data-lang="p31">На</p> <span class="violet-text two-cours" data-lang="p32">2 курсе</span> <p data-lang="p33">студенты могут выбрать один из современных языков программирования:</p></div>
                                                 <p>Python, Java, TypeScript, C#,  JavaScript, PHP, C/C++</p>
                                             </div>
                                         </div>
@@ -255,7 +255,7 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" data-lang="q4">
                                                 Как закрыть долг? 
                                             </button>
                                         </h2>
@@ -280,7 +280,7 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                                data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"  data-lang="q5">
                                                 Информация по консультациям и пересдачам студентов ИРИТ-РТФ 
                                             </button>
                                         </h2>
@@ -294,34 +294,34 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                                Брс
-                                            </button>
+                                            data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6"  data-lang="q6">
+                                            Брс
+                                        </button>
                                         </h2>
                                         <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <h2>Брс состоит из баллов трех цветов:</h2>
+                                                <h2  data-lang="h61">Брс состоит из баллов трех цветов:</h2>
                                                 <ul>
-                                                    <li><p>Чёрные - первичные</p></li>
-                                                    <li><p>Синие - вторичные</p></li>
-                                                    <li><p>Зеленые - основные</p></li>
+                                                    <li><p data-lang="p61">Чёрные - первичные</p></li>
+                                                    <li><p data-lang="p62">Синие - вторичные</p></li>
+                                                    <li><p data-lang="p63">Зеленые - основные</p></li>
                                                 </ul>
-                                                <p><b>Черные</b> баллы зарабатываются при выполнение заданий по предмету. После этого они пересчитываются с использованием специального коэффициента и превращаются в синие.</p>
-                                                <p><span class="blue-text">Синие</span> баллы объединяются внутри каждого раздела (например, практика, лабораторные работы, лекции), затем снова пересчитываются с использованием коэффициента и становятся зелеными основными баллами.</p> 
-                                                <p><span class="green-text">Зеленые</span> баллы из разных разделов суммируются, чтобы определить итоговый балл.</p>
+                                                <b data-lang="p64">Черные баллы</b> <p data-lang="p641">Зарабатываются при выполнение заданий по предмету. После этого они пересчитываются с использованием специального коэффициента и превращаются в синие.</p>
+                                                <span class="blue-text" data-lang="p65">Синие баллы</span><p data-lang="p651">Объединяются внутри каждого раздела (например, практика, лабораторные работы, лекции), затем снова пересчитываются с использованием коэффициента и становятся зелеными основными баллами.</p> 
+                                                <span class="green-text" data-lang="p66">Зеленые баллы</span><p data-lang="p661">Из разных разделов суммируются, чтобы определить итоговый балл.</p>
                                                     
-                                                <h2>Разбалловка итоговых баллов за предмет в брс:</h2>
+                                                <h2 data-lang="h62">Разбалловка итоговых баллов за предмет в брс:</h2>
                                                 <ul>
-                                                    <li><p>80 - 100 - «Отлично»</p></li>
-                                                    <li><p>60 - 80 - «Хорошо»</p></li>
-                                                    <li><p>40 - 60 - «Удовлетворительно»</p></li>
-                                                    <li><p>0 - 40 - «Неудовлетворительно»</p></li>
+                                                    <li><p data-lang="p67">80 - 100 - «Отлично»</p></li>
+                                                    <li><p data-lang="p68">60 - 80 - «Хорошо»</p></li>
+                                                    <li><p data-lang="p69">40 - 60 - «Удовлетворительно»</p></li>
+                                                    <li><p data-lang="p691">0 - 40 - «Неудовлетворительно»</p></li>
                                                 </ul>
-                                                <h2>Как получить зачет по предмету?</h2>
-                                                <p>Для зачета по дисциплине нужно набрать как <span class="violet-text">минимум 40 баллов</span> с учетом успешно сданной сессией.</p>
+                                                <h2 data-lang="h63">Как получить зачет по предмету?</h2>
+                                                <div class="c-sharp"><p data-lang="p692">Для зачета по дисциплине нужно набрать как</p> <span class="violet-text two-cours" data-lang="p693">минимум 40 баллов</span> <p data-lang="p694">с учетом успешно сданной сессией.</p></div>
 
-                                                <h2>Сколько минимум баллов нужно получить за экзамен/зачет на сессии?</h2>
-                                                <p>Для успешной сдачи зачета или экзамена необходимо набрать как <span class="violet-text">минимум 40 черных баллов</span>.</p>
+                                                <h2 data-lang="h64">Сколько минимум баллов нужно получить за экзамен/зачет на сессии?</h2>
+                                                <div class="c-sharp"><p data-lang="p695">Для успешной сдачи зачета или экзамена необходимо набрать как </p><span class="violet-text" data-lang="p696">минимум 40 черных баллов</span><p>.</p></div>
                                             </div>
                                         </div>
                                     </div>
@@ -329,17 +329,17 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                                data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7"  data-lang="q7">
                                                 Чем отличается программирование Comfort от Sport?
                                             </button>
                                         </h2>
                                         <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p><b><span class="violet-text">Comfort</span></b> - пошаговая помощь и подробное решение задач по курсу. Детальный разбор домашних задач («чтобы всем было понятно») (<span class="violet-text">Коэффициент x1.00</span>)</p>
+                                                <b><span class="violet-text" data-lang="h71">Comfort:</span></b><p data-lang="p71">Пошаговая помощь и подробное решение задач по курсу. Детальный разбор домашних задач («чтобы всем было понятно») (Коэффициент x1.00)</p>
 
-                                                <p><b><span class="violet-text">Sport</span></b> - больше дополнительных задач на алгоритмы и спортивное программирование. Больше дополнительных задач на парах. (<span class="violet-text">Коэффициент x1.25</span>)</p>
+                                                <b><span class="violet-text" data-lang="h72">Sport:</span></b><p data-lang="p72">Больше дополнительных задач на алгоритмы и спортивное программирование. Больше дополнительных задач на парах. (Коэффициент x1.25)</p>
 
-                                                <p>Также в конце семестра полученные баллы за программирование умножаются на коэффициент, что повышает ваш шанс попасть в первую/нулевую волну выбора дисциплин.</p> 
+                                                <p data-lang="p73">Также в конце семестра полученные баллы за программирование умножаются на коэффициент, что повышает ваш шанс попасть в первую/нулевую волну выбора дисциплин.</p> 
                                             </div>
                                         </div>
                                     </div>
@@ -347,15 +347,15 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                                data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8" data-lang="q8">
                                                 Зачем нужно входное тестирование по программирования и что на нем будет?
                                             </button>
                                         </h2>
                                         <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p>Входное тестирование по программированию проходит для того, чтобы распределить студентов по уровням <span class="violet-text">Comfort</span> и <span class="violet-text">Sport</span>, также чтобы было проще определиться с выбором уровня.</p>
-                                                <p>Тестирование состоит из вопросов про себя и решения нескольких небольших задач на чтение и написания кода на языках Python, Pascal, C++ по выбору студента</p>
-                                                <p>После первого семестра по результатам освоения курса есть возможность сменить уровень прохождения.</p>
+                                                <p data-lang="p81">Входное тестирование по программированию проходит для того, чтобы распределить студентов по уровням Comfort и Sport, также чтобы было проще определиться с выбором уровня.</p>
+                                                <p data-lang="p82">Тестирование состоит из вопросов про себя и решения нескольких небольших задач на чтение и написания кода на языках Python, Pascal, C++ по выбору студента</p>
+                                                <p data-lang="p83">После первого семестра по результатам освоения курса есть возможность сменить уровень прохождения.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -363,30 +363,30 @@
                                     <div class="accordion-item item-fqa">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                                data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9" data-lang="q9">
                                                 Как получить автомат по программированию?
                                             </button>
                                         </h2>
                                         <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body answer-fqa">
-                                                <p>Чтобы получить автомат, нужно набрать как минимум <b><span class="violet-text">85+</span></b> баллов по предмету.</p>
-                                                <h2>В остальных случаях : </h2>
+                                                <div class="c-sharp"><p data-lang="p90">Чтобы получить автомат, нужно набрать как минимум</p> <b><span class="violet-text">85+</span></b> <p data-lang="p901">баллов по предмету.</p></div>
+                                                <h2 data-lang="h91">В остальных случаях : </h2>
                                                 <ul>
-                                                    <li><p>Тестирование  - спорная между 2-3 и 3-4</p></li>
-                                                    <li><p>Собеседование - спорная между 4-5</p></li>
+                                                    <li><p data-lang="p911">Тестирование  - спорная между 2-3 и 3-4</p></li>
+                                                    <li><p data-lang="p912">Собеседование - спорная между 4-5</p></li>
                                                 </ul>
-                                                <h2>Твердая оценка (балл за экзамен нельзя изменить)</h2>
+                                                <h2 data-lang="h92">Твердая оценка (балл за экзамен нельзя изменить)</h2>
                                                 <ul>
-                                                    <li><p>85-100% балл за экзамен балл за семестр</p></li>
-                                                    <li><p>65-74% балл за экзамен балл за семестр</p></li>
-                                                    <li><p>45-54% балл за экзамен балл за семестр</p></li>
-                                                    <li><p>0-24% балл за экзамен балл за семестр</p></li>
+                                                    <li><p data-lang="p921">85-100% балл за экзамен балл за семестр</p></li>
+                                                    <li><p data-lang="p922">65-74% балл за экзамен балл за семестр</p></li>
+                                                    <li><p data-lang="p923">45-54% балл за экзамен балл за семестр</p></li>
+                                                    <li><p data-lang="p924">0-24% балл за экзамен балл за семестр</p></li>
                                                 </ul>
-                                                <h2>Спорная оценка (собеседование или тестирование)</h2>
+                                                <h2 data-lang="h93">Спорная оценка (собеседование или тестирование)</h2>
                                                 <ul>
-                                                    <li><p>75-84% собеседование (оценка за экзамен ≥ 60 баллов)</p></li>
-                                                    <li><p>55-64% - компьютерное тестирование (оценка за экзамен ≥ 40 баллов)</p></li>
-                                                    <li><p>25 - 44% - компьютерное тестирование (оценка за экзамен ≥ 20 баллов)</p></li>
+                                                    <li><p data-lang="p931">75-84% собеседование (оценка за экзамен ≥ 60 баллов)</p></li>
+                                                    <li><p data-lang="p932">55-64% - компьютерное тестирование (оценка за экзамен ≥ 40 баллов)</p></li>
+                                                    <li><p data-lang="p933">25 - 44% - компьютерное тестирование (оценка за экзамен ≥ 20 баллов)</p></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -417,9 +417,9 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new1.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">Изменились правила НТК!</h6>
-                                    <p data-lang="">Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)</p>
-                                    <a target="_blank" rel="nofollow" href="page_exam.html#ntk" data-lang="">Подробнее...</a>
+                                    <h6 data-lang="news-h1">Изменились правила НТК!</h6>
+                                    <p data-lang="news-p1">Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)</p>
+                                    <a target="_blank" rel="nofollow" href="page_exam.html#ntk" data-lang="news-but">Подробнее...</a>
                                 </div>
     
     
@@ -428,8 +428,8 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new2.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">Проблемы с приложением ITMOproctor</h6>
-                                    <p data-lang="">Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.
+                                    <h6 data-lang="news-h2">Проблемы с приложением ITMOproctor</h6>
+                                    <p data-lang="news-p2">Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.
                                         Разработчики работают над устранением проблемы.</p>
                                 </div>
     
@@ -438,18 +438,18 @@
                                         <img class="img-fluid mb-4" 
                                             src="img/new3.png" alt="...">
                                     </div>
-                                    <h6 data-lang="">C 10 июня проходит сдача по онлайн-курсам:</h6>
-                                    <p data-lang="">— Философия;</p>
-                                    <p> — Основы проектной деятельности;</p>
-                                    <p>    — История России;</p>
-                                    <p>    — Основы педагогической деятельности;</p>
-                                    <p>    — Теория вероятности и математическая статистика для инженеров;</p>
-                                    <p>    — Основы экономической эффективности производства;</p>
-                                    <p>    — Инженерная механика;</p>
-                                    <p>    — Основы архитектуры и строительных конструкций;</p>
-                                    <p>    — Начертательная геометрия и инженерная графика;</p>
-                                    <p>    — Инфоэтика (очный экзамен, информация на форуме);</p>
-                                    <p>    — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).</p>
+                                    <h6 data-lang="news-h3">C 10 июня проходит сдача по онлайн-курсам:</h6>
+                                    <p data-lang="next-p31">— Философия;</p>
+                                    <p data-lang="next-p32"> — Основы проектной деятельности;</p>
+                                    <p data-lang="next-p33">    — История России;</p>
+                                    <p data-lang="next-p34">    — Основы педагогической деятельности;</p>
+                                    <p data-lang="next-p35">    — Теория вероятности и математическая статистика для инженеров;</p>
+                                    <p data-lang="next-p36">    — Основы экономической эффективности производства;</p>
+                                    <p data-lang="next-p37">    — Инженерная механика;</p>
+                                    <p data-lang="next-p38">    — Основы архитектуры и строительных конструкций;</p>
+                                    <p data-lang="next-p39">    — Начертательная геометрия и инженерная графика;</p>
+                                    <p data-lang="next-p30">    — Инфоэтика (очный экзамен, информация на форуме);</p>
+                                    <p data-lang="next-p301">    — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).</p>
                                 </div>
     
                             </div>

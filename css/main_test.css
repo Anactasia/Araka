@@ -3462,3 +3462,13 @@ position: absolute;
     border: 2px solid #d6cedd;
     border-radius: 5px;
 }
+
+
+.c-sharp{
+    display: flex;
+}
+
+.c-sharp p, .two-cours{
+    margin-right:3px;
+}
+
