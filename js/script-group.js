@@ -1664,7 +1664,20 @@ const FAQ = {
 		ch: "电报频道的链接",
 		ar:"روابط لقنوات تيليجرام",
 	},
+
+	"h3": {
+		ru: "Интерактивная карта УрФУ",
+		en: "UrFU Interactive Map",
+		ch: "UrFU互动地图",
+		ar:"UrFU الخريطة التفاعلية",
+	},
     "p7": {
+		ru: "УрФУ",
+		en: "UrFU",
+		ch: "UrFU",
+		ar:"UrFU",
+	},
+	"p77": {
 		ru: "УрФУ",
 		en: "UrFU",
 		ch: "UrFU",
@@ -1794,6 +1807,10 @@ function chinese(){
     .srcset="img/link_slaid/ch/link_slaid1.svg";
     document.getElementById('img2')
     .srcset="img/link_slaid/ch/link_slaid2.svg";
+	document.getElementById('img1-sm')
+    .src="img/link_slaid/ch/link_slaid_mini_1.svg";
+    document.getElementById('img2-sm')
+    .src="img/link_slaid/ch/link_slaid_mini_2.svg";
 }
   function english(){
 	document.getElementById('logotype')
@@ -1804,6 +1821,10 @@ function chinese(){
     .srcset="img/link_slaid/en/link_slaid1.svg";
     document.getElementById('img2')
     .srcset="img/link_slaid/en/link_slaid2.svg";
+	document.getElementById('img1-sm')
+    .src="img/link_slaid/en/link_slaid_mini_1.svg";
+    document.getElementById('img2-sm')
+    .src="img/link_slaid/en/link_slaid_mini_2.svg";
   }
 
   function russian(){
@@ -1815,6 +1836,10 @@ function chinese(){
     .srcset="img/link_slaid/link_slaid1.svg";
     document.getElementById('img2')
     .srcset="img/link_slaid/link_slaid2.svg";
+	document.getElementById('img1-sm')
+    .src="img/link_slaid/link_slaid_mini_1.svg";
+    document.getElementById('img2-sm')
+    .src="img/link_slaid/link_slaid_mini_2.svg";
   }
   function arabian(){
 	document.getElementById('logotype')
@@ -1825,4 +1850,8 @@ function chinese(){
     .srcset="img/link_slaid/ar/link_slaid1.svg";
     document.getElementById('img2')
     .srcset="img/link_slaid/ar/link_slaid2.svg";
+	document.getElementById('img1-sm')
+    .src="img/link_slaid/ar/link_slaid_mini_1.svg";
+    document.getElementById('img2-sm')
+    .src="img/link_slaid/ar/link_slaid_mini_2.svg";
   }
