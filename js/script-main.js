@@ -1165,10 +1165,10 @@ function chinese(){
     document.getElementById('myImage3')
     .srcset="img/main_slider/slaid3-ar.svg";
 	document.getElementById('myImage1-sm')
-	.src="img/main_slider/slaid1-rus-sm.svg";
+	.src="img/main_slider/ar/slaid1_mini.svg";
     document.getElementById('myImage2-sm')
-    .src="img/main_slider/slaid2-rus-sm.svg";
+    .src="img/main_slider/ar/slaid2_mini.svg";
     document.getElementById('myImage3-sm')
-    .src="img/main_slider/slaid3-rus-sm.svg";
+    .src="img/main_slider/ar/slaid3_mini.svg";
   }
   

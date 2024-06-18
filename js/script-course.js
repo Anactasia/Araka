@@ -1516,20 +1516,55 @@ function chinese(){
     .src="img/course/ch/openedu_slaid_4.svg";
 	document.getElementById('openedu5')
     .src="img/course/ch/openedu_slaid_5.svg";
+
+	document.getElementById('openedu11')
+    .src="img/course/ch/openedu_slaid_mini_1.svg";
+	document.getElementById('openedu22')
+    .src="img/course/ch/openedu_slaid_mini_2.svg";
+	document.getElementById('openedu33')
+    .src="img/course/ch/openedu_slaid_mini_3.svg";
+	document.getElementById('openedu44')
+    .src="img/course/ch/openedu_slaid_mini_4.svg";
+	document.getElementById('openedu55')
+    .src="img/course/ch/openedu_slaid_mini_5.svg";
+	document.getElementById('openedu66')
+    .src="img/course/ch/openedu_slaid_mini_6.svg";
+
 	document.getElementById('exam1')
-    .src="img/course/ch/exam_slaid_1.svg";
+    .srcset="img/course/ch/exam_slaid_1.svg";
 	document.getElementById('exam2')
-    .src="img/course/ch/exam_slaid_2.svg";
+    .srcset="img/course/ch/exam_slaid_2.svg";
+
+	document.getElementById('exam1-sm')
+    .src="img/course/ch/exam_slaid_mini_1.svg";
+	document.getElementById('exam2-sm')
+    .src="img/course/ch/exam_slaid_mini_2.svg";
+
 	document.getElementById('ulearn1')
-    .src="img/course/ch/ulearn1.svg";
+    .srcset="img/course/ch/ulearn1.svg";
 	document.getElementById('ulearn2')
-    .src="img/course/ch/ulearn2.svg";
+    .srcset="img/course/ch/ulearn2.svg";
 	document.getElementById('elearn1')
-    .src="img/course/ch/elearn_slaid_1.svg";
+
+	document.getElementById('ulearn1-sm')
+    .src="img/course/ch/ulearn_slaid_mini_1.svg";
+	document.getElementById('ulearn2-sm')
+    .src="img/course/ch/ulearn_slaid_mini_2.svg";
+
+	document.getElementById('elearn1')
+    .srcset="img/course/ch/elearn_slaid_1.svg";
 	document.getElementById('elearn2')
-    .src="img/course/ch/elearn_slaid_2.svg";
+    .srcset="img/course/ch/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
-    .src="img/course/ch/elearn_slaid_3.svg";
+    .srcset="img/course/ch/elearn_slaid_3.svg";
+
+	document.getElementById('elearn1-sm')
+    .src="img/course/ch/elearn_slaid_mini_1.svg";
+	document.getElementById('elearn2-sm')
+    .src="img/course/ch/elearn_slaid_mini_2.svg";
+	document.getElementById('elearn3-sm')
+    .src="img/course/ch/elearn_slaid_mini_3.svg";
+
 	document.getElementById('btn')
     .src="img/course/ch/btn_course_close.svg";
 }
@@ -1570,20 +1605,56 @@ function chinese(){
     .src="img/course/eng/openedu_slaid_4.svg";
 	document.getElementById('openedu5')
     .src="img/course/eng/openedu_slaid_5.svg";
+
+
+	document.getElementById('openedu11')
+    .src="img/course/eng/openedu_slaid_mini_1.svg";
+	document.getElementById('openedu22')
+    .src="img/course/eng/openedu_slaid_mini_2.svg";
+	document.getElementById('openedu33')
+    .src="img/course/eng/openedu_slaid_mini_3.svg";
+	document.getElementById('openedu44')
+    .src="img/course/eng/openedu_slaid_mini_4.svg";
+	document.getElementById('openedu55')
+    .src="img/course/eng/openedu_slaid_mini_5.svg";
+	document.getElementById('openedu66')
+    .src="img/course/eng/openedu_slaid_mini_6.svg";
+
 	document.getElementById('exam1')
-    .src="img/course/eng/exam_slaid_1.svg";
+    .srcset="img/course/eng/exam_slaid_1.svg";
 	document.getElementById('exam2')
-    .src="img/course/eng/exam_slaid_2.svg";
+    .srcset="img/course/eng/exam_slaid_2.svg";
+
+	document.getElementById('exam1-sm')
+    .src="img/course/eng/exam_slaid_mini_1.svg";
+	document.getElementById('exam2-sm')
+    .src="img/course/eng/exam_slaid_mini_2.svg";
+
+
 	document.getElementById('ulearn1')
-    .src="img/course/eng/ulearn1.svg";
+    .srcset="img/course/eng/ulearn1.svg";
 	document.getElementById('ulearn2')
-    .src="img/course/eng/ulearn2.svg";
+    .srcset="img/course/eng/ulearn2.svg";
+
+	document.getElementById('ulearn1-sm')
+    .src="img/course/eng/ulearn_slaid_mini_1.svg";
+	document.getElementById('ulearn2-sm')
+    .src="img/course/eng/ulearn_slaid_mini_2.svg";
+
 	document.getElementById('elearn1')
-    .src="img/course/eng/elearn_slaid_1.svg";
+    .srcset="img/course/eng/elearn_slaid_1.svg";
 	document.getElementById('elearn2')
-    .src="img/course/eng/elearn_slaid_2.svg";
+    .srcset="img/course/eng/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
-    .src="img/course/eng/elearn_slaid_3.svg";
+    .srcset="img/course/eng/elearn_slaid_3.svg";
+
+	document.getElementById('elearn1-sm')
+    .src="img/course/eng/elearn_slaid_mini_1.svg";
+	document.getElementById('elearn2-sm')
+    .src="img/course/eng/elearn_slaid_mini_2.svg";
+	document.getElementById('elearn3-sm')
+    .src="img/course/eng/elearn_slaid_mini_3.svg";
+
 	document.getElementById('btn')
     .src="img/course/eng/btn_course_close.svg";
 
@@ -1626,20 +1697,57 @@ function chinese(){
     .src="img/course/openedu/openedu_slaid_4.svg";
 	document.getElementById('openedu5')
     .src="img/course/openedu/openedu_slaid_5.svg";
+
+
+	document.getElementById('openedu11')
+    .src="img/course/openedu/openedu_slaid_mini_1.svg";
+	document.getElementById('openedu22')
+    .src="img/course/openedu/openedu_slaid_mini_2.svg";
+	document.getElementById('openedu33')
+    .src="img/course/openedu/openedu_slaid_mini_3.svg";
+	document.getElementById('openedu44')
+    .src="img/course/openedu/openedu_slaid_mini_4.svg";
+	document.getElementById('openedu55')
+    .src="img/course/openedu/openedu_slaid_mini_5.svg";
+	document.getElementById('openedu66')
+    .src="img/course/openedur/openedu_slaid_mini_6.svg";
+
+
 	document.getElementById('exam1')
-    .src="img/course/exam/exam_slaid_1.svg";
+    .srcset="img/course/exam/exam_slaid_1.svg";
 	document.getElementById('exam2')
-    .src="img/course/exam/exam_slaid_2.svg";
+    .srcset="img/course/exam/exam_slaid_2.svg";
+
+	document.getElementById('exam1-sm')
+    .src="img/course/exam_slaid_mini_1.svg";
+	document.getElementById('exam2-sm')
+    .src="img/course/exam_slaid_mini_2.svg";
+
+
 	document.getElementById('ulearn1')
-    .src="img/course/ulern/ulearn_slaid_1.svg";
+    .srcset="img/course/ulern/ulearn_slaid_1.svg";
 	document.getElementById('ulearn2')
-    .src="img/course/ulern/ulearn_slaid_2.svg";
+    .srcset="img/course/ulern/ulearn_slaid_2.svg";
+
+	document.getElementById('ulearn1-sm')
+    .src="img/course/ulern/ulearn_slaid_mini_1.svg";
+	document.getElementById('ulearn2-sm')
+    .src="img/course/ulern/ulearn_slaid_mini_2.svg";
+
 	document.getElementById('elearn1')
-    .src="img/course/elearn/elearn_slaid_1.svg";
+    .srcset="img/course/elearn/elearn_slaid_1.svg";
 	document.getElementById('elearn2')
-    .src="img/course/elearn/elearn_slaid_2.svg";
+    .srcset="img/course/elearn/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
-    .src="img/course/elearn/elearn_slaid_3.svg";
+    .srcset="img/course/elearn/elearn_slaid_3.svg";
+
+	document.getElementById('elearn1-sm')
+    .src="img/course/elearn/elearn_slaid_mini_1.svg";
+	document.getElementById('elearn2-sm')
+    .src="img/course/elearn/elearn_slaid_mini_2.svg";
+	document.getElementById('elearn3-sm')
+    .src="img/course/elearn/elearn_slaid_mini_3.svg";
+
 	document.getElementById('btn')
     .src="img/course/btn_course_close (1).svg";
   }
@@ -1681,21 +1789,57 @@ function chinese(){
     .src="img/course/ar/openedu_slaid_4.svg";
 	document.getElementById('openedu5')
     .src="img/course/ar/openedu_slaid_5.svg";
+
+
+	document.getElementById('openedu11')
+    .src="img/course/ar/openedu_slaid_mini_1.svg";
+	document.getElementById('openedu22')
+    .src="img/course/ar/openedu_slaid_mini_2.svg";
+	document.getElementById('openedu33')
+    .src="img/course/ar/openedu_slaid_mini_3.svg";
+	document.getElementById('openedu44')
+    .src="img/course/ar/openedu_slaid_mini_4.svg";
+	document.getElementById('openedu55')
+    .src="img/course/ar/openedu_slaid_mini_5.svg";
+	document.getElementById('openedu66')
+    .src="img/course/ar/openedu_slaid_mini_6.svg";
+
 	document.getElementById('exam1')
-    .src="img/course/ar/exam_slaid_1.svg";
+    .srcset="img/course/ar/exam_slaid_1.svg";
 	document.getElementById('exam2')
-    .src="img/course/ar/exam_slaid_2.svg";
+    .srcset="img/course/ar/exam_slaid_2.svg";
+
+	document.getElementById('exam1-sm')
+    .src="img/course/ar/exam_slaid_mini_1.svg";
+	document.getElementById('exam2-sm')
+    .src="img/course/ar/exam_slaid_mini_2.svg";
+	
 	document.getElementById('ulearn1')
-    .src="img/course/ar/ulearn1.svg";
+    .srcset="img/course/ar/ulearn1.svg";
 	document.getElementById('ulearn2')
-    .src="img/course/ar/ulearn2.svg";
+    .srcset="img/course/ar/ulearn2.svg";
+
+	document.getElementById('ulearn1-sm')
+    .src="img/course/ar/ulearn_slaid_mini_1.svg";
+	document.getElementById('ulearn2-sm')
+    .src="img/course/ar/ulearn_slaid_mini_2.svg";
+
 	document.getElementById('elearn1')
-    .src="img/course/ar/elearn_slaid_1.svg";
+    .srcset="img/course/ar/elearn_slaid_1.svg";
 	document.getElementById('elearn2')
-    .src="img/course/ar/elearn_slaid_2.svg";
+    .srcset="img/course/ar/elearn_slaid_2.svg";
 	document.getElementById('elearn3')
-    .src="img/course/ar/elearn_slaid_3.svg";
+    .srcset="img/course/ar/elearn_slaid_3.svg";
+
+	document.getElementById('elearn1-sm')
+    .src="img/course/ar/elearn_slaid_mini_1.svg";
+	document.getElementById('elearn2-sm')
+    .src="img/course/ar/elearn_slaid_mini_2.svg";
+	document.getElementById('elearn3-sm')
+    .src="img/course/ar/elearn_slaid_mini_3.svg";
+
 	document.getElementById('btn')
     .src="img/course/ar/btn_course_close.svg";
   }
+  
   

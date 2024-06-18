@@ -2940,6 +2940,9 @@ main a,main button,main input,main select,main textarea,main h2,main h3,main h4,
 
 .window-course{
     max-width: 75% !important;
+    @media(max-width: 600px) {
+        max-width: 100%!important;
+    }
 }
 
 .window-course-body{
@@ -3367,7 +3370,7 @@ position: absolute;
 
 .answer-fqa11{
     margin: 0;
-    padding: 25px 5px;
+    padding: 5px 5px;
 }
 
 .form-check-input:checked {
@@ -3505,3 +3508,17 @@ position: absolute;
     margin-right:3px;
 }
 
+
+.openedu_mini{
+    display: none;
+    @media(max-width: 500px) {
+        display: inherit;
+    }
+}
+
+.openedu_nomini{
+    display: inherit;
+    @media(max-width: 500px) {
+        display: none;
+    }
+}

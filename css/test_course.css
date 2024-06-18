@@ -1,12 +1,12 @@
 .main_part_cards1{
-    margin: 0 ;
-    margin-bottom: 40px;
-    margin-top: 0;
-    width: 100%;
-    @media(min-width: 1700px) {
-        width: 100%;
-        max-width: 100%;
-    }
+  margin: 0 ;
+  margin-bottom: 40px;
+  margin-top: 0;
+  width: 100%;
+  @media(min-width: 1700px) {
+      width: 100%;
+      max-width: 100%;
+  }
 }
 
 .card-text-course{
@@ -14,213 +14,226 @@
 }
 
 .card-text-course-main{
-    margin-bottom: 40px;
-    padding: 20px;
-    display: flex;
+  margin-bottom: 40px;
+  padding: 20px;
+  display: flex;
 }
 
 .card-text-course-main1{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .couse-photo-large{
-    @media(max-width: 550px) {
-        display: none;
-    }
+  @media(max-width: 550px) {
+      display: none;
+  }
 }
 
 .couse-photo-mini{
-    display: none;
-    @media(max-width: 550px) {
-        display: block;
-    }
+  display: none;
+  @media(max-width: 550px) {
+      display: block;
+  }
 }
 
 .card-text-course-main p{
-    color: #5955B3;
-    font-size: 24px;
-    font-weight: 600;
-    @media(max-width: 550px) {
-        text-align: center;
-    }
+  color: #5955B3;
+  font-size: 24px;
+  font-weight: 600;
+  @media(max-width: 550px) {
+      text-align: center;
+  }
 }
 
 .card-courses-openedu{
-  margin: 0;
-  padding: 0;
-  width: 100%;
+margin: 0;
+padding: 0;
+width: 100%;
 }
 
 .card-courses-openedu ul{
-    margin: 0;
-    padding: 10px;
-    list-style: none;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
 }
 
 .card-courses-openedu ul li{
-  margin: 0;
-  margin-bottom: 15px;
-  padding: 10px;
-  display: block;
-  
-  align-self: center;
-  justify-self: center;
+margin: 0;
+margin-bottom: 15px;
+padding: 10px;
+display: block;
+
+align-self: center;
+justify-self: center;
 
 }
 
 .card-course-openedu11{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
-    @media(max-width: 600px) {
-      flex-direction: column;
-  }
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  @media(max-width: 600px) {
+    flex-direction: column;
+}
 }
 
 
 .card-course-openedu1 h2{
-    color: #6663CF;
-    font-size: 16px;
-    font-weight: 600;
+  color: #6663CF;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .card-course-openedu1 p{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 8px;
-    color: #000000;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 16px;
 }
 
 .card-course-openedu1{
-  width: 60%;
+width: 60%;
+@media(max-width: 600px) {
+  width: 80%;
+  justify-content: center;
 }
-  
+}
+
 .otz{
-    transform: rotateY(180deg);
-    width: 148px;
+  transform: rotateY(180deg);
+  width: 148px;
 }
-  
 
-  
-  .otz .container__items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    gap: 12px;
-  }
-  
-  .otz .container__items input{
-    display: none;
-  }
-  
-  .otz .container__items label{
-    width: 20%;
-    cursor: pointer;
-  }
-  
-  .otz .container__items label .star-stroke{
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: 100%;
-    background: #6663CF;
-    clip-path: url(#wave);
-  }
-  
-  .otz .container__items label .star-stroke .star-fill{
-    width: 95%;
-    aspect-ratio: 1;
-    background: #FFFFFF;
-    clip-path: url(#wave);
-  }
-  
-  .otz .container__items input:hover ~ label .star-stroke,.container .container__items input:checked ~ label .star-stroke{
-    background: #6663CF;
-  }
-  
-  .otz .container__items input:checked ~ label .star-stroke .star-fill{
-    background: #6663CF;
-  }
-  .otz .container__items input:hover ~ label .star-stroke .star-fill{
-    background: #6663CF;
-  }
+.otz1{
+display: flex;
+flex-wrap: nowrap;
+margin-bottom: 10px;
+}
 
-  .ochenka{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-    gap: 20px;
 
-    @media(max-width: 700px) {
-      align-content: start;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-self: center;
-      gap: 0px;
-    }
 
-    @media(max-width: 600px) {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      gap: 20px;
-  }
-  @media(max-width: 350px) {
+.otz .container__items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 12px;
+}
+
+.otz .container__items input{
+  display: none;
+}
+
+.otz .container__items label{
+  width: 20%;
+  cursor: pointer;
+}
+
+.otz .container__items label .star-stroke{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background: #6663CF;
+  clip-path: url(#wave);
+}
+
+.otz .container__items label .star-stroke .star-fill{
+  width: 95%;
+  aspect-ratio: 1;
+  background: #FFFFFF;
+  clip-path: url(#wave);
+}
+
+.otz .container__items input:hover ~ label .star-stroke,.container .container__items input:checked ~ label .star-stroke{
+  background: #6663CF;
+}
+
+.otz .container__items input:checked ~ label .star-stroke .star-fill{
+  background: #6663CF;
+}
+.otz .container__items input:hover ~ label .star-stroke .star-fill{
+  background: #6663CF;
+}
+
+.ochenka{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  gap: 20px;
+
+  @media(max-width: 700px) {
     align-content: start;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-self: center;
     gap: 0px;
   }
 
-  }
+  @media(max-width: 600px) {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+@media(max-width: 350px) {
+  align-content: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0px;
+}
 
-  .svg_star{
-    
-  }
+}
+
+.svg_star{
+  
+}
 .img_course{
-  margin: 5px;
-  height: 100%;
-  border: 3px solid #d2c1fd;
-  border-radius: 6px;
-  width: 97%;
+margin: 5px;
+height: 100%;
+border: 3px solid #d2c1fd;
+border-radius: 6px;
+width: 97%;
 }
 
 .link_course{
-  width: 40%;
-  margin: 0 ;
-  padding: 0;
-  border-radius: 6px;
-  text-decoration: none;
+width: 40%;
+margin: 0 ;
+padding: 0;
+border-radius: 6px;
+text-decoration: none;
+@media(max-width: 600px) {
+  width: 90%;
+}
 }
 
 .link_course:hover{
-  background-color: #DEC6FA;
-  margin: 0;
-  padding: 0;
-  text-decoration: underline;
+background-color: #DEC6FA;
+margin: 0;
+padding: 0;
+text-decoration: underline;
 }
 
 .ochenka p{
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .reiting{
-  display: none;
-  margin-right: 5.5px;
+display: none;
+margin-right: 5.5px;
 }
 .reiting.active{
-  display: inline;
+display: inline;
 }
 
 .ozt1{
@@ -229,67 +242,67 @@
 
 
 .main-inf-course{
-  display: none;
+display: none;
 }
 
 .main-inf-course.section-active{
-  display: inherit;
+display: inherit;
 }
 
 .openedu-inf-course{
-  display: none;
+display: none;
 }
 
 .openedu-inf-course.section-active{
-  display: inherit;
+display: inherit;
 }
 
 .exam-inf-course{
-  display: none;
+display: none;
 }
 
 .exam-inf-course.section-active{
-  display: inherit;
+display: inherit;
 }
 
 .ulearn-inf-course{
-  display: none;
+display: none;
 }
 
 .ulearn-inf-course.section-active{
-  display: inherit;
+display: inherit;
 }
 
 .elearn-inf-course{
-  display: none;
+display: none;
 }
 
 .elearn-inf-course.section-active{
-  display: inherit;
+display: inherit;
 }
 
 .btn_course_close{
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-  border: none;
-  background: none;
-  display: none;
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+border: none;
+background: none;
+display: none;
 }
 .btn_course_close:hover{
- opacity: 0.5;
+opacity: 0.5;
 }
 
 .btn_course_close.section-active{
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-  border: none;
-  background: none;
-  display: inherit;
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+border: none;
+background: none;
+display: inherit;
 }
 
 .big_inf{
-  margin: 0 !important;
-  padding: 0 !important;
+margin: 0 !important;
+padding: 0 !important;
 }
