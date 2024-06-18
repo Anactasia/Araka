@@ -371,7 +371,7 @@ header{
     margin: 0 auto;
     margin-bottom: 36px;
     margin-top: 0;
-    max-width: 753px;
+    max-width: 100%;
     @media(min-width: 1500px) {
         width: 100%;
         max-width: 100%;
@@ -3312,6 +3312,10 @@ position: absolute;
     }
 }
 
+.answer-fqa {
+    margin: 10px;
+    padding: 5px;
+}
 .answer-fqa a{
     color: #6663CF;
 }
@@ -3502,6 +3506,8 @@ position: absolute;
 
 .c-sharp{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .c-sharp p, .two-cours{
@@ -3521,4 +3527,327 @@ position: absolute;
     @media(max-width: 500px) {
         display: none;
     }
+}
+
+.link_slaid{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.link_slaid a{
+    display: block;      
+    position: absolute;
+    }
+.link_slaid a:hover{
+    background-color: #ffffff;
+    opacity: 0.3;
+    }
+.link_slaid a:focus{
+    background-color: #ffffff;
+    opacity: 0.1;
+    }
+
+.slaid_ru.ntk_slaid_ru_3_1{
+    top: 63.81%; 
+    left: 64.67%; 
+    width: 25.5%; 
+    height: 5.87%;
+}
+
+.slaid_en.ntk_slaid_ru_3_1{
+    top: 64.3%; 
+    left: 50.33%; 
+    width: 25.76%; 
+    height: 5.38%;
+}
+
+.slaid_ch.ntk_slaid_ru_3_1{
+    top: 63.33%; 
+    left: 47.01%; 
+    width: 26.43%; 
+    height: 6.85%;
+}
+
+.slaid_ar.ntk_slaid_ru_3_1{
+    top: 63.81%; 
+    left: 55.38%; 
+    width: 26.16%; 
+    height: 6.36%;
+}
+
+.slaid_ru.ntk_slaid_ru_7_1{
+    top: 72.86%; 
+    left: 10.49%; 
+    width: 34.4%; 
+    height: 9.78%;
+}
+
+.slaid_en.ntk_slaid_ru_7_1{
+    top: 73.11%; 
+    left: 10.23%; 
+    width: 26.43%; 
+    height: 8.31%;
+}
+
+.slaid_ch.ntk_slaid_ru_7_1{
+    top: 72.12%; 
+    left: 10.76%; 
+    width: 27.36%; 
+    height: 9.78%;
+}
+
+.slaid_ar.ntk_slaid_ru_7_1{
+    top: 73.11%; 
+    left: 10.49%; 
+    width: 30.15%; 
+    height: 8.56%;
+}
+
+
+.slaid_ru.ntkp_slaid_ru_2_1{
+    top: 45.23%; 
+    left: 41.43%; 
+    width: 28.55%; 
+    height: 7.58%;
+}
+
+.slaid_en.ntkp_slaid_ru_2_1{
+    top: 45.97%; 
+    left: 21.51%; 
+    width: 28.42%; 
+    height: 6.11%;
+}
+
+.slaid_ch.ntkp_slaid_ru_2_1{
+    top: 39.85%; 
+    left: 67.33%; 
+    width: 30.54%; 
+    height: 7.82%;
+}
+
+.slaid_ar.ntkp_slaid_ru_2_1{
+    top: 45.72%; 
+    left: 60.56%; 
+    width: 30.01%; 
+    height: 7.82%;
+}
+
+.slaid_ru.ntkp_slaid_ru_2_2{
+    top: 88.51%; 
+    left: 39.18%; 
+    width: 24.83%; 
+    height: 5.87%;
+}
+
+.slaid_en.ntkp_slaid_ru_2_2{
+    top: 88.26%; 
+    left: 43.96%; 
+    width: 25.23%; 
+    height: 6.6%;
+}
+
+.slaid_ch.ntkp_slaid_ru_2_2{
+    top: 87.53%; 
+    left: 27.36%; 
+    width: 24.83%; 
+    height: 8.07%;
+}
+
+.slaid_ar.ntkp_slaid_ru_2_2{
+    top: 88.51%; 
+    left: 45.29%; 
+    width: 26.96%; 
+    height: 6.36%;
+}
+
+.slaid_ru.prc_slaid_ru_2_1{
+    top: 23.23%; 
+    left: 39.04%; 
+    width: 43.96%; 
+    height: 5.87%;
+}
+
+.slaid_ru.prc_slaid_ru_2_2{
+    top: 47.92%; 
+    left: 10.89%; 
+    width: 47.94%; 
+    height: 8.07%;
+}
+
+.slaid_en.prc_slaid_ru_2_1{
+    top: 23.71%; 
+    left: 37.72%; 
+    width: 43.29%; 
+    height: 5.87%;
+}
+
+.slaid_en.prc_slaid_ru_2_2{
+    top: 48.17%; 
+    left: 11.42%; 
+    width: 47.28%; 
+    height: 7.58%;
+}
+
+.slaid_ch.prc_slaid_ru_2_1{
+    top: 23.23%; 
+    left: 32.53%; 
+    width: 43.96%; 
+    height: 5.87%;
+}
+
+.slaid_ch.prc_slaid_ru_2_2{
+    top: 48.66%; 
+    left: 11.42%; 
+    width: 47.68%; 
+    height: 7.09%;
+}
+
+.slaid_ar.prc_slaid_ru_2_1{
+    top: 22.74%; 
+    left: 37.72%; 
+    width: 43.29%; 
+    height: 6.11%;
+}
+
+.slaid_ar.prc_slaid_ru_2_2{
+    top: 48.9%; 
+    left: 11.02%; 
+    width: 47.94%; 
+    height: 6.6%;
+}
+
+.slaid_ru.prc_slaid_ru_8_1{
+    top: 23.23%; 
+    left: 38.87%; 
+    width: 43.48%; 
+    height: 5.87%;
+}
+
+.slaid_en.prc_slaid_ru_8_1{
+    top: 23.23%; 
+    left: 37.58%; 
+    width: 43.47%; 
+    height: 6.11%;
+}
+
+.slaid_ch.prc_slaid_ru_8_1{
+    top: 22.98%; 
+    left: 32.8%; 
+    width: 43.69%; 
+    height: 5.87%;
+}
+
+.slaid_ar.prc_slaid_ru_8_1{
+    top: 22%; 
+    left: 37.58%; 
+    width: 43.95%; 
+    height: 7.58%;
+}
+
+.slaid_ru.prc_slaid_ru_11_1{
+    top: 23.96%; 
+    left: 38.97%; 
+    width: 43.33%; 
+    height: 4.4%;
+}
+
+.slaid_en.prc_slaid_ru_11_1{
+    top: 22.74%; 
+    left: 37.65%; 
+    width: 43.33%; 
+    height: 5.87%;
+}
+
+.slaid_ch.prc_slaid_ru_11_1{
+    top: 22.74%; 
+    left: 32.33%; 
+    width: 43.73%; 
+    height: 6.11%;
+}
+
+.slaid_ar.prc_slaid_ru_11_1{
+    top: 23.23%; 
+    left: 37.65%; 
+    width: 43.33%; 
+    height: 5.87%;
+}
+
+.slaid_ru.prc_slaid_ru_20_1{
+    top: 23.47%; 
+    left: 41.22%; 
+    width: 38.97%; 
+    height: 5.13%;
+}
+
+.slaid_en.prc_slaid_ru_20_1{
+    top: 23.23%; 
+    left: 39.76%; 
+    width: 39.23%; 
+    height: 5.87%;
+}
+
+.slaid_ch.prc_slaid_ru_20_1{
+    top: 22.98%; 
+    left: 34.74%; 
+    width: 39.63%; 
+    height: 6.36%;
+}
+
+.slaid_ar.prc_slaid_ru_20_1{
+    top: 22.98%; 
+    left: 39.63%; 
+    width: 39.23%; 
+    height: 6.36%;
+}
+
+.slaid_ru.prc_slaid_ru_21_1{
+    top: 40.83%; 
+    left: 5.42%; 
+    width: 73.84%; 
+    height: 10.27%;
+}
+
+.slaid_en.prc_slaid_ru_21_1{
+    top: 41.81%; 
+    left: 5.15%; 
+    width: 74.5%; 
+    height: 8.31%;
+}
+
+.slaid_ch.prc_slaid_ru_21_1{
+    top: 34.47%; 
+    left: 5.15%; 
+    width: 74.5%; 
+    height: 6.85%;
+}
+
+.slaid_ar.prc_slaid_ru_21_1{
+    top: 41.08%; 
+    left: 5.02%; 
+    width: 75.96%; 
+    height: 9.05%;
+}
+
+.profile-link:hover{
+    opacity: 0.5;
+}
+
+.checkbox_btn{
+    width: 188px;
+    margin: 10px 0;
+    margin-left: auto;
+    padding: 0;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+}
+
+.checkbox_btn:hover{
+    opacity: 0.5;
 }

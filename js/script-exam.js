@@ -1250,6 +1250,13 @@ function checkBrowserLang() {
 console.log("navigator.language", checkBrowserLang());
 
 function chinese(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ch');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/ch-logo.svg";
 	document.getElementById('language12')
@@ -1385,6 +1392,13 @@ function chinese(){
 	.src="img/exam/ch/ntc p (2).svg";
 }
   function english(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_en');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/en-logo.svg";
 	document.getElementById('language12')
@@ -1521,6 +1535,13 @@ function chinese(){
   }
 
   function russian(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ru');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/logo_with_text_ru_violet_1.svg";
 	document.getElementById('language12')
@@ -1640,7 +1661,7 @@ function chinese(){
 	document.getElementById('procp11')
     .src="img/exam/Прокторинг_пер_1.svg";
 	document.getElementById('procp12')
-	.src="img/exam/Прокторинг_пер_1нтк_пер_1.svg";
+	.src="img/exam/Прокторинг_пер_1.svg";
 	document.getElementById('procp21')
     .src="img/exam/Прокторинг_пер_2.svg";
 	document.getElementById('procp22')
@@ -1656,6 +1677,13 @@ function chinese(){
 	.src="img/exam/нтк_пер_2.svg";
   }
   function arabian(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ar');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/logo-ar.svg";
 	document.getElementById('language12')

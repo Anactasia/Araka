@@ -1480,6 +1480,13 @@ function checkBrowserLang() {
 console.log("navigator.language", checkBrowserLang());
 
 function chinese(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ch');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/ch-logo.svg";
 	document.getElementById('language12')
@@ -1569,6 +1576,11 @@ function chinese(){
     .src="img/course/ch/btn_course_close.svg";
 }
   function english(){
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_en');
+        }
 	document.getElementById('logotype')
     .srcset="img/en-logo.svg";
 	document.getElementById('language12')
@@ -1661,6 +1673,12 @@ function chinese(){
   }
 
   function russian(){
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ru');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/logo_with_text_ru_violet_1.svg";
 	document.getElementById('language12')
@@ -1710,7 +1728,7 @@ function chinese(){
 	document.getElementById('openedu55')
     .src="img/course/openedu/openedu_slaid_mini_5.svg";
 	document.getElementById('openedu66')
-    .src="img/course/openedur/openedu_slaid_mini_6.svg";
+    .src="img/course/openedu/openedu_slaid_mini_6.svg";
 
 
 	document.getElementById('exam1')
@@ -1719,9 +1737,9 @@ function chinese(){
     .srcset="img/course/exam/exam_slaid_2.svg";
 
 	document.getElementById('exam1-sm')
-    .src="img/course/exam_slaid_mini_1.svg";
+    .src="img/course/exam/exam_slaid_mini_1.svg";
 	document.getElementById('exam2-sm')
-    .src="img/course/exam_slaid_mini_2.svg";
+    .src="img/course/exam/exam_slaid_mini_2.svg";
 
 
 	document.getElementById('ulearn1')
@@ -1753,6 +1771,13 @@ function chinese(){
   }
 
   function arabian(){
+
+	var change_link_img = document.querySelectorAll(".slaid_ru, .slaid_ch, .slaid_en, .slaid_ar");
+	for (i = 0; i < change_link_img.length; i++) {
+        change_link_img[i].classList.remove('slaid_ru', 'slaid_ch', 'slaid_en', 'slaid_ar');
+		change_link_img[i].classList.add('slaid_ar');
+        }
+
 	document.getElementById('logotype')
     .srcset="img/logo-ar.svg";
 	document.getElementById('language12')

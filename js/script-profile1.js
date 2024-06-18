@@ -5,6 +5,426 @@ let currentLang =
 	localStorage.getItem("language") || checkBrowserLang() || "ru";
 let currentTexts = {};
 
+const profile = {
+    "alg": {
+        ru: "Алгоритмы искусственного интеллекта",
+        en: "Artificial Intelligence Algorithms",
+        ch: "人工智能算法",
+        ar: "خوارزميات الذكاء الاصطناعي",
+    },
+    "inf": {
+        ru: "Информатика и вычислительная техника",
+        en: "Computer Science and Engineering",
+        ch: "计算机科学与工程",
+        ar: "Computer Science and Engineering",
+    },
+    "prinf": {
+        ru: "Прикладная информатика",
+        en: "Applied Computer Science",
+        ch: "应用计算机科学",
+        ar: "علوم الكمبيوتر التطبيقية",
+    },
+    "pring": {
+        ru: "Программная инженерия",
+        en: "Software Engineering",
+        ch: "软件工程",
+        ar: "هندسة البرمجيات",
+    },
+    "editing_profile": {
+        ru: "Редактирование профиля",
+        en: "Editing profile",
+        ch: "编辑个人资料",
+        ar: "تعديل الملف الشخصي",
+    },
+    "password1": {
+        ru: "Пароль",
+        en: "Password",
+        ch: "密码",
+        ar: "كلمة المرور",
+    },
+    "email1": {
+        ru: "Почта",
+        en: "E-Mail",
+        ch: "电子邮件",
+        ar: "البريد الإلكتروني",
+    },
+    "groups1": {
+        ru: "Группа",
+        en: "Group",
+        ch: "团体",
+        ar: "المجموعة",
+    },
+    "direction1": {
+        ru: "Направление",
+        en: "Direction",
+        ch: "方向感",
+        ar: "الاتجاه",
+    },
+    "patronymic1": {
+        ru: "Отчество",
+        en: "Patronymic",
+        ch: "中间名",
+        ar: "الأب",
+    },
+    "surname1": {
+        ru: "Фамилия",
+        en: "Surname",
+        ch: "姓",
+        ar: "اللقب",
+    },
+    "name1": {
+        ru: "Имя",
+        en: "Name",
+        ch: "姓名",
+        ar: "الاسم",
+    },
+    "password2": {
+        ru: "Пароль",
+        en: "Password",
+        ch: "密码",
+        ar: "كلمة المرور",
+    },
+    "email2": {
+        ru: "Почта",
+        en: "E-Mail",
+        ch: "电子邮件",
+        ar: "البريد الإلكتروني",
+    },
+    "groups2": {
+        ru: "Группа",
+        en: "Group",
+        ch: "团体",
+        ar: "المجموعة",
+    },
+    "direction2": {
+        ru: "Направление",
+        en: "Direction",
+        ch: "方向感",
+        ar: "الاتجاه",
+    },
+    "patronymic2": {
+        ru: "Отчество",
+        en: "Patronymic",
+        ch: "中间名",
+        ar: "الأب",
+    },
+    "surname2": {
+        ru: "Фамилия",
+        en: "Surname",
+        ch: "姓",
+        ar: "اللقب",
+    },
+    "name2": {
+        ru: "Имя",
+        en: "Name",
+        ch: "姓名",
+        ar: "الاسم",
+    },
+    "home_page": {
+        ru: "Главная",
+        en: "Main menu",
+        ch: "主要",
+        ar: "القائمة الرئيسية",
+    },
+    "courses": {
+        ru: "Курсы",
+        en: "Courses",
+        ch: "课程",
+        ar: "الدورات",
+    },
+    "exams": {
+        ru: "Экзамены",
+        en: "Exams",
+        ch: "考试",
+        ar: "الامتحانات",
+    },
+    "helpers": {
+        ru: "Тьюторы",
+        en: "Tutors",
+        ch: "导师",
+        ar: "المعلمين",
+    },	"news": {
+        ru: "Новости",
+        en: "News",
+        ch:"新闻",
+        ar: "الأخبار",
+    },
+    "news-h1": {
+        ru: "Изменились правила НТК!",
+        en: "The rules of Independent Test Control have changed!",
+        ch:"进行独立测试控制的规则已经改变！",
+        ar: "لقد تغيرت قواعد إجراء التحكم المستقل في الاختبار!",
+    },
+    "news-h2": {
+        ru: "Проблемы с приложением ITMOproctor",
+        en: "Problems with the ITMOproctor application",
+        ch:"ITMOproctor应用程序的问题",
+        ar: "مشاكل مع تطبيق إيتموبروكتور",
+    },
+    "news-h3": {
+        ru: "C 10 июня проходит сдача по онлайн-курсам:",
+        en: "Since June 10, the online courses are being handed over:",
+        ch:"自6月10以来，在线课程正在移交:",
+        ar: "منذ 10 يونيو ، يتم تسليم الدورات عبر الإنترنت:",
+    },
+    "news-p1": {
+        ru: "Теперь проходить НТК можно только в Mozilla Firefox (последняя версия)",
+        en: "Now it is possible to pass the ITC only in Mozilla Firefox (latest version)",
+        ch:"现在可以只在Mozilla Firefox（最新版本）中通过NTC",
+        ar: "الآن يمكنك أن تأخذ فقط المجلس الوطني الانتقالي في موزيلا فايرفوكس (أحدث إصدار)",
+    },
+    "news-but": {
+        ru: "Подробнее...",
+        en: "In more detail...",
+        ch:"更详细地说。..",
+        ar: "بمزيد من التفصيل...",
+    },
+    "news-p2": {
+        ru: "Все, у кого сорвется экзамен, вправе обратиться по адресу openedu@urfu.ru за дополнительной попыткой.Разработчики работают над устранением проблемы.",
+        en: "Anyone who fails the exam has the right to contact openedu@urfu.ru for an additional attempt.The developers are working to fix the problem.",
+        ch:"任何未通过考试的人都有权联系openedu@urfu.ru 为一个额外的尝试。开发人员正在努力解决这个问题。",
+        ar: "أي شخص يفشل في الامتحان لديه الحق في الاتصال openedu@urfu.ru لمحاولة إضافية.يعمل المطورون على حل المشكلة.",
+    },
+    "next-p31": {
+        ru: "— Философия;",
+        en: "— Philosophy;",
+        ch:"-哲学;",
+        ar: "- فلسفة;",
+    },
+    
+    "next-p32": {
+        ru: " — Основы проектной деятельности;",
+        en: "— Fundamentals of project activity;",
+        ch:"-项目活动的基础;",
+        ar: "- أساسيات نشاط المشروع;",
+    },
+    
+    "next-p33": {
+        ru: "   — История России;",
+        en: "— History of Russia;",
+        ch:"-俄罗斯历史;",
+        ar: "- تاريخ روسيا;",
+    },
+    
+    "next-p34": {
+        ru: "  — Основы педагогической деятельности;",
+        en: "— Fundamentals of pedagogical activity;",
+        ch:"-教学活动的基础;",
+        ar: "- أساسيات النشاط التربوي;",
+    },
+    
+    "next-p35": {
+        ru: "  — Теория вероятности и математическая статистика для инженеров;",
+        en: "— Probability theory and mathematical statistics for engineers;",
+        ch:"-工程师概率论和数理统计;",
+        ar: "- نظرية الاحتمالات والإحصاء الرياضي للمهندسين;",
+    },
+    
+    "next-p36": {
+        ru: "    — Основы экономической эффективности производства;",
+        en: "— Fundamentals of economic efficiency of production;",
+        ch:"-生产经济效益的基本要素;",
+        ar: "- أساسيات الكفاءة الاقتصادية للإنتاج;",
+    },
+    
+    "next-p37": {
+        ru: "   — Инженерная механика;",
+        en: "— Engineering mechanics;",
+        ch:"-工程力学;",
+        ar: "- الميكانيكا الهندسية;",
+    },
+    
+    "next-p38": {
+        ru: "   — Основы архитектуры и строительных конструкций;",
+        en: "— Fundamentals of architecture and building structures;",
+        ch:"-建筑和建筑结构的基础知识;",
+        ar: "- أساسيات العمارة وهياكل البناء;",
+    },
+    
+    "next-p39": {
+        ru: "   — Начертательная геометрия и инженерная графика;",
+        en: "— Descriptive geometry and engineering graphics;",
+        ch:"-描述性几何和工程图形;",
+        ar: "- الهندسة الوصفية والرسومات الهندسية;",
+    },
+    
+    "next-p30": {
+        ru: "   — Инфоэтика (очный экзамен, информация на форуме);",
+        en: "— Infoethics (face-to-face exam, information on the forum);",
+        ch:"-Infoethics（面对面考试，论坛上的信息）;",
+        ar: "- أخلاقيات المعلومات (امتحان وجها لوجه ، معلومات عن المنتدى);",
+    },
+    
+    "next-p301": {
+        ru: "  — Кадровая политика и кадровый аудит организации (очный экзамен, информация на форуме).",
+        en: "— HR policy and HR audit of the organization (face-to-face exam, information on the forum).",
+        ch:"-组织的人事政策和人事审计（面对面审查，论坛上的信息）。",
+        ar: "- سياسة شؤون الموظفين ومراجعة شؤون الموظفين في المنظمة (الفحص وجها لوجه ، معلومات عن المنتدى).",
+    },
+    "curriculum": {
+        ru: "Частые вопросы",
+        en: "FAQ",
+        ch: "常见问题",
+        ar: "الأسئلة الشائعة",
+    },
+    "groups": {
+        ru: "Полезные ссылки",
+        en: "Useful links",
+        ch: "有用的连结",
+        ar: "روابط مفيدة",
+    },
+    "account": {
+        ru: "Профиль",
+        en: "Account",
+        ch: "个人资料",
+        ar: "الحساب",
+    },
+    "account1": {
+        ru: "Профиль",
+        en: "Account",
+        ch: "个人资料",
+        ar: "الحساب",
+    },
+    "log-out": {
+        ru: "Выйти",
+        en: "Log out",
+        ch: "去",
+        ar: "تسجيل الخروج",
+    },
+    "home_page1": {
+        ru: "Главная",
+        en: "Main menu",
+        ch: "主要",
+        ar: "القائمة الرئيسية",
+    },
+    "list-of-tasks": {
+        ru: "Список заданий",
+        en: "List of tasks",
+        ch: "任务列表",
+        ar: "قائمة المهام",
+    },
+    "registr1": {
+        ru: "Регистрация в личном кабинете",
+        en: "Registration in your account",
+        ch: "在您的个人帐户中注册",
+        ar: "التسجيل في حسابك",
+    },
+    "link1": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link2": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link3": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link4": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link5": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link6": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "link7": {
+        ru: "ссылка",
+        en: "link",
+        ch: "连结",
+        ar: "الرابط",
+    },
+    "news": {
+        ru: "Новости",
+        en: "News",
+        ch:"新闻",
+        ar: "الأخبار",
+    },
+    "news-h": {
+        ru: "IT-пикник уже в следующую субботу!",
+        en: "The IT picnic is already next Saturday!",
+        ch: "IT野餐已经是下周六了！",
+        ar: "نزهة تكنولوجيا المعلومات هي بالفعل يوم السبت المقبل!",
+    },
+    "news-p": {
+        ru: "Текст-заполнитель обычно используется в графической, печатной и издательской индустрии для предварительного просмотра макета...",
+        en: "Placeholder text is commonly used in the graphic, print, and publishing industries to preview a layout...",
+        ch: "占位符文本通常用于图形、印刷和出版行业来预览布局。..",
+        ar: "يستخدم نص العنصر النائب بشكل شائع في صناعات الرسم والطباعة والنشر لمعاينة التخطيط...",
+    },
+    "next": {
+        ru: "Далее",
+        en: "Read more",
+        ch: "进一步",
+        ar: "إقرأ المزيد",
+    },
+    "logo": {
+        ru: "© Группа “Арака” 2024",
+        en: "© The “Araka” group 2024",
+        ch: "阿拉卡集团2024",
+        ar: 'Group مجموعة "أراكا" 2024',
+    },
+    "list-of-tasks-1": {
+        ru: "Регистрация в личном кабинете",
+        en: "Registration in your personal account",
+        ch: "在您的个人帐户中注册",
+        ar: "التسجيل في حسابك الشخصي",
+    },
+    "list-of-tasks-2": {
+        ru: "Получение корпоративной почты",
+        en: "Receiving corporate mail",
+        ch: "接收公司邮件",
+        ar: "تلقي البريد الإلكتروني للشركات",
+    },
+    "list-of-tasks-3": {
+        ru: 'Получение "Office 365"',
+        en: 'Getting "Office 365"',
+        ch: '获取"Office365"',
+        ar: 'الحصول على " مكتب 365',
+    },
+    "list-of-tasks-4": {
+        ru: "Использование Outlook Web Access",
+        en: "Using Outlook Web Access",
+        ch: "使用Outlook Web Access",
+        ar: "استخدام الوصول إلى الويب أوتلوك",
+    },
+    "list-of-tasks-5": {
+        ru: "Регистрация на онлайн курсы",
+        en: "Registration for online courses",
+        ch: "网上课程报名",
+        ar: "التسجيل في الدورات عبر الإنترنت",
+    },
+    "list-of-tasks-6": {
+        ru: "Разница между НТК и Прокторингом",
+        en: "The difference between ITC and Proctoring",
+        ch: "ITC和Proctoring的区别",
+        ar: "الفرق بين مركز التجارة الدولية والمراقبة",
+    },
+    "list-of-tasks-7": {
+        ru: "Ссылки на полезные группы",
+        en: "Links to useful groups",
+        ch: "有用组的链接",
+        ar: "روابط لمجموعات مفيدة",
+    },
+};
+
 
 const homeTexts = {
 	"home_page": {
@@ -1448,11 +1868,11 @@ const FAQ = {
 // Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {
-        case "/page_FAQ.html":
-			currentTexts = FAQ;
+        case "/page_profile.html":
+			currentTexts = profile;
 			break;		
 		default:
-			currentTexts = FAQ;
+			currentTexts = profile;
 			break;
 	}
 }

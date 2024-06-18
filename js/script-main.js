@@ -1113,6 +1113,8 @@ function chinese(){
     .src="img/main_slider/slaid2-ch-sm.svg";
     document.getElementById('myImage3-sm')
     .src="img/main_slider/slaid3-ch-sm.svg";
+	document.getElementById('checkbox_b')
+    .src="img/ch/Button_check.svg";
   }
 
   function english(){
@@ -1132,6 +1134,8 @@ function chinese(){
     .src="img/main_slider/slaid2-en-sm.svg";
     document.getElementById('myImage3-sm')
     .src="img/main_slider/slaid3-en-sm.svg";
+	document.getElementById('checkbox_b')
+    .src="img/en/Button_check.svg";
   }
 
   function russian(){
@@ -1151,6 +1155,8 @@ function chinese(){
     .src="img/main_slider/slaid2-rus-sm.svg";
     document.getElementById('myImage3-sm')
     .src="img/main_slider/slaid3-rus-sm.svg";
+	document.getElementById('checkbox_b')
+    .src="img/Button_check.svg";
   }
 
   function arabian(){
@@ -1170,5 +1176,8 @@ function chinese(){
     .src="img/main_slider/ar/slaid2_mini.svg";
     document.getElementById('myImage3-sm')
     .src="img/main_slider/ar/slaid3_mini.svg";
+	document.getElementById('checkbox_b')
+    .src="img/ar/Button_check.svg";
+
   }
   
