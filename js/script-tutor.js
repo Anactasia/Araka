@@ -38,10 +38,10 @@ const homeTexts = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -397,10 +397,10 @@ const tutors = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -800,10 +800,10 @@ const courses = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -917,10 +917,10 @@ const exam = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",

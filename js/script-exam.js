@@ -38,10 +38,10 @@ const homeTexts = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -397,10 +397,10 @@ const tutors = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -683,10 +683,10 @@ const courses = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -906,10 +906,10 @@ const exam = {
 		ar: "الأسئلة الشائعة",
 	},
 	"groups": {
-		ru: "Группы ВК",
-		en: "VK groups",
-		ch: "VK组",
-		ar: "مجموعات كيه",
+		ru: "Полезные ссылки",
+		en: "Useful links",
+		ch: "有用的连结",
+		ar: "روابط مفيدة",
 	},
 	"account": {
 		ru: "Профиль",
@@ -1049,9 +1049,9 @@ const exam = {
 	},
 	"ntc": {
 		ru: "НТК-exam1",
-		en: "НТК-exam1",
-		ch: "НТК-exam1",
-		ar: "НТК-exam1",
+		en: "ITC-exam1",
+		ch: "ITC-exam1",
+		ar: "ITC-exam1",
 	},
 	"exam": {
 		ru: "Экзамены",
@@ -1067,9 +1067,9 @@ const exam = {
 	},
 	"ntc1": {
 		ru: "НТК-exam1",
-		en: "НТК-exam1",
-		ch: "НТК-exam1",
-		ar: "НТК-exam1",
+		en: "ITC-exam1",
+		ch: "ITC-exam1",
+		ar: "ITC-exam1",
 	},
 	"exam1": {
 		ru: "Пересдачи",
@@ -1084,6 +1084,24 @@ const exam = {
 		ar: "ITMOproctor-OpenEdu",
 	},
 	"proct2": {
+		ru: "Прокторинг",
+		en: "Proctoring",
+		ch: "Proctoring",
+		ar: "Proctoring",
+	},
+	"ntc-p": {
+		ru: "НТК Пересдача",
+		en: "ITC retake",
+		ch: "ITC 重考",
+		ar: "ITC استعادة",
+	},
+	"proct-p": {
+		ru: "Прокторинг Пересдача",
+		en: "Proctoring retake",
+		ch: "Proctoring 重考",
+		ar: "Proctoring استعادة",
+	},
+	"proctor": {
 		ru: "ITMOproctor-OpenEdu",
 		en: "ITMOproctor-OpenEdu",
 		ch: "ITMOproctor-OpenEdu",
@@ -1109,9 +1127,9 @@ const exam = {
 	},
 	"ntc2": {
 		ru: "НТК-exam1",
-		en: "НТК-exam1",
-		ch: "НТК-exam1",
-		ar: "НТК-exam1",
+		en: "ITC-exam1",
+		ch: "ITC-exam1",
+		ar: "ITC-exam1",
 	},
 	"nh1": {
 		ru: "Технические требования",
@@ -1238,6 +1256,133 @@ function chinese(){
     .src="img/ch-lang.svg";
 	document.getElementById('btn')
     .src="img/course/ch/btn_course_close (1).svg";
+
+	document.getElementById('ntc11')
+    .src="img/exam/ch/ntc.svg";
+	document.getElementById('ntc12')
+    .src="img/exam/ch/ntc.svg";
+	document.getElementById('ntc21')
+    .src="img/exam/ch/ntc (2).svg";
+	document.getElementById('ntc22')
+    .src="img/exam/ch/ntc (2).svg";
+	document.getElementById('ntc31')
+    .src="img/exam/ch/ntc (3).svg";
+	document.getElementById('ntc32')
+    .src="img/exam/ch/ntc (3).svg";
+	document.getElementById('ntc41')
+    .src="img/exam/ch/ntc (4).svg";
+	document.getElementById('ntc42')
+    .src="img/exam/ch/ntc (4).svg";
+	document.getElementById('ntc51')
+    .src="img/exam/ch/ntc (5).svg";
+	document.getElementById('ntc52')
+    .src="img/exam/ch/ntc (5).svg";
+	document.getElementById('ntc61')
+    .src="img/exam/ch/ntc (6).svg";
+	document.getElementById('ntc62')
+    .src="img/exam/ch/ntc (6).svg";
+	document.getElementById('ntc71')
+    .src="img/exam/ch/ntc (7).svg";
+	document.getElementById('ntc72')
+    .src="img/exam/ch/ntc (7).svg";
+
+	document.getElementById('proc11')
+    .src="img/exam/ch/Прокторинг1.svg";
+	document.getElementById('proc12')
+	.src="img/exam/ch/Прокторинг1.svg";
+	document.getElementById('proc21')
+    .src="img/exam/ch/Прокторинг2.svg";
+	document.getElementById('proc22')
+	.src="img/exam/ch/Прокторинг2.svg";
+	document.getElementById('proc31')
+    .src="img/exam/ch/Прокторинг3.svg";
+	document.getElementById('proc32')
+	.src="img/exam/ch/Прокторинг3.svg";
+	document.getElementById('proc41')
+    .src="img/exam/ch/Прокторинг4.svg";
+	document.getElementById('proc42')
+	.src="img/exam/ch/Прокторинг4.svg";
+	document.getElementById('proc51')
+    .src="img/exam/ch/Прокторинг5.svg";
+	document.getElementById('proc52')
+	.src="img/exam/ch/Прокторинг5.svg";
+	document.getElementById('proc61')
+    .src="img/exam/ch/Прокторинг6.svg";
+	document.getElementById('proc62')
+	.src="img/exam/ch/Прокторинг6.svg";
+	document.getElementById('proc71')
+    .src="img/exam/ch/Прокторинг7.svg";
+	document.getElementById('proc72')
+	.src="img/exam/ch/Прокторинг7.svg";
+
+	document.getElementById('proc1_11')
+    .src="img/exam/ch/Прокторинг_1_1.svg";
+	document.getElementById('proc1_12')
+	.src="img/exam/ch/Прокторинг_1_1.svg";
+	document.getElementById('proc1_21')
+    .src="img/exam/ch/Прокторинг1_2.svg";
+	document.getElementById('proc1_22')
+	.src="img/exam/ch/Прокторинг1_2.svg";
+	document.getElementById('proc1_31')
+    .src="img/exam/ch/Прокторинг1_3.svg";
+	document.getElementById('proc1_32')
+	.src="img/exam/ch/Прокторинг1_3.svg";
+
+	document.getElementById('proc2_11')
+    .src="img/exam/ch/1.svg";
+	document.getElementById('proc2_12')
+	.src="img/exam/ch/1.svg";
+	document.getElementById('proc2_21')
+    .src="img/exam/ch/2.svg";
+	document.getElementById('proc2_22')
+	.src="img/exam/ch/2.svg";
+	document.getElementById('proc2_31')
+    .src="img/exam/ch/3.svg";
+	document.getElementById('proc2_32')
+	.src="img/exam/ch/3.svg";
+
+	document.getElementById('proc2_41')
+    .src="img/exam/ch/4.svg";
+	document.getElementById('proc2_42')
+	.src="img/exam/ch/4.svg";
+	document.getElementById('proc2_51')
+    .src="img/exam/ch/5.svg";
+	document.getElementById('proc2_52')
+	.src="img/exam/ch/5.svg";
+	document.getElementById('proc2_61')
+    .src="img/exam/ch/6.svg";
+	document.getElementById('proc2_62')
+	.src="img/exam/ch/6.svg";
+	document.getElementById('proc2_71')
+    .src="img/exam/ch/7.svg";
+	document.getElementById('proc2_72')
+	.src="img/exam/ch/7.svg";
+	document.getElementById('proc2_81')
+    .src="img/exam/ch/8.svg";
+	document.getElementById('proc2_82')
+	.src="img/exam/ch/8.svg";
+	document.getElementById('proc2_91')
+    .src="img/exam/ch/9.svg";
+	document.getElementById('proc2_92')
+	.src="img/exam/ch/9.svg";
+
+	document.getElementById('procp11')
+    .src="img/exam/ch/10.svg";
+	document.getElementById('procp12')
+	.src="img/exam/ch/10.svg";
+	document.getElementById('procp21')
+    .src="img/exam/ch/11.svg";
+	document.getElementById('procp22')
+	.src="img/exam/ch/11.svg";
+
+	document.getElementById('ntcp11')
+    .src="img/exam/ch/ntc p.svg";
+	document.getElementById('ntcp12')
+	.src="img/exam/ch/ntc p.svg";
+	document.getElementById('ntcp21')
+    .src="img/exam/ch/ntc p (2).svg";
+	document.getElementById('ntcp22')
+	.src="img/exam/ch/ntc p (2).svg";
 }
   function english(){
 	document.getElementById('logotype')
@@ -1246,6 +1391,133 @@ function chinese(){
     .src="img/en-lang.svg";
 	document.getElementById('btn')
     .src="img/course/eng/btn_course_close (1).svg";
+
+	document.getElementById('ntc11')
+    .src="img/exam/en/ntc.svg";
+	document.getElementById('ntc12')
+    .src="img/exam/en/ntc.svg";
+	document.getElementById('ntc21')
+    .src="img/exam/en/ntc (2).svg";
+	document.getElementById('ntc22')
+    .src="img/exam/en/ntc (2).svg";
+	document.getElementById('ntc31')
+    .src="img/exam/en/ntc (3).svg";
+	document.getElementById('ntc32')
+    .src="img/exam/en/ntc (3).svg";
+	document.getElementById('ntc41')
+    .src="img/exam/en/ntc (4).svg";
+	document.getElementById('ntc42')
+    .src="img/exam/en/ntc (4).svg";
+	document.getElementById('ntc51')
+    .src="img/exam/en/ntc (5).svg";
+	document.getElementById('ntc52')
+    .src="img/exam/en/ntc (5).svg";
+	document.getElementById('ntc61')
+    .src="img/exam/en/ntc (6).svg";
+	document.getElementById('ntc62')
+    .src="img/exam/en/ntc (6).svg";
+	document.getElementById('ntc71')
+    .src="img/exam/en/ntc (7).svg";
+	document.getElementById('ntc72')
+    .src="img/exam/en/ntc (7).svg";
+
+	document.getElementById('proc11')
+    .src="img/exam/en/Прокторинг1.svg";
+	document.getElementById('proc12')
+	.src="img/exam/en/Прокторинг1.svg";
+	document.getElementById('proc21')
+    .src="img/exam/en/Прокторинг2.svg";
+	document.getElementById('proc22')
+	.src="img/exam/en/Прокторинг2.svg";
+	document.getElementById('proc31')
+    .src="img/exam/en/Прокторинг3.svg";
+	document.getElementById('proc32')
+	.src="img/exam/en/Прокторинг3.svg";
+	document.getElementById('proc41')
+    .src="img/exam/en/Прокторинг4.svg";
+	document.getElementById('proc42')
+	.src="img/exam/en/Прокторинг4.svg";
+	document.getElementById('proc51')
+    .src="img/exam/en/Прокторинг5.svg";
+	document.getElementById('proc52')
+	.src="img/exam/en/Прокторинг5.svg";
+	document.getElementById('proc61')
+    .src="img/exam/en/Прокторинг6.svg";
+	document.getElementById('proc62')
+	.src="img/exam/en/Прокторинг6.svg";
+	document.getElementById('proc71')
+    .src="img/exam/en/Прокторинг7.svg";
+	document.getElementById('proc72')
+	.src="img/exam/en/Прокторинг7.svg";
+
+	document.getElementById('proc1_11')
+    .src="img/exam/en/Прокторинг_1_1.svg";
+	document.getElementById('proc1_12')
+	.src="img/exam/en/Прокторинг_1_1.svg";
+	document.getElementById('proc1_21')
+    .src="img/exam/en/Прокторинг1_2.svg";
+	document.getElementById('proc1_22')
+	.src="img/exam/en/Прокторинг1_2.svg";
+	document.getElementById('proc1_31')
+    .src="img/exam/en/Прокторинг1_3.svg";
+	document.getElementById('proc1_32')
+	.src="img/exam/en/Прокторинг1_3.svg";
+
+	document.getElementById('proc2_11')
+    .src="img/exam/en/1.svg";
+	document.getElementById('proc2_12')
+	.src="img/exam/en/1.svg";
+	document.getElementById('proc2_21')
+    .src="img/exam/en/2.svg";
+	document.getElementById('proc2_22')
+	.src="img/exam/en/2.svg";
+	document.getElementById('proc2_31')
+    .src="img/exam/en/3.svg";
+	document.getElementById('proc2_32')
+	.src="img/exam/en/3.svg";
+
+	document.getElementById('proc2_41')
+    .src="img/exam/en/4.svg";
+	document.getElementById('proc2_42')
+	.src="img/exam/en/4.svg";
+	document.getElementById('proc2_51')
+    .src="img/exam/en/5.svg";
+	document.getElementById('proc2_52')
+	.src="img/exam/en/5.svg";
+	document.getElementById('proc2_61')
+    .src="img/exam/en/6.svg";
+	document.getElementById('proc2_62')
+	.src="img/exam/en/6.svg";
+	document.getElementById('proc2_71')
+    .src="img/exam/en/7.svg";
+	document.getElementById('proc2_72')
+	.src="img/exam/en/7.svg";
+	document.getElementById('proc2_81')
+    .src="img/exam/en/8.svg";
+	document.getElementById('proc2_82')
+	.src="img/exam/en/8.svg";
+	document.getElementById('proc2_91')
+    .src="img/exam/en/9.svg";
+	document.getElementById('proc2_92')
+	.src="img/exam/en/9.svg";
+
+	document.getElementById('procp11')
+    .src="img/exam/en/10.svg";
+	document.getElementById('procp12')
+	.src="img/exam/en/10.svg";
+	document.getElementById('procp21')
+    .src="img/exam/en/11.svg";
+	document.getElementById('procp22')
+	.src="img/exam/en/11.svg";
+
+	document.getElementById('ntcp11')
+    .src="img/exam/en/ntc p.svg";
+	document.getElementById('ntcp12')
+	.src="img/exam/en/ntc p.svg";
+	document.getElementById('ntcp21')
+    .src="img/exam/en/ntc p (2).svg";
+	document.getElementById('ntcp22')
+	.src="img/exam/en/ntc p (2).svg";
   }
 
   function russian(){
@@ -1255,6 +1527,133 @@ function chinese(){
     .src="img/ru-lang.svg";
 	document.getElementById('btn')
     .src="img/exam/btn_exam_close (1).svg";
+
+	document.getElementById('ntc11')
+    .src="img/exam/ntk_slaid1.svg";
+	document.getElementById('ntc12')
+    .src="img/exam/ntk_slaid1.svg";
+	document.getElementById('ntc21')
+    .src="img/exam/ntk_slaid2.svg";
+	document.getElementById('ntc22')
+    .src="img/exam/ntk_slaid2.svg";
+	document.getElementById('ntc31')
+    .src="img/exam/ntk_slaid3.svg";
+	document.getElementById('ntc32')
+    .src="img/exam/ntk_slaid3.svg";
+	document.getElementById('ntc41')
+    .src="img/exam/ntk_slaid4.svg";
+	document.getElementById('ntc42')
+    .src="img/exam/ntk_slaid4.svg";
+	document.getElementById('ntc51')
+    .src="img/exam/ntk_slaid5.svg";
+	document.getElementById('ntc52')
+    .src="img/exam/ntk_slaid5.svg";
+	document.getElementById('ntc61')
+    .src="img/exam/ntk_slaid6.svg";
+	document.getElementById('ntc62')
+    .src="img/exam/ntk_slaid6.svg";
+	document.getElementById('ntc71')
+    .src="img/exam/ntk_slaid7.svg";
+	document.getElementById('ntc72')
+    .src="img/exam/ntk_slaid7.svg";
+
+	document.getElementById('proc11')
+    .src="img/exam/Прокторинг1.svg";
+	document.getElementById('proc12')
+	.src="img/exam/Прокторинг1.svg";
+	document.getElementById('proc21')
+    .src="img/exam/Прокторинг2.svg";
+	document.getElementById('proc22')
+	.src="img/exam/Прокторинг2.svg";
+	document.getElementById('proc31')
+    .src="img/exam/Прокторинг3.svg";
+	document.getElementById('proc32')
+	.src="img/exam/Прокторинг3.svg";
+	document.getElementById('proc41')
+    .src="img/exam/Прокторинг4.svg";
+	document.getElementById('proc42')
+	.src="img/exam/Прокторинг4.svg";
+	document.getElementById('proc51')
+    .src="img/exam/Прокторинг5.svg";
+	document.getElementById('proc52')
+	.src="img/exam/Прокторинг5.svg";
+	document.getElementById('proc61')
+    .src="img/exam/Прокторинг6.svg";
+	document.getElementById('proc62')
+	.src="img/exam/Прокторинг6.svg";
+	document.getElementById('proc71')
+    .src="img/exam/Прокторинг7.svg";
+	document.getElementById('proc72')
+	.src="img/exam/Прокторинг7.svg";
+
+	document.getElementById('proc1_11')
+    .src="img/exam/Прокторинг_1_1.svg";
+	document.getElementById('proc1_12')
+	.src="img/exam/Прокторинг_1_1.svg";
+	document.getElementById('proc1_21')
+    .src="img/exam/Прокторинг1_2.svg";
+	document.getElementById('proc1_22')
+	.src="img/exam/Прокторинг1_2.svg";
+	document.getElementById('proc1_31')
+    .src="img/exam/Прокторинг1_3.svg";
+	document.getElementById('proc1_32')
+	.src="img/exam/Прокторинг1_3.svg";
+
+	document.getElementById('proc2_11')
+    .src="img/exam/Прокторинг2_1.svg";
+	document.getElementById('proc2_12')
+	.src="img/exam/Прокторинг2_1.svg";
+	document.getElementById('proc2_21')
+    .src="img/exam/Прокторинг2_2.svg";
+	document.getElementById('proc2_22')
+	.src="img/exam/Прокторинг2_2.svg";
+	document.getElementById('proc2_31')
+    .src="img/exam/Прокторинг2_3.svg";
+	document.getElementById('proc2_32')
+	.src="img/exam/Прокторинг2_3.svg";
+
+	document.getElementById('proc2_41')
+    .src="img/exam/Прокторинг2_4.svg";
+	document.getElementById('proc2_42')
+	.src="img/exam/Прокторинг2_4.svg";
+	document.getElementById('proc2_51')
+    .src="img/exam/Прокторинг2_5.svg";
+	document.getElementById('proc2_52')
+	.src="img/exam/Прокторинг2_5.svg";
+	document.getElementById('proc2_61')
+    .src="img/exam/Прокторинг2_6.svg";
+	document.getElementById('proc2_62')
+	.src="img/exam/Прокторинг2_6.svg";
+	document.getElementById('proc2_71')
+    .src="img/exam/Прокторинг2_7.svg";
+	document.getElementById('proc2_72')
+	.src="img/exam/Прокторинг2_7.svg";
+	document.getElementById('proc2_81')
+    .src="img/exam/Прокторинг2_8.svg";
+	document.getElementById('proc2_82')
+	.src="img/exam/Прокторинг2_8.svg";
+	document.getElementById('proc2_91')
+    .src="img/exam/Прокторинг2_9.svg";
+	document.getElementById('proc2_92')
+	.src="img/exam/Прокторинг2_9.svg";
+
+	document.getElementById('procp11')
+    .src="img/exam/Прокторинг_пер_1.svg";
+	document.getElementById('procp12')
+	.src="img/exam/Прокторинг_пер_1нтк_пер_1.svg";
+	document.getElementById('procp21')
+    .src="img/exam/Прокторинг_пер_2.svg";
+	document.getElementById('procp22')
+	.src="img/exam/Прокторинг_пер_2.svg";
+
+	document.getElementById('ntcp11')
+    .src="img/exam/нтк_пер_1.svg";
+	document.getElementById('ntcp12')
+	.src="img/exam/нтк_пер_1.svg";
+	document.getElementById('ntcp21')
+    .src="img/exam/нтк_пер_2.svg";
+	document.getElementById('ntcp22')
+	.src="img/exam/нтк_пер_2.svg";
   }
   function arabian(){
 	document.getElementById('logotype')
@@ -1263,5 +1662,132 @@ function chinese(){
     .src="img/ar-lang.svg";
 	document.getElementById('btn')
     .src="img/course/ar/btn_course_close (1).svg";
+
+	document.getElementById('ntc11')
+    .src="img/exam/ar/ntc.svg";
+	document.getElementById('ntc12')
+    .src="img/exam/ar/ntc.svg";
+	document.getElementById('ntc21')
+    .src="img/exam/ar/ntc (2).svg";
+	document.getElementById('ntc22')
+    .src="img/exam/ar/ntc (2).svg";
+	document.getElementById('ntc31')
+    .src="img/exam/ar/ntc (3).svg";
+	document.getElementById('ntc32')
+    .src="img/exam/ar/ntc (3).svg";
+	document.getElementById('ntc41')
+    .src="img/exam/ar/ntc (4).svg";
+	document.getElementById('ntc42')
+    .src="img/exam/ar/ntc (4).svg";
+	document.getElementById('ntc51')
+    .src="img/exam/ar/ntc (5).svg";
+	document.getElementById('ntc52')
+    .src="img/exam/ar/ntc (5).svg";
+	document.getElementById('ntc61')
+    .src="img/exam/ar/ntc (6).svg";
+	document.getElementById('ntc62')
+    .src="img/exam/ar/ntc (6).svg";
+	document.getElementById('ntc71')
+    .src="img/exam/ar/ntc (7).svg";
+	document.getElementById('ntc72')
+    .src="img/exam/ar/ntc (7).svg";
+
+	document.getElementById('proc11')
+    .src="img/exam/ar/Прокторинг1.svg";
+	document.getElementById('proc12')
+	.src="img/exam/ar/Прокторинг1.svg";
+	document.getElementById('proc21')
+    .src="img/exam/ar/Прокторинг2.svg";
+	document.getElementById('proc22')
+	.src="img/exam/ar/Прокторинг2.svg";
+	document.getElementById('proc31')
+    .src="img/exam/ar/Прокторинг3.svg";
+	document.getElementById('proc32')
+	.src="img/exam/ar/Прокторинг3.svg";
+	document.getElementById('proc41')
+    .src="img/exam/ar/Прокторинг4.svg";
+	document.getElementById('proc42')
+	.src="img/exam/ar/Прокторинг4.svg";
+	document.getElementById('proc51')
+    .src="img/exam/ar/Прокторинг5.svg";
+	document.getElementById('proc52')
+	.src="img/exam/ar/Прокторинг5.svg";
+	document.getElementById('proc61')
+    .src="img/exam/ar/Прокторинг6.svg";
+	document.getElementById('proc62')
+	.src="img/exam/ar/Прокторинг6.svg";
+	document.getElementById('proc71')
+    .src="img/exam/ar/Прокторинг7.svg";
+	document.getElementById('proc72')
+	.src="img/exam/ar/Прокторинг7.svg";
+
+	document.getElementById('proc1_11')
+    .src="img/exam/ar/Прокторинг_1_1.svg";
+	document.getElementById('proc1_12')
+	.src="img/exam/ar/Прокторинг_1_1.svg";
+	document.getElementById('proc1_21')
+    .src="img/exam/ar/Прокторинг1_2.svg";
+	document.getElementById('proc1_22')
+	.src="img/exam/ar/Прокторинг1_2.svg";
+	document.getElementById('proc1_31')
+    .src="img/exam/ar/Прокторинг1_3.svg";
+	document.getElementById('proc1_32')
+	.src="img/exam/ar/Прокторинг1_3.svg";
+
+	document.getElementById('proc2_11')
+    .src="img/exam/ar/1.svg";
+	document.getElementById('proc2_12')
+	.src="img/exam/ar/1.svg";
+	document.getElementById('proc2_21')
+    .src="img/exam/ar/2.svg";
+	document.getElementById('proc2_22')
+	.src="img/exam/ar/2.svg";
+	document.getElementById('proc2_31')
+    .src="img/exam/ar/3.svg";
+	document.getElementById('proc2_32')
+	.src="img/exam/ar/3.svg";
+
+	document.getElementById('proc2_41')
+    .src="img/exam/ar/4.svg";
+	document.getElementById('proc2_42')
+	.src="img/exam/ar/4.svg";
+	document.getElementById('proc2_51')
+    .src="img/exam/ar/5.svg";
+	document.getElementById('proc2_52')
+	.src="img/exam/ar/5.svg";
+	document.getElementById('proc2_61')
+    .src="img/exam/ar/6.svg";
+	document.getElementById('proc2_62')
+	.src="img/exam/ar/6.svg";
+	document.getElementById('proc2_71')
+    .src="img/exam/ar/7.svg";
+	document.getElementById('proc2_72')
+	.src="img/exam/ar/7.svg";
+	document.getElementById('proc2_81')
+    .src="img/exam/ar/8.svg";
+	document.getElementById('proc2_82')
+	.src="img/exam/ar/8.svg";
+	document.getElementById('proc2_91')
+    .src="img/exam/ar/9.svg";
+	document.getElementById('proc2_92')
+	.src="img/exam/ar/9.svg";
+
+	document.getElementById('procp11')
+    .src="img/exam/ar/10.svg";
+	document.getElementById('procp12')
+	.src="img/exam/ar/10.svg";
+	document.getElementById('procp21')
+    .src="img/exam/ar/11.svg";
+	document.getElementById('procp22')
+	.src="img/exam/ar/11.svg";
+
+	document.getElementById('ntcp11')
+    .src="img/exam/ar/ntc p.svg";
+	document.getElementById('ntcp12')
+	.src="img/exam/ar/ntc p.svg";
+	document.getElementById('ntcp21')
+    .src="img/exam/ar/ntc p (2).svg";
+	document.getElementById('ntcp22')
+	.src="img/exam/ar/ntc p (2).svg";
   }
   
