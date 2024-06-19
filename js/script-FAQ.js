@@ -1012,6 +1012,12 @@ const FAQ = {
 		ch: "整个第一年，学生的主要语言是",
 		ar: "السنة الأولى بأكملها ، اللغة الرئيسية للطلاب هي",
 	},
+	"news": {
+		ru: "Новости",
+		en: "News",
+		ch:"新闻",
+		ar: "الأخبار",
+	},
 	"p22": {
 		ru: "Но можно выбрать дополнительные онлайн-курсы по",
 		en: "But it is possible to choose additional online courses on",

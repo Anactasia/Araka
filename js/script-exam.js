@@ -706,12 +706,6 @@ const courses = {
 		ch:"新闻",
 		ar: "الأخبار",
 	},
-	"news": {
-		ru: "Новости",
-		en: "News",
-		ch:"新闻",
-		ar: "الأخبار",
-	},
 	"news-h1": {
 		ru: "Изменились правила НТК!",
 		en: "The rules of Independent Test Control have changed!",
@@ -1058,6 +1052,12 @@ const exam = {
 		en: "Exams",
 		ch: "考试",
 		ar: "الامتحانات",
+	},
+	"news": {
+		ru: "Новости",
+		en: "News",
+		ch:"新闻",
+		ar: "الأخبار",
 	},
 	"proct": {
 		ru: "ITMOproctor-OpenEdu",
