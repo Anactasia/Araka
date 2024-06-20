@@ -304,6 +304,12 @@ const homeTexts = {
 		ch: "有用组的链接",
 		ar: "روابط لمجموعات مفيدة",
 	},
+	"btn_safe": {
+		ru: "Сохранить изменения",
+		en: "Save changes",
+		ch: "保存更改",
+		ar: "حفظ التغييرات",
+	},
 };
 
 const registr2 = {

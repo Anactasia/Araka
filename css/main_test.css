@@ -51,7 +51,6 @@ header{
     width: 100% !important;
     margin: 0 25px 0 25px  !important;
     padding: 0 !important;
-
     @media(max-width: 991.98px) {
         background-color: var(--color-violet) !important;
         justify-content: none !important;;
@@ -214,6 +213,7 @@ header{
     margin: 0 auto;
     padding: 0;
     min-height: 100vh;
+    border-left: 5px solid white;
 }
 
 /* Боковое меню */
@@ -3839,22 +3839,29 @@ position: absolute;
 }
 
 .checkbox_btn{
-    width: 188px;
-    margin: 10px 0;
+    width: 190px;
+    height: 34px;
     margin-left: auto;
+    margin-right: 5px;
     padding: 0;
-    margin-bottom: 10px;
-    border: none;
-    background: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border: 2px solid #6663CF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #6663CF;
+    
 }
 
 .checkbox_btn:hover{
-    opacity: 0.5;
+    color: #4B5563;
+    background: none;
 }
 
 .modal-backdrop {
     position:unset !important;
   }
+
 .btn_search{
     width: 500px;
     margin: 0;
@@ -3866,4 +3873,27 @@ position: absolute;
         height: 30px;
     }
 
+}
+
+.as{
+    --bs-backdrop-zindex: 1050 !important;
+    --bs-backdrop-bg: rgba(0,0,0,0.4)!important;
+    --bs-backdrop-opacity: 0.5 !important;
+    z-index: var(--bs-backdrop-zindex) !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: var(--bs-backdrop-bg) !important;
+}
+
+.faqimg{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.faqimg img{
+    border-radius: 10px;
+}
+.list-group{
+    margin: 0 8px;
 }

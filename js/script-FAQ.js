@@ -1553,6 +1553,18 @@ function chinese(){
     .src="img/fqa/ch/закрытие долга.svg";
 	document.getElementById('faq2')
     .src="img/fqa/ch/закрытие долга.svg";
+	document.getElementById('fa11')
+    .src="img/fqa/ch/брс1.svg";
+	document.getElementById('fa22')
+    .src="img/fqa/ch/брс1.svg";
+	document.getElementById('fa33')
+    .src="img/fqa/ch/брс2.svg";
+	document.getElementById('fa44')
+    .src="img/fqa/ch/брс2.svg";
+	document.getElementById('fa55')
+    .src="img/fqa/ch/брс3.svg";
+	document.getElementById('fa66')
+    .src="img/fqa/ch/брс3.svg";
 }
   function english(){
 	document.getElementById('logotype')
@@ -1563,6 +1575,20 @@ function chinese(){
     .src="img/fqa/en/закрытие долга.svg";
 	document.getElementById('faq2')
     .src="img/fqa/en/закрытие долга.svg";
+
+	document.getElementById('fa11')
+    .src="img/fqa/en/брс1.svg";
+	document.getElementById('fa22')
+    .src="img/fqa/en/брс1.svg";
+	document.getElementById('fa33')
+    .src="img/fqa/en/брс2.svg";
+	document.getElementById('fa44')
+    .src="img/fqa/en/брс2.svg";
+	document.getElementById('fa55')
+    .src="img/fqa/en/брс3.svg";
+	document.getElementById('fa66')
+    .src="img/fqa/en/брс3.svg";
+	
   }
 
   function russian(){
@@ -1574,6 +1600,19 @@ function chinese(){
     .src="img/fqa/закрытие долга.svg";
 	document.getElementById('faq1')
     .src="img/fqa/закрытие долга.svg";
+
+	document.getElementById('fa11')
+    .src="img/fqa/брс1.svg";
+	document.getElementById('fa22')
+    .src="img/fqa/брс1.svg";
+	document.getElementById('fa33')
+    .src="img/fqa/брс2.svg";
+	document.getElementById('fa44')
+    .src="img/fqa/брс2.svg";
+	document.getElementById('fa55')
+    .src="img/fqa/брс3.svg";
+	document.getElementById('fa66')
+    .src="img/fqa/брс3.svg";
   }
   function arabian(){
 	document.getElementById('logotype')
@@ -1584,4 +1623,17 @@ function chinese(){
     .src="img/fqa/ar/закрытие долга.svg";
 	document.getElementById('faq2')
     .src="img/fqa/ar/закрытие долга.svg";
+
+	document.getElementById('fa11')
+    .src="img/fqa/ar/брс1.svg";
+	document.getElementById('fa22')
+    .src="img/fqa/ar/брс1.svg";
+	document.getElementById('fa33')
+    .src="img/fqa/ar/брс2.svg";
+	document.getElementById('fa44')
+    .src="img/fqa/ar/брс2.svg";
+	document.getElementById('fa55')
+    .src="img/fqa/ar/брс3.svg";
+	document.getElementById('fa66')
+    .src="img/fqa/ar/брс3.svg";
   }
