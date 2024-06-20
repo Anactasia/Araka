@@ -999,15 +999,6 @@ function checkPagePathName() {
 		case "/registration-4.html":
 			currentTexts = registr4;
 			break;
-		case "/page_tutor.html":
-			currentTexts = tutors;
-			break;			
-		case "/page_course.html":
-			currentTexts = courses;
-			break;	
-        case "/page_exam.html":
-			currentTexts = exam;
-			break;	
 		default:
 			currentTexts = homeTexts;
 			break;	
